@@ -1,0 +1,920 @@
+Season,Round,Race,Driver,Finish,Team,Grid,Status,Race points,Sprint points,Licence points,Penalties at this event,Race day,Circuit,City,Country,Driver code
+2025,1,Australian Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,NOR
+2025,1,Australian Grand Prix,Max Verstappen,2,Red Bull,3,Finished,18,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,VER
+2025,1,Australian Grand Prix,George Russell,3,Mercedes,4,Finished,15,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,RUS
+2025,1,Australian Grand Prix,Kimi Antonelli,4,Mercedes,16,Finished,12,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,ANT
+2025,1,Australian Grand Prix,Alex Albon,5,Williams,6,Finished,10,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,ALB
+2025,1,Australian Grand Prix,Lance Stroll,6,Aston Martin,13,Finished,8,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,STR
+2025,1,Australian Grand Prix,Nico Hülkenberg,7,Sauber,17,Finished,6,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,HUL
+2025,1,Australian Grand Prix,Charles Leclerc,8,Ferrari,7,Finished,4,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,LEC
+2025,1,Australian Grand Prix,Oscar Piastri,9,McLaren,2,Finished,2,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,PIA
+2025,1,Australian Grand Prix,Lewis Hamilton,10,Ferrari,8,Finished,1,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,HAM
+2025,1,Australian Grand Prix,Pierre Gasly,11,Alpine,9,Finished,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,GAS
+2025,1,Australian Grand Prix,Yuki Tsunoda,12,Racing Bulls,5,Finished,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,TSU
+2025,1,Australian Grand Prix,Esteban Ocon,13,Haas,19,Finished,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,OCO
+2025,1,Australian Grand Prix,Oliver Bearman,14,Haas,20,Finished,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,BEA
+2025,1,Australian Grand Prix,Liam Lawson,Retired,Red Bull,18,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,LAW
+2025,1,Australian Grand Prix,Gabriel Bortoleto,Retired,Sauber,15,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,BOR
+2025,1,Australian Grand Prix,Fernando Alonso,Retired,Aston Martin,12,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,ALO
+2025,1,Australian Grand Prix,Carlos Sainz,Retired,Williams,10,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,SAI
+2025,1,Australian Grand Prix,Jack Doohan,Retired,Alpine,14,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,DOO
+2025,1,Australian Grand Prix,Isack Hadjar,Retired,Racing Bulls,11,Retired,0,0,0,,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,HAD
+2025,2,Chinese Grand Prix,Oscar Piastri,1,McLaren,1,Finished,25,7,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,PIA
+2025,2,Chinese Grand Prix,Lando Norris,2,McLaren,3,Finished,18,1,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,NOR
+2025,2,Chinese Grand Prix,George Russell,3,Mercedes,2,Finished,15,5,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,RUS
+2025,2,Chinese Grand Prix,Max Verstappen,4,Red Bull,4,Finished,12,6,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,VER
+2025,2,Chinese Grand Prix,Esteban Ocon,5,Haas,11,Finished,10,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,OCO
+2025,2,Chinese Grand Prix,Kimi Antonelli,6,Mercedes,8,Finished,8,2,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,ANT
+2025,2,Chinese Grand Prix,Alex Albon,7,Williams,10,Finished,6,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,ALB
+2025,2,Chinese Grand Prix,Oliver Bearman,8,Haas,17,Finished,4,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,BEA
+2025,2,Chinese Grand Prix,Lance Stroll,9,Aston Martin,14,Finished,2,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,STR
+2025,2,Chinese Grand Prix,Carlos Sainz,10,Williams,15,Finished,1,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,SAI
+2025,2,Chinese Grand Prix,Isack Hadjar,11,Racing Bulls,7,Finished,0,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,HAD
+2025,2,Chinese Grand Prix,Liam Lawson,12,Red Bull,20,Finished,0,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,LAW
+2025,2,Chinese Grand Prix,Jack Doohan,13,Alpine,18,Finished,0,0,4,Penalty points (2 pts): Causing a collision with Gabriel Bortoleto [Sprint]; Penalty points (2 pts): Forcing another driver off the track [Race],2025-03-23,Shanghai International Circuit,Shanghai,China,DOO
+2025,2,Chinese Grand Prix,Gabriel Bortoleto,14,Sauber,19,Lapped,0,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,BOR
+2025,2,Chinese Grand Prix,Nico Hülkenberg,15,Sauber,12,Lapped,0,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,HUL
+2025,2,Chinese Grand Prix,Yuki Tsunoda,16,Racing Bulls,9,Lapped,0,3,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,TSU
+2025,2,Chinese Grand Prix,Fernando Alonso,Retired,Aston Martin,13,Retired,0,0,0,,2025-03-23,Shanghai International Circuit,Shanghai,China,ALO
+2025,2,Chinese Grand Prix,Charles Leclerc,Disqualified,Ferrari,6,Disqualified,0,4,0,Disqualified: Disqualified after post-race checks [Race],2025-03-23,Shanghai International Circuit,Shanghai,China,LEC
+2025,2,Chinese Grand Prix,Lewis Hamilton,Disqualified,Ferrari,5,Disqualified,0,8,0,Disqualified: Disqualified after post-race checks [Race],2025-03-23,Shanghai International Circuit,Shanghai,China,HAM
+2025,2,Chinese Grand Prix,Pierre Gasly,Disqualified,Alpine,16,Disqualified,0,0,0,Disqualified: Disqualified after post-race checks [Race],2025-03-23,Shanghai International Circuit,Shanghai,China,GAS
+2025,3,Japanese Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,VER
+2025,3,Japanese Grand Prix,Lando Norris,2,McLaren,2,Finished,18,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,NOR
+2025,3,Japanese Grand Prix,Oscar Piastri,3,McLaren,3,Finished,15,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,PIA
+2025,3,Japanese Grand Prix,Charles Leclerc,4,Ferrari,4,Finished,12,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,LEC
+2025,3,Japanese Grand Prix,George Russell,5,Mercedes,5,Finished,10,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,RUS
+2025,3,Japanese Grand Prix,Kimi Antonelli,6,Mercedes,6,Finished,8,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,ANT
+2025,3,Japanese Grand Prix,Lewis Hamilton,7,Ferrari,8,Finished,6,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,HAM
+2025,3,Japanese Grand Prix,Isack Hadjar,8,Racing Bulls,7,Finished,4,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,HAD
+2025,3,Japanese Grand Prix,Alex Albon,9,Williams,9,Finished,2,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,ALB
+2025,3,Japanese Grand Prix,Oliver Bearman,10,Haas,10,Finished,1,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,BEA
+2025,3,Japanese Grand Prix,Fernando Alonso,11,Aston Martin,12,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,ALO
+2025,3,Japanese Grand Prix,Yuki Tsunoda,12,Red Bull,14,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,TSU
+2025,3,Japanese Grand Prix,Pierre Gasly,13,Alpine,11,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,GAS
+2025,3,Japanese Grand Prix,Carlos Sainz,14,Williams,15,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,SAI
+2025,3,Japanese Grand Prix,Jack Doohan,15,Alpine,19,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,DOO
+2025,3,Japanese Grand Prix,Nico Hülkenberg,16,Sauber,16,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,HUL
+2025,3,Japanese Grand Prix,Liam Lawson,17,Racing Bulls,13,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,LAW
+2025,3,Japanese Grand Prix,Esteban Ocon,18,Haas,18,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,OCO
+2025,3,Japanese Grand Prix,Gabriel Bortoleto,19,Sauber,17,Finished,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,BOR
+2025,3,Japanese Grand Prix,Lance Stroll,20,Aston Martin,20,Lapped,0,0,0,,2025-04-06,Suzuka Circuit,Suzuka,Japan,STR
+2025,4,Bahrain Grand Prix,Oscar Piastri,1,McLaren,1,Finished,25,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,PIA
+2025,4,Bahrain Grand Prix,George Russell,2,Mercedes,3,Finished,18,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,RUS
+2025,4,Bahrain Grand Prix,Lando Norris,3,McLaren,6,Finished,15,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,NOR
+2025,4,Bahrain Grand Prix,Charles Leclerc,4,Ferrari,2,Finished,12,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,LEC
+2025,4,Bahrain Grand Prix,Lewis Hamilton,5,Ferrari,9,Finished,10,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,HAM
+2025,4,Bahrain Grand Prix,Max Verstappen,6,Red Bull,7,Finished,8,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,VER
+2025,4,Bahrain Grand Prix,Pierre Gasly,7,Alpine,4,Finished,6,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,GAS
+2025,4,Bahrain Grand Prix,Esteban Ocon,8,Haas,14,Finished,4,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,OCO
+2025,4,Bahrain Grand Prix,Yuki Tsunoda,9,Red Bull,10,Finished,2,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,TSU
+2025,4,Bahrain Grand Prix,Oliver Bearman,10,Haas,20,Finished,1,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,BEA
+2025,4,Bahrain Grand Prix,Kimi Antonelli,11,Mercedes,5,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,ANT
+2025,4,Bahrain Grand Prix,Alex Albon,12,Williams,15,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,ALB
+2025,4,Bahrain Grand Prix,Isack Hadjar,13,Racing Bulls,12,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,HAD
+2025,4,Bahrain Grand Prix,Jack Doohan,14,Alpine,11,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,DOO
+2025,4,Bahrain Grand Prix,Fernando Alonso,15,Aston Martin,13,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,ALO
+2025,4,Bahrain Grand Prix,Liam Lawson,16,Racing Bulls,17,Finished,0,0,3,Penalty points (1 pts): Causing a collision with Lance Stroll [Race]; Penalty points (2 pts): Causing a collision with Nico Hülkenberg [Race],2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,LAW
+2025,4,Bahrain Grand Prix,Lance Stroll,17,Aston Martin,19,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,STR
+2025,4,Bahrain Grand Prix,Gabriel Bortoleto,18,Sauber,18,Finished,0,0,0,,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,BOR
+2025,4,Bahrain Grand Prix,Carlos Sainz,Retired,Williams,8,Retired,0,0,2,Penalty points (2 pts): Causing a collision with Kimi Antonelli [Race],2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,SAI
+2025,4,Bahrain Grand Prix,Nico Hülkenberg,Disqualified,Sauber,16,Disqualified,0,0,0,Disqualified: Disqualified after post-race checks [Race],2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,HUL
+2025,5,Saudi Arabian Grand Prix,Oscar Piastri,1,McLaren,2,Finished,25,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,PIA
+2025,5,Saudi Arabian Grand Prix,Max Verstappen,2,Red Bull,1,Finished,18,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,VER
+2025,5,Saudi Arabian Grand Prix,Charles Leclerc,3,Ferrari,4,Finished,15,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,LEC
+2025,5,Saudi Arabian Grand Prix,Lando Norris,4,McLaren,10,Finished,12,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,NOR
+2025,5,Saudi Arabian Grand Prix,George Russell,5,Mercedes,3,Finished,10,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,RUS
+2025,5,Saudi Arabian Grand Prix,Kimi Antonelli,6,Mercedes,5,Finished,8,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,ANT
+2025,5,Saudi Arabian Grand Prix,Lewis Hamilton,7,Ferrari,7,Finished,6,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,HAM
+2025,5,Saudi Arabian Grand Prix,Carlos Sainz,8,Williams,6,Finished,4,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,SAI
+2025,5,Saudi Arabian Grand Prix,Alex Albon,9,Williams,11,Finished,2,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,ALB
+2025,5,Saudi Arabian Grand Prix,Isack Hadjar,10,Racing Bulls,14,Finished,1,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,HAD
+2025,5,Saudi Arabian Grand Prix,Fernando Alonso,11,Aston Martin,13,Finished,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,ALO
+2025,5,Saudi Arabian Grand Prix,Liam Lawson,12,Racing Bulls,12,Finished,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,LAW
+2025,5,Saudi Arabian Grand Prix,Oliver Bearman,13,Haas,15,Finished,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,BEA
+2025,5,Saudi Arabian Grand Prix,Esteban Ocon,14,Haas,19,Finished,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,OCO
+2025,5,Saudi Arabian Grand Prix,Nico Hülkenberg,15,Sauber,18,Lapped,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,HUL
+2025,5,Saudi Arabian Grand Prix,Lance Stroll,16,Aston Martin,16,Lapped,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,STR
+2025,5,Saudi Arabian Grand Prix,Jack Doohan,17,Alpine,17,Lapped,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,DOO
+2025,5,Saudi Arabian Grand Prix,Gabriel Bortoleto,18,Sauber,20,Lapped,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,BOR
+2025,5,Saudi Arabian Grand Prix,Yuki Tsunoda,Retired,Red Bull,8,Retired,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,TSU
+2025,5,Saudi Arabian Grand Prix,Pierre Gasly,Retired,Alpine,9,Retired,0,0,0,,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,GAS
+2025,6,Miami Grand Prix,Oscar Piastri,1,McLaren,4,Finished,25,7,0,,2025-05-04,Miami International Autodrome,Miami,USA,PIA
+2025,6,Miami Grand Prix,Lando Norris,2,McLaren,2,Finished,18,8,0,,2025-05-04,Miami International Autodrome,Miami,USA,NOR
+2025,6,Miami Grand Prix,George Russell,3,Mercedes,5,Finished,15,5,0,,2025-05-04,Miami International Autodrome,Miami,USA,RUS
+2025,6,Miami Grand Prix,Max Verstappen,4,Red Bull,1,Finished,12,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,VER
+2025,6,Miami Grand Prix,Alex Albon,5,Williams,7,Finished,10,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,ALB
+2025,6,Miami Grand Prix,Kimi Antonelli,6,Mercedes,3,Finished,8,2,0,,2025-05-04,Miami International Autodrome,Miami,USA,ANT
+2025,6,Miami Grand Prix,Charles Leclerc,7,Ferrari,8,Finished,6,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,LEC
+2025,6,Miami Grand Prix,Lewis Hamilton,8,Ferrari,12,Finished,4,6,0,,2025-05-04,Miami International Autodrome,Miami,USA,HAM
+2025,6,Miami Grand Prix,Carlos Sainz,9,Williams,6,Finished,2,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,SAI
+2025,6,Miami Grand Prix,Yuki Tsunoda,10,Red Bull,10,Finished,1,3,0,,2025-05-04,Miami International Autodrome,Miami,USA,TSU
+2025,6,Miami Grand Prix,Isack Hadjar,11,Racing Bulls,11,Finished,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,HAD
+2025,6,Miami Grand Prix,Esteban Ocon,12,Haas,9,Finished,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,OCO
+2025,6,Miami Grand Prix,Pierre Gasly,13,Alpine,20,Finished,0,1,0,,2025-05-04,Miami International Autodrome,Miami,USA,GAS
+2025,6,Miami Grand Prix,Nico Hülkenberg,14,Sauber,16,Lapped,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,HUL
+2025,6,Miami Grand Prix,Fernando Alonso,15,Aston Martin,17,Lapped,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,ALO
+2025,6,Miami Grand Prix,Lance Stroll,16,Aston Martin,18,Lapped,0,4,0,,2025-05-04,Miami International Autodrome,Miami,USA,STR
+2025,6,Miami Grand Prix,Liam Lawson,Retired,Racing Bulls,15,Retired,0,0,1,Penalty points (1 pts): Causing a collision with Fernando Alonso [Sprint],2025-05-04,Miami International Autodrome,Miami,USA,LAW
+2025,6,Miami Grand Prix,Gabriel Bortoleto,Retired,Sauber,13,Retired,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,BOR
+2025,6,Miami Grand Prix,Oliver Bearman,Retired,Haas,19,Retired,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,BEA
+2025,6,Miami Grand Prix,Jack Doohan,20,Alpine,14,Retired,0,0,0,,2025-05-04,Miami International Autodrome,Miami,USA,DOO
+2025,7,Emilia Romagna Grand Prix,Max Verstappen,1,Red Bull,2,Finished,25,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,VER
+2025,7,Emilia Romagna Grand Prix,Lando Norris,2,McLaren,4,Finished,18,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,NOR
+2025,7,Emilia Romagna Grand Prix,Oscar Piastri,3,McLaren,1,Finished,15,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,PIA
+2025,7,Emilia Romagna Grand Prix,Lewis Hamilton,4,Ferrari,12,Finished,12,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,HAM
+2025,7,Emilia Romagna Grand Prix,Alex Albon,5,Williams,7,Finished,10,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,ALB
+2025,7,Emilia Romagna Grand Prix,Charles Leclerc,6,Ferrari,11,Finished,8,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,LEC
+2025,7,Emilia Romagna Grand Prix,George Russell,7,Mercedes,3,Finished,6,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,RUS
+2025,7,Emilia Romagna Grand Prix,Carlos Sainz,8,Williams,6,Finished,4,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,SAI
+2025,7,Emilia Romagna Grand Prix,Isack Hadjar,9,Racing Bulls,9,Finished,2,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,HAD
+2025,7,Emilia Romagna Grand Prix,Yuki Tsunoda,10,Red Bull,20,Finished,1,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,TSU
+2025,7,Emilia Romagna Grand Prix,Fernando Alonso,11,Aston Martin,5,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,ALO
+2025,7,Emilia Romagna Grand Prix,Nico Hülkenberg,12,Sauber,17,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,HUL
+2025,7,Emilia Romagna Grand Prix,Pierre Gasly,13,Alpine,10,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,GAS
+2025,7,Emilia Romagna Grand Prix,Liam Lawson,14,Racing Bulls,15,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,LAW
+2025,7,Emilia Romagna Grand Prix,Lance Stroll,15,Aston Martin,8,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,STR
+2025,7,Emilia Romagna Grand Prix,Franco Colapinto,16,Alpine,16,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,COL
+2025,7,Emilia Romagna Grand Prix,Oliver Bearman,17,Haas,19,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,BEA
+2025,7,Emilia Romagna Grand Prix,Gabriel Bortoleto,18,Sauber,14,Finished,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,BOR
+2025,7,Emilia Romagna Grand Prix,Kimi Antonelli,Retired,Mercedes,13,Retired,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,ANT
+2025,7,Emilia Romagna Grand Prix,Esteban Ocon,Retired,Haas,18,Retired,0,0,0,,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,OCO
+2025,8,Monaco Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,NOR
+2025,8,Monaco Grand Prix,Charles Leclerc,2,Ferrari,2,Finished,18,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,LEC
+2025,8,Monaco Grand Prix,Oscar Piastri,3,McLaren,3,Finished,15,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,PIA
+2025,8,Monaco Grand Prix,Max Verstappen,4,Red Bull,4,Finished,12,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,VER
+2025,8,Monaco Grand Prix,Lewis Hamilton,5,Ferrari,7,Finished,10,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,HAM
+2025,8,Monaco Grand Prix,Isack Hadjar,6,Racing Bulls,5,Lapped,8,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,HAD
+2025,8,Monaco Grand Prix,Esteban Ocon,7,Haas,8,Lapped,6,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,OCO
+2025,8,Monaco Grand Prix,Liam Lawson,8,Racing Bulls,9,Lapped,4,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,LAW
+2025,8,Monaco Grand Prix,Alex Albon,9,Williams,10,Lapped,2,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,ALB
+2025,8,Monaco Grand Prix,Carlos Sainz,10,Williams,11,Lapped,1,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,SAI
+2025,8,Monaco Grand Prix,George Russell,11,Mercedes,14,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,RUS
+2025,8,Monaco Grand Prix,Oliver Bearman,12,Haas,20,Lapped,0,0,2,Penalty points (2 pts): Overtaking under red flags [Practice],2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,BEA
+2025,8,Monaco Grand Prix,Franco Colapinto,13,Alpine,18,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,COL
+2025,8,Monaco Grand Prix,Gabriel Bortoleto,14,Sauber,16,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,BOR
+2025,8,Monaco Grand Prix,Lance Stroll,15,Aston Martin,19,Lapped,0,0,1,Penalty points (1 pts): Causing a collision with Charles Leclerc [Practice],2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,STR
+2025,8,Monaco Grand Prix,Nico Hülkenberg,16,Sauber,13,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,HUL
+2025,8,Monaco Grand Prix,Yuki Tsunoda,17,Red Bull,12,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,TSU
+2025,8,Monaco Grand Prix,Kimi Antonelli,18,Mercedes,15,Lapped,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,ANT
+2025,8,Monaco Grand Prix,Fernando Alonso,Retired,Aston Martin,6,Retired,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,ALO
+2025,8,Monaco Grand Prix,Pierre Gasly,20,Alpine,17,Retired,0,0,0,,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,GAS
+2025,9,Spanish Grand Prix,Oscar Piastri,1,McLaren,1,Finished,25,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,PIA
+2025,9,Spanish Grand Prix,Lando Norris,2,McLaren,2,Finished,18,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,NOR
+2025,9,Spanish Grand Prix,Charles Leclerc,3,Ferrari,7,Finished,15,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,LEC
+2025,9,Spanish Grand Prix,George Russell,4,Mercedes,4,Finished,12,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,RUS
+2025,9,Spanish Grand Prix,Nico Hülkenberg,5,Sauber,15,Finished,10,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,HUL
+2025,9,Spanish Grand Prix,Lewis Hamilton,6,Ferrari,5,Finished,8,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,HAM
+2025,9,Spanish Grand Prix,Isack Hadjar,7,Racing Bulls,9,Finished,6,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,HAD
+2025,9,Spanish Grand Prix,Pierre Gasly,8,Alpine,8,Finished,4,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,GAS
+2025,9,Spanish Grand Prix,Fernando Alonso,9,Aston Martin,10,Finished,2,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,ALO
+2025,9,Spanish Grand Prix,Max Verstappen,10,Red Bull,3,Finished,1,0,3,Penalty points (3 pts): Collision with George Russell [Race],2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,VER
+2025,9,Spanish Grand Prix,Liam Lawson,11,Racing Bulls,13,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,LAW
+2025,9,Spanish Grand Prix,Gabriel Bortoleto,12,Sauber,12,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,BOR
+2025,9,Spanish Grand Prix,Yuki Tsunoda,13,Red Bull,19,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,TSU
+2025,9,Spanish Grand Prix,Carlos Sainz,14,Williams,17,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,SAI
+2025,9,Spanish Grand Prix,Franco Colapinto,15,Alpine,18,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,COL
+2025,9,Spanish Grand Prix,Esteban Ocon,16,Haas,16,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,OCO
+2025,9,Spanish Grand Prix,Oliver Bearman,17,Haas,14,Finished,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,BEA
+2025,9,Spanish Grand Prix,Kimi Antonelli,Retired,Mercedes,6,Retired,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,ANT
+2025,9,Spanish Grand Prix,Alex Albon,Retired,Williams,11,Retired,0,0,0,,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,ALB
+2025,10,Canadian Grand Prix,George Russell,1,Mercedes,1,Finished,25,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,RUS
+2025,10,Canadian Grand Prix,Max Verstappen,2,Red Bull,2,Finished,18,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,VER
+2025,10,Canadian Grand Prix,Kimi Antonelli,3,Mercedes,4,Finished,15,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,ANT
+2025,10,Canadian Grand Prix,Oscar Piastri,4,McLaren,3,Finished,12,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,PIA
+2025,10,Canadian Grand Prix,Charles Leclerc,5,Ferrari,8,Finished,10,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,LEC
+2025,10,Canadian Grand Prix,Lewis Hamilton,6,Ferrari,5,Finished,8,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,HAM
+2025,10,Canadian Grand Prix,Fernando Alonso,7,Aston Martin,6,Finished,6,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,ALO
+2025,10,Canadian Grand Prix,Nico Hülkenberg,8,Sauber,11,Finished,4,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,HUL
+2025,10,Canadian Grand Prix,Esteban Ocon,9,Haas,14,Lapped,2,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,OCO
+2025,10,Canadian Grand Prix,Carlos Sainz,10,Williams,16,Lapped,1,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,SAI
+2025,10,Canadian Grand Prix,Oliver Bearman,11,Haas,13,Lapped,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,BEA
+2025,10,Canadian Grand Prix,Yuki Tsunoda,12,Red Bull,18,Lapped,0,0,2,Penalty points (2 pts): Overtaking under red flags [Practice],2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,TSU
+2025,10,Canadian Grand Prix,Franco Colapinto,13,Alpine,10,Lapped,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,COL
+2025,10,Canadian Grand Prix,Gabriel Bortoleto,14,Sauber,15,Lapped,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,BOR
+2025,10,Canadian Grand Prix,Pierre Gasly,15,Alpine,20,Lapped,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,GAS
+2025,10,Canadian Grand Prix,Isack Hadjar,16,Racing Bulls,12,Lapped,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,HAD
+2025,10,Canadian Grand Prix,Lance Stroll,17,Aston Martin,17,Lapped,0,0,2,Penalty points (2 pts): Forcing Pierre Gasly off the track [Race],2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,STR
+2025,10,Canadian Grand Prix,Lando Norris,Retired,McLaren,7,Retired,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,NOR
+2025,10,Canadian Grand Prix,Liam Lawson,Retired,Racing Bulls,19,Retired,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,LAW
+2025,10,Canadian Grand Prix,Alex Albon,Retired,Williams,9,Retired,0,0,0,,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,ALB
+2025,11,Austrian Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,NOR
+2025,11,Austrian Grand Prix,Oscar Piastri,2,McLaren,3,Finished,18,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,PIA
+2025,11,Austrian Grand Prix,Charles Leclerc,3,Ferrari,2,Finished,15,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,LEC
+2025,11,Austrian Grand Prix,Lewis Hamilton,4,Ferrari,4,Finished,12,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,HAM
+2025,11,Austrian Grand Prix,George Russell,5,Mercedes,5,Finished,10,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,RUS
+2025,11,Austrian Grand Prix,Liam Lawson,6,Racing Bulls,6,Finished,8,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,LAW
+2025,11,Austrian Grand Prix,Fernando Alonso,7,Aston Martin,11,Lapped,6,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,ALO
+2025,11,Austrian Grand Prix,Gabriel Bortoleto,8,Sauber,8,Lapped,4,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,BOR
+2025,11,Austrian Grand Prix,Nico Hülkenberg,9,Sauber,20,Lapped,2,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,HUL
+2025,11,Austrian Grand Prix,Esteban Ocon,10,Haas,17,Lapped,1,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,OCO
+2025,11,Austrian Grand Prix,Oliver Bearman,11,Haas,15,Lapped,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,BEA
+2025,11,Austrian Grand Prix,Isack Hadjar,12,Racing Bulls,13,Lapped,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,HAD
+2025,11,Austrian Grand Prix,Pierre Gasly,13,Alpine,10,Lapped,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,GAS
+2025,11,Austrian Grand Prix,Lance Stroll,14,Aston Martin,16,Lapped,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,STR
+2025,11,Austrian Grand Prix,Franco Colapinto,15,Alpine,14,Lapped,0,0,1,Penalty points (1 pts): Forcing Oscar Piastri off track while being lapped [Race],2025-06-29,Red Bull Ring,Spielberg,Austria,COL
+2025,11,Austrian Grand Prix,Yuki Tsunoda,16,Red Bull,18,Lapped,0,0,2,Penalty points (2 pts): Causing a collision with Franco Colapinto [Race],2025-06-29,Red Bull Ring,Spielberg,Austria,TSU
+2025,11,Austrian Grand Prix,Alex Albon,Retired,Williams,12,Retired,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,ALB
+2025,11,Austrian Grand Prix,Max Verstappen,Retired,Red Bull,7,Retired,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,VER
+2025,11,Austrian Grand Prix,Kimi Antonelli,Retired,Mercedes,9,Retired,0,0,2,Penalty points (2 pts): Collision with Max Verstappen [Race],2025-06-29,Red Bull Ring,Spielberg,Austria,ANT
+2025,11,Austrian Grand Prix,Carlos Sainz,Did not start,Williams,19,Did not start,0,0,0,,2025-06-29,Red Bull Ring,Spielberg,Austria,SAI
+2025,12,British Grand Prix,Lando Norris,1,McLaren,3,Finished,25,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,NOR
+2025,12,British Grand Prix,Oscar Piastri,2,McLaren,2,Finished,18,0,2,Penalty points (2 pts): Erratic braking before the safety car restart [Race],2025-07-06,Silverstone Circuit,Silverstone,UK,PIA
+2025,12,British Grand Prix,Nico Hülkenberg,3,Sauber,19,Finished,15,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,HUL
+2025,12,British Grand Prix,Lewis Hamilton,4,Ferrari,5,Finished,12,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,HAM
+2025,12,British Grand Prix,Max Verstappen,5,Red Bull,1,Finished,10,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,VER
+2025,12,British Grand Prix,Pierre Gasly,6,Alpine,8,Finished,8,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,GAS
+2025,12,British Grand Prix,Lance Stroll,7,Aston Martin,17,Finished,6,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,STR
+2025,12,British Grand Prix,Alex Albon,8,Williams,13,Finished,4,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,ALB
+2025,12,British Grand Prix,Fernando Alonso,9,Aston Martin,7,Finished,2,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,ALO
+2025,12,British Grand Prix,George Russell,10,Mercedes,4,Finished,1,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,RUS
+2025,12,British Grand Prix,Oliver Bearman,11,Haas,18,Finished,0,0,4,Penalty points (4 pts): Crashing under red flags [Practice],2025-07-06,Silverstone Circuit,Silverstone,UK,BEA
+2025,12,British Grand Prix,Carlos Sainz,12,Williams,9,Finished,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,SAI
+2025,12,British Grand Prix,Esteban Ocon,13,Haas,14,Finished,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,OCO
+2025,12,British Grand Prix,Charles Leclerc,14,Ferrari,6,Finished,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,LEC
+2025,12,British Grand Prix,Yuki Tsunoda,15,Red Bull,11,Lapped,0,0,1,Penalty points (1 pts): Collision with Oliver Bearman [Race],2025-07-06,Silverstone Circuit,Silverstone,UK,TSU
+2025,12,British Grand Prix,Kimi Antonelli,Retired,Mercedes,10,Retired,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,ANT
+2025,12,British Grand Prix,Isack Hadjar,Retired,Racing Bulls,12,Retired,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,HAD
+2025,12,British Grand Prix,Gabriel Bortoleto,Retired,Sauber,16,Retired,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,BOR
+2025,12,British Grand Prix,Liam Lawson,Retired,Racing Bulls,15,Retired,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,LAW
+2025,12,British Grand Prix,Franco Colapinto,Did not start,Alpine,20,Did not start,0,0,0,,2025-07-06,Silverstone Circuit,Silverstone,UK,COL
+2025,13,Belgian Grand Prix,Oscar Piastri,1,McLaren,2,Finished,25,7,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,PIA
+2025,13,Belgian Grand Prix,Lando Norris,2,McLaren,1,Finished,18,6,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,NOR
+2025,13,Belgian Grand Prix,Charles Leclerc,3,Ferrari,3,Finished,15,5,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,LEC
+2025,13,Belgian Grand Prix,Max Verstappen,4,Red Bull,4,Finished,12,8,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,VER
+2025,13,Belgian Grand Prix,George Russell,5,Mercedes,6,Finished,10,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,RUS
+2025,13,Belgian Grand Prix,Alex Albon,6,Williams,5,Finished,8,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,ALB
+2025,13,Belgian Grand Prix,Lewis Hamilton,7,Ferrari,18,Finished,6,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,HAM
+2025,13,Belgian Grand Prix,Liam Lawson,8,Racing Bulls,9,Finished,4,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,LAW
+2025,13,Belgian Grand Prix,Gabriel Bortoleto,9,Sauber,10,Finished,2,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,BOR
+2025,13,Belgian Grand Prix,Pierre Gasly,10,Alpine,13,Finished,1,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,GAS
+2025,13,Belgian Grand Prix,Oliver Bearman,11,Haas,12,Finished,0,2,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,BEA
+2025,13,Belgian Grand Prix,Nico Hülkenberg,12,Sauber,14,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,HUL
+2025,13,Belgian Grand Prix,Yuki Tsunoda,13,Red Bull,7,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,TSU
+2025,13,Belgian Grand Prix,Lance Stroll,14,Aston Martin,16,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,STR
+2025,13,Belgian Grand Prix,Esteban Ocon,15,Haas,11,Finished,0,4,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,OCO
+2025,13,Belgian Grand Prix,Kimi Antonelli,16,Mercedes,19,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,ANT
+2025,13,Belgian Grand Prix,Fernando Alonso,17,Aston Martin,20,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,ALO
+2025,13,Belgian Grand Prix,Carlos Sainz,18,Williams,17,Finished,0,3,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,SAI
+2025,13,Belgian Grand Prix,Franco Colapinto,19,Alpine,15,Finished,0,0,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,COL
+2025,13,Belgian Grand Prix,Isack Hadjar,20,Racing Bulls,8,Lapped,0,1,0,,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,HAD
+2025,14,Hungarian Grand Prix,Lando Norris,1,McLaren,3,Finished,25,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,NOR
+2025,14,Hungarian Grand Prix,Oscar Piastri,2,McLaren,2,Finished,18,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,PIA
+2025,14,Hungarian Grand Prix,George Russell,3,Mercedes,4,Finished,15,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,RUS
+2025,14,Hungarian Grand Prix,Charles Leclerc,4,Ferrari,1,Finished,12,0,1,Penalty points (1 pts): Moving under braking while defending from George Russell [Race],2025-08-03,Hungaroring,Budapest,Hungary,LEC
+2025,14,Hungarian Grand Prix,Fernando Alonso,5,Aston Martin,5,Finished,10,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,ALO
+2025,14,Hungarian Grand Prix,Gabriel Bortoleto,6,Sauber,7,Finished,8,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,BOR
+2025,14,Hungarian Grand Prix,Lance Stroll,7,Aston Martin,6,Finished,6,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,STR
+2025,14,Hungarian Grand Prix,Liam Lawson,8,Racing Bulls,9,Finished,4,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,LAW
+2025,14,Hungarian Grand Prix,Max Verstappen,9,Red Bull,8,Finished,2,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,VER
+2025,14,Hungarian Grand Prix,Kimi Antonelli,10,Mercedes,15,Lapped,1,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,ANT
+2025,14,Hungarian Grand Prix,Isack Hadjar,11,Racing Bulls,10,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,HAD
+2025,14,Hungarian Grand Prix,Lewis Hamilton,12,Ferrari,12,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,HAM
+2025,14,Hungarian Grand Prix,Nico Hülkenberg,13,Sauber,18,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,HUL
+2025,14,Hungarian Grand Prix,Carlos Sainz,14,Williams,13,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,SAI
+2025,14,Hungarian Grand Prix,Alex Albon,15,Williams,19,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,ALB
+2025,14,Hungarian Grand Prix,Esteban Ocon,16,Haas,17,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,OCO
+2025,14,Hungarian Grand Prix,Yuki Tsunoda,17,Red Bull,20,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,TSU
+2025,14,Hungarian Grand Prix,Franco Colapinto,18,Alpine,14,Lapped,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,COL
+2025,14,Hungarian Grand Prix,Pierre Gasly,19,Alpine,16,Lapped,0,0,2,Penalty points (2 pts): Causing a collision with Carlos Sainz [Race],2025-08-03,Hungaroring,Budapest,Hungary,GAS
+2025,14,Hungarian Grand Prix,Oliver Bearman,Retired,Haas,11,Retired,0,0,0,,2025-08-03,Hungaroring,Budapest,Hungary,BEA
+2025,15,Dutch Grand Prix,Oscar Piastri,1,McLaren,1,Finished,25,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,PIA
+2025,15,Dutch Grand Prix,Max Verstappen,2,Red Bull,3,Finished,18,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,VER
+2025,15,Dutch Grand Prix,Isack Hadjar,3,Racing Bulls,4,Finished,15,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,HAD
+2025,15,Dutch Grand Prix,George Russell,4,Mercedes,5,Finished,12,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,RUS
+2025,15,Dutch Grand Prix,Alex Albon,5,Williams,15,Finished,10,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,ALB
+2025,15,Dutch Grand Prix,Oliver Bearman,6,Haas,20,Finished,8,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,BEA
+2025,15,Dutch Grand Prix,Lance Stroll,7,Aston Martin,19,Finished,6,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,STR
+2025,15,Dutch Grand Prix,Fernando Alonso,8,Aston Martin,10,Finished,4,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,ALO
+2025,15,Dutch Grand Prix,Yuki Tsunoda,9,Red Bull,12,Finished,2,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,TSU
+2025,15,Dutch Grand Prix,Esteban Ocon,10,Haas,18,Finished,1,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,OCO
+2025,15,Dutch Grand Prix,Franco Colapinto,11,Alpine,16,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,COL
+2025,15,Dutch Grand Prix,Liam Lawson,12,Racing Bulls,8,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,LAW
+2025,15,Dutch Grand Prix,Carlos Sainz,13,Williams,9,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,SAI
+2025,15,Dutch Grand Prix,Nico Hülkenberg,14,Sauber,17,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,HUL
+2025,15,Dutch Grand Prix,Gabriel Bortoleto,15,Sauber,13,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,BOR
+2025,15,Dutch Grand Prix,Kimi Antonelli,16,Mercedes,11,Finished,0,0,2,Penalty points (2 pts): Collision with Charles Leclerc [Race],2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,ANT
+2025,15,Dutch Grand Prix,Pierre Gasly,17,Alpine,14,Finished,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,GAS
+2025,15,Dutch Grand Prix,Lando Norris,18,McLaren,2,Retired,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,NOR
+2025,15,Dutch Grand Prix,Charles Leclerc,Retired,Ferrari,6,Retired,0,0,0,,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,LEC
+2025,15,Dutch Grand Prix,Lewis Hamilton,Retired,Ferrari,7,Retired,0,0,2,Penalty points (2 pts): Failing to slow for yellow flags on the way to the grid [Pre-race],2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,HAM
+2025,16,Italian Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,VER
+2025,16,Italian Grand Prix,Lando Norris,2,McLaren,2,Finished,18,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,NOR
+2025,16,Italian Grand Prix,Oscar Piastri,3,McLaren,3,Finished,15,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,PIA
+2025,16,Italian Grand Prix,Charles Leclerc,4,Ferrari,4,Finished,12,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,LEC
+2025,16,Italian Grand Prix,George Russell,5,Mercedes,5,Finished,10,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,RUS
+2025,16,Italian Grand Prix,Lewis Hamilton,6,Ferrari,10,Finished,8,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,HAM
+2025,16,Italian Grand Prix,Alex Albon,7,Williams,14,Finished,6,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,ALB
+2025,16,Italian Grand Prix,Gabriel Bortoleto,8,Sauber,7,Finished,4,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,BOR
+2025,16,Italian Grand Prix,Kimi Antonelli,9,Mercedes,6,Finished,2,0,1,Penalty points (1 pts): Erratic driving / forcing another driver off track [Race],2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,ANT
+2025,16,Italian Grand Prix,Isack Hadjar,10,Racing Bulls,19,Finished,1,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,HAD
+2025,16,Italian Grand Prix,Carlos Sainz,11,Williams,13,Finished,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,SAI
+2025,16,Italian Grand Prix,Oliver Bearman,12,Haas,11,Finished,0,0,2,Penalty points (2 pts): Causing a collision with Carlos Sainz [Race],2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,BEA
+2025,16,Italian Grand Prix,Yuki Tsunoda,13,Red Bull,9,Finished,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,TSU
+2025,16,Italian Grand Prix,Liam Lawson,14,Racing Bulls,18,Finished,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,LAW
+2025,16,Italian Grand Prix,Esteban Ocon,15,Haas,15,Lapped,0,0,1,Penalty points (1 pts): Forcing Lance Stroll off track [Race],2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,OCO
+2025,16,Italian Grand Prix,Pierre Gasly,16,Alpine,20,Lapped,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,GAS
+2025,16,Italian Grand Prix,Franco Colapinto,17,Alpine,17,Lapped,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,COL
+2025,16,Italian Grand Prix,Lance Stroll,18,Aston Martin,16,Lapped,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,STR
+2025,16,Italian Grand Prix,Fernando Alonso,Retired,Aston Martin,8,Retired,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,ALO
+2025,16,Italian Grand Prix,Nico Hülkenberg,Did not start,Sauber,12,Did not start,0,0,0,,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,HUL
+2025,17,Azerbaijan Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,VER
+2025,17,Azerbaijan Grand Prix,George Russell,2,Mercedes,5,Finished,18,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,RUS
+2025,17,Azerbaijan Grand Prix,Carlos Sainz,3,Williams,2,Finished,15,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,SAI
+2025,17,Azerbaijan Grand Prix,Kimi Antonelli,4,Mercedes,4,Finished,12,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,ANT
+2025,17,Azerbaijan Grand Prix,Liam Lawson,5,Racing Bulls,3,Finished,10,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,LAW
+2025,17,Azerbaijan Grand Prix,Yuki Tsunoda,6,Red Bull,6,Finished,8,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,TSU
+2025,17,Azerbaijan Grand Prix,Lando Norris,7,McLaren,7,Finished,6,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,NOR
+2025,17,Azerbaijan Grand Prix,Lewis Hamilton,8,Ferrari,12,Finished,4,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,HAM
+2025,17,Azerbaijan Grand Prix,Charles Leclerc,9,Ferrari,10,Finished,2,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,LEC
+2025,17,Azerbaijan Grand Prix,Isack Hadjar,10,Racing Bulls,8,Finished,1,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,HAD
+2025,17,Azerbaijan Grand Prix,Gabriel Bortoleto,11,Sauber,13,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,BOR
+2025,17,Azerbaijan Grand Prix,Oliver Bearman,12,Haas,15,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,BEA
+2025,17,Azerbaijan Grand Prix,Alex Albon,13,Williams,19,Finished,0,0,2,Penalty points (2 pts): Causing a collision with Franco Colapinto [Race],2025-09-21,Baku City Circuit,Baku,Azerbaijan,ALB
+2025,17,Azerbaijan Grand Prix,Esteban Ocon,14,Haas,20,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,OCO
+2025,17,Azerbaijan Grand Prix,Fernando Alonso,15,Aston Martin,11,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,ALO
+2025,17,Azerbaijan Grand Prix,Nico Hülkenberg,16,Sauber,17,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,HUL
+2025,17,Azerbaijan Grand Prix,Lance Stroll,17,Aston Martin,14,Finished,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,STR
+2025,17,Azerbaijan Grand Prix,Pierre Gasly,18,Alpine,18,Lapped,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,GAS
+2025,17,Azerbaijan Grand Prix,Franco Colapinto,19,Alpine,16,Lapped,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,COL
+2025,17,Azerbaijan Grand Prix,Oscar Piastri,Retired,McLaren,9,Retired,0,0,0,,2025-09-21,Baku City Circuit,Baku,Azerbaijan,PIA
+2025,18,Singapore Grand Prix,George Russell,1,Mercedes,1,Finished,25,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,RUS
+2025,18,Singapore Grand Prix,Max Verstappen,2,Red Bull,2,Finished,18,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,VER
+2025,18,Singapore Grand Prix,Lando Norris,3,McLaren,5,Finished,15,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,NOR
+2025,18,Singapore Grand Prix,Oscar Piastri,4,McLaren,3,Finished,12,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,PIA
+2025,18,Singapore Grand Prix,Kimi Antonelli,5,Mercedes,4,Finished,10,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,ANT
+2025,18,Singapore Grand Prix,Charles Leclerc,6,Ferrari,7,Finished,8,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,LEC
+2025,18,Singapore Grand Prix,Fernando Alonso,7,Aston Martin,10,Finished,6,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,ALO
+2025,18,Singapore Grand Prix,Lewis Hamilton,8,Ferrari,6,Finished,4,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,HAM
+2025,18,Singapore Grand Prix,Oliver Bearman,9,Haas,9,Finished,2,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,BEA
+2025,18,Singapore Grand Prix,Carlos Sainz,10,Williams,18,Lapped,1,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,SAI
+2025,18,Singapore Grand Prix,Isack Hadjar,11,Racing Bulls,8,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,HAD
+2025,18,Singapore Grand Prix,Yuki Tsunoda,12,Red Bull,13,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,TSU
+2025,18,Singapore Grand Prix,Lance Stroll,13,Aston Martin,15,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,STR
+2025,18,Singapore Grand Prix,Alex Albon,14,Williams,20,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,ALB
+2025,18,Singapore Grand Prix,Liam Lawson,15,Racing Bulls,12,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,LAW
+2025,18,Singapore Grand Prix,Franco Colapinto,16,Alpine,16,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,COL
+2025,18,Singapore Grand Prix,Gabriel Bortoleto,17,Sauber,14,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,BOR
+2025,18,Singapore Grand Prix,Esteban Ocon,18,Haas,17,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,OCO
+2025,18,Singapore Grand Prix,Pierre Gasly,19,Alpine,19,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,GAS
+2025,18,Singapore Grand Prix,Nico Hülkenberg,20,Sauber,11,Lapped,0,0,0,,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,HUL
+2025,19,United States Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,8,0,,2025-10-19,Circuit of the Americas,Austin,USA,VER
+2025,19,United States Grand Prix,Lando Norris,2,McLaren,2,Finished,18,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,NOR
+2025,19,United States Grand Prix,Charles Leclerc,3,Ferrari,3,Finished,15,4,0,,2025-10-19,Circuit of the Americas,Austin,USA,LEC
+2025,19,United States Grand Prix,Lewis Hamilton,4,Ferrari,5,Finished,12,5,0,,2025-10-19,Circuit of the Americas,Austin,USA,HAM
+2025,19,United States Grand Prix,Oscar Piastri,5,McLaren,6,Finished,10,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,PIA
+2025,19,United States Grand Prix,George Russell,6,Mercedes,4,Finished,8,7,0,,2025-10-19,Circuit of the Americas,Austin,USA,RUS
+2025,19,United States Grand Prix,Yuki Tsunoda,7,Red Bull,13,Finished,6,2,0,,2025-10-19,Circuit of the Americas,Austin,USA,TSU
+2025,19,United States Grand Prix,Nico Hülkenberg,8,Sauber,11,Finished,4,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,HUL
+2025,19,United States Grand Prix,Oliver Bearman,9,Haas,8,Finished,2,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,BEA
+2025,19,United States Grand Prix,Fernando Alonso,10,Aston Martin,10,Finished,1,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,ALO
+2025,19,United States Grand Prix,Liam Lawson,11,Racing Bulls,12,Finished,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,LAW
+2025,19,United States Grand Prix,Lance Stroll,12,Aston Martin,19,Finished,0,0,2,Penalty points (2 pts): Causing a collision with Esteban Ocon [Sprint],2025-10-19,Circuit of the Americas,Austin,USA,STR
+2025,19,United States Grand Prix,Kimi Antonelli,13,Mercedes,7,Finished,0,1,0,,2025-10-19,Circuit of the Americas,Austin,USA,ANT
+2025,19,United States Grand Prix,Alex Albon,14,Williams,18,Finished,0,3,0,,2025-10-19,Circuit of the Americas,Austin,USA,ALB
+2025,19,United States Grand Prix,Esteban Ocon,15,Haas,17,Finished,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,OCO
+2025,19,United States Grand Prix,Isack Hadjar,16,Racing Bulls,20,Finished,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,HAD
+2025,19,United States Grand Prix,Franco Colapinto,17,Alpine,15,Lapped,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,COL
+2025,19,United States Grand Prix,Gabriel Bortoleto,18,Sauber,16,Lapped,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,BOR
+2025,19,United States Grand Prix,Pierre Gasly,19,Alpine,14,Lapped,0,0,0,,2025-10-19,Circuit of the Americas,Austin,USA,GAS
+2025,19,United States Grand Prix,Carlos Sainz,Retired,Williams,9,Retired,0,6,2,Penalty points (2 pts): Causing a collision with Kimi Antonelli [Race],2025-10-19,Circuit of the Americas,Austin,USA,SAI
+2025,20,Mexico City Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,NOR
+2025,20,Mexico City Grand Prix,Charles Leclerc,2,Ferrari,2,Finished,18,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,LEC
+2025,20,Mexico City Grand Prix,Max Verstappen,3,Red Bull,5,Finished,15,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,VER
+2025,20,Mexico City Grand Prix,Oliver Bearman,4,Haas,9,Finished,12,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,BEA
+2025,20,Mexico City Grand Prix,Oscar Piastri,5,McLaren,7,Finished,10,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,PIA
+2025,20,Mexico City Grand Prix,Kimi Antonelli,6,Mercedes,6,Finished,8,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ANT
+2025,20,Mexico City Grand Prix,George Russell,7,Mercedes,4,Finished,6,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,RUS
+2025,20,Mexico City Grand Prix,Lewis Hamilton,8,Ferrari,3,Finished,4,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HAM
+2025,20,Mexico City Grand Prix,Esteban Ocon,9,Haas,11,Finished,2,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,OCO
+2025,20,Mexico City Grand Prix,Gabriel Bortoleto,10,Sauber,16,Finished,1,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,BOR
+2025,20,Mexico City Grand Prix,Yuki Tsunoda,11,Red Bull,10,Finished,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,TSU
+2025,20,Mexico City Grand Prix,Alex Albon,12,Williams,17,Lapped,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ALB
+2025,20,Mexico City Grand Prix,Isack Hadjar,13,Racing Bulls,8,Lapped,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HAD
+2025,20,Mexico City Grand Prix,Lance Stroll,14,Aston Martin,19,Lapped,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,STR
+2025,20,Mexico City Grand Prix,Pierre Gasly,15,Alpine,18,Lapped,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,GAS
+2025,20,Mexico City Grand Prix,Franco Colapinto,16,Alpine,20,Lapped,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,COL
+2025,20,Mexico City Grand Prix,Carlos Sainz,17,Williams,12,Retired,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,SAI
+2025,20,Mexico City Grand Prix,Fernando Alonso,Retired,Aston Martin,14,Retired,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ALO
+2025,20,Mexico City Grand Prix,Nico Hülkenberg,Retired,Sauber,13,Retired,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HUL
+2025,20,Mexico City Grand Prix,Liam Lawson,Retired,Racing Bulls,15,Retired,0,0,0,,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,LAW
+2025,21,São Paulo Grand Prix,Lando Norris,1,McLaren,1,Finished,25,8,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,NOR
+2025,21,São Paulo Grand Prix,Kimi Antonelli,2,Mercedes,2,Finished,18,7,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,ANT
+2025,21,São Paulo Grand Prix,Max Verstappen,3,Red Bull,19,Finished,15,5,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,VER
+2025,21,São Paulo Grand Prix,George Russell,4,Mercedes,6,Finished,12,6,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,RUS
+2025,21,São Paulo Grand Prix,Oscar Piastri,5,McLaren,4,Finished,10,0,2,Penalty points (2 pts): Causing a collision with Kimi Antonelli [Race],2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,PIA
+2025,21,São Paulo Grand Prix,Oliver Bearman,6,Haas,8,Finished,8,0,1,Penalty points (1 pts): Causing a collision with Liam Lawson [Sprint],2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,BEA
+2025,21,São Paulo Grand Prix,Liam Lawson,7,Racing Bulls,7,Finished,6,0,1,Penalty points (1 pts): Causing a collision with Oliver Bearman [Sprint],2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,LAW
+2025,21,São Paulo Grand Prix,Isack Hadjar,8,Racing Bulls,5,Finished,4,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,HAD
+2025,21,São Paulo Grand Prix,Nico Hülkenberg,9,Sauber,10,Finished,2,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,HUL
+2025,21,São Paulo Grand Prix,Pierre Gasly,10,Alpine,9,Finished,1,1,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,GAS
+2025,21,São Paulo Grand Prix,Alex Albon,11,Williams,12,Finished,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,ALB
+2025,21,São Paulo Grand Prix,Esteban Ocon,12,Haas,20,Finished,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,OCO
+2025,21,São Paulo Grand Prix,Carlos Sainz,13,Williams,15,Finished,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,SAI
+2025,21,São Paulo Grand Prix,Fernando Alonso,14,Aston Martin,11,Finished,0,3,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,ALO
+2025,21,São Paulo Grand Prix,Franco Colapinto,15,Alpine,16,Finished,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,COL
+2025,21,São Paulo Grand Prix,Lance Stroll,16,Aston Martin,14,Finished,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,STR
+2025,21,São Paulo Grand Prix,Yuki Tsunoda,17,Red Bull,17,Finished,0,0,2,Penalty points (2 pts): Causing a collision with Lance Stroll [Race],2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,TSU
+2025,21,São Paulo Grand Prix,Lewis Hamilton,Retired,Ferrari,13,Retired,0,2,1,Penalty points (1 pts): Causing a collision with Franco Colapinto [Race],2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,HAM
+2025,21,São Paulo Grand Prix,Charles Leclerc,Retired,Ferrari,3,Retired,0,4,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,LEC
+2025,21,São Paulo Grand Prix,Gabriel Bortoleto,Retired,Sauber,18,Retired,0,0,0,,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,BOR
+2025,22,Las Vegas Grand Prix,Max Verstappen,1,Red Bull,2,Finished,25,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,VER
+2025,22,Las Vegas Grand Prix,George Russell,2,Mercedes,4,Finished,18,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,RUS
+2025,22,Las Vegas Grand Prix,Kimi Antonelli,3,Mercedes,17,Finished,15,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,ANT
+2025,22,Las Vegas Grand Prix,Charles Leclerc,4,Ferrari,9,Finished,12,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,LEC
+2025,22,Las Vegas Grand Prix,Carlos Sainz,5,Williams,3,Finished,10,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,SAI
+2025,22,Las Vegas Grand Prix,Isack Hadjar,6,Racing Bulls,8,Finished,8,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,HAD
+2025,22,Las Vegas Grand Prix,Nico Hülkenberg,7,Sauber,11,Finished,6,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,HUL
+2025,22,Las Vegas Grand Prix,Lewis Hamilton,8,Ferrari,19,Finished,4,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,HAM
+2025,22,Las Vegas Grand Prix,Esteban Ocon,9,Haas,13,Finished,2,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,OCO
+2025,22,Las Vegas Grand Prix,Oliver Bearman,10,Haas,14,Finished,1,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,BEA
+2025,22,Las Vegas Grand Prix,Fernando Alonso,11,Aston Martin,7,Finished,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,ALO
+2025,22,Las Vegas Grand Prix,Yuki Tsunoda,12,Red Bull,20,Finished,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,TSU
+2025,22,Las Vegas Grand Prix,Pierre Gasly,13,Alpine,10,Finished,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,GAS
+2025,22,Las Vegas Grand Prix,Liam Lawson,14,Racing Bulls,6,Lapped,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,LAW
+2025,22,Las Vegas Grand Prix,Franco Colapinto,15,Alpine,15,Lapped,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,COL
+2025,22,Las Vegas Grand Prix,Alex Albon,Retired,Williams,16,Retired,0,0,1,Penalty points (1 pts): Causing a collision with Lewis Hamilton [Race],2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,ALB
+2025,22,Las Vegas Grand Prix,Gabriel Bortoleto,Retired,Sauber,18,Retired,0,0,2,Penalty points (2 pts): Causing a collision with Lance Stroll [Race],2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,BOR
+2025,22,Las Vegas Grand Prix,Lance Stroll,Retired,Aston Martin,12,Retired,0,0,0,,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,STR
+2025,22,Las Vegas Grand Prix,Lando Norris,Disqualified,McLaren,1,Disqualified,0,0,0,Disqualified: Disqualified after post-race checks [Race],2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,NOR
+2025,22,Las Vegas Grand Prix,Oscar Piastri,Disqualified,McLaren,5,Disqualified,0,0,0,Disqualified: Disqualified after post-race checks [Race],2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,PIA
+2025,23,Qatar Grand Prix,Max Verstappen,1,Red Bull,3,Finished,25,5,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,VER
+2025,23,Qatar Grand Prix,Oscar Piastri,2,McLaren,1,Finished,18,8,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,PIA
+2025,23,Qatar Grand Prix,Carlos Sainz,3,Williams,7,Finished,15,1,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,SAI
+2025,23,Qatar Grand Prix,Lando Norris,4,McLaren,2,Finished,12,6,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,NOR
+2025,23,Qatar Grand Prix,Kimi Antonelli,5,Mercedes,5,Finished,10,3,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,ANT
+2025,23,Qatar Grand Prix,George Russell,6,Mercedes,4,Finished,8,7,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,RUS
+2025,23,Qatar Grand Prix,Fernando Alonso,7,Aston Martin,8,Finished,6,2,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,ALO
+2025,23,Qatar Grand Prix,Charles Leclerc,8,Ferrari,10,Finished,4,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,LEC
+2025,23,Qatar Grand Prix,Liam Lawson,9,Racing Bulls,12,Finished,2,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,LAW
+2025,23,Qatar Grand Prix,Yuki Tsunoda,10,Red Bull,15,Finished,1,4,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,TSU
+2025,23,Qatar Grand Prix,Alex Albon,11,Williams,14,Finished,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,ALB
+2025,23,Qatar Grand Prix,Lewis Hamilton,12,Ferrari,17,Finished,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,HAM
+2025,23,Qatar Grand Prix,Gabriel Bortoleto,13,Sauber,19,Finished,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,BOR
+2025,23,Qatar Grand Prix,Franco Colapinto,14,Alpine,20,Lapped,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,COL
+2025,23,Qatar Grand Prix,Esteban Ocon,15,Haas,16,Lapped,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,OCO
+2025,23,Qatar Grand Prix,Pierre Gasly,16,Alpine,9,Lapped,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,GAS
+2025,23,Qatar Grand Prix,Lance Stroll,17,Aston Martin,18,Retired,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,STR
+2025,23,Qatar Grand Prix,Isack Hadjar,18,Racing Bulls,6,Retired,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,HAD
+2025,23,Qatar Grand Prix,Oliver Bearman,Retired,Haas,13,Retired,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,BEA
+2025,23,Qatar Grand Prix,Nico Hülkenberg,Retired,Sauber,11,Retired,0,0,0,,2025-11-30,Lusail International Circuit,Lusail,Qatar,HUL
+2025,24,Abu Dhabi Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,VER
+2025,24,Abu Dhabi Grand Prix,Oscar Piastri,2,McLaren,3,Finished,18,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,PIA
+2025,24,Abu Dhabi Grand Prix,Lando Norris,3,McLaren,2,Finished,15,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,NOR
+2025,24,Abu Dhabi Grand Prix,Charles Leclerc,4,Ferrari,5,Finished,12,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,LEC
+2025,24,Abu Dhabi Grand Prix,George Russell,5,Mercedes,4,Finished,10,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,RUS
+2025,24,Abu Dhabi Grand Prix,Fernando Alonso,6,Aston Martin,6,Finished,8,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,ALO
+2025,24,Abu Dhabi Grand Prix,Esteban Ocon,7,Haas,8,Finished,6,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,OCO
+2025,24,Abu Dhabi Grand Prix,Lewis Hamilton,8,Ferrari,16,Finished,4,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,HAM
+2025,24,Abu Dhabi Grand Prix,Nico Hülkenberg,9,Sauber,18,Finished,2,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,HUL
+2025,24,Abu Dhabi Grand Prix,Lance Stroll,10,Aston Martin,15,Finished,1,0,1,Penalty points (1 pts): More than one change of direction [Race],2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,STR
+2025,24,Abu Dhabi Grand Prix,Gabriel Bortoleto,11,Sauber,7,Finished,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,BOR
+2025,24,Abu Dhabi Grand Prix,Oliver Bearman,12,Haas,11,Finished,0,0,1,Penalty points (1 pts): More than one change of direction while defending [Race],2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,BEA
+2025,24,Abu Dhabi Grand Prix,Carlos Sainz,13,Williams,12,Finished,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,SAI
+2025,24,Abu Dhabi Grand Prix,Yuki Tsunoda,14,Red Bull,10,Finished,0,0,1,Penalty points (1 pts): More than one change of direction (forcing Lando Norris off) [Race],2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,TSU
+2025,24,Abu Dhabi Grand Prix,Kimi Antonelli,15,Mercedes,14,Finished,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,ANT
+2025,24,Abu Dhabi Grand Prix,Alex Albon,16,Williams,17,Finished,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,ALB
+2025,24,Abu Dhabi Grand Prix,Isack Hadjar,17,Racing Bulls,9,Lapped,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,HAD
+2025,24,Abu Dhabi Grand Prix,Liam Lawson,18,Racing Bulls,13,Lapped,0,0,1,Penalty points (1 pts): Driving erratically / more than one change of direction [Race],2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,LAW
+2025,24,Abu Dhabi Grand Prix,Pierre Gasly,19,Alpine,19,Lapped,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,GAS
+2025,24,Abu Dhabi Grand Prix,Franco Colapinto,20,Alpine,20,Lapped,0,0,0,,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,COL
+2026,1,Australian Grand Prix,George Russell,1,Mercedes,1,Finished,25,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,RUS
+2026,1,Australian Grand Prix,Kimi Antonelli,2,Mercedes,2,Finished,18,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,ANT
+2026,1,Australian Grand Prix,Charles Leclerc,3,Ferrari,4,Finished,15,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,LEC
+2026,1,Australian Grand Prix,Lewis Hamilton,4,Ferrari,7,Finished,12,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,HAM
+2026,1,Australian Grand Prix,Lando Norris,5,McLaren,6,Finished,10,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,NOR
+2026,1,Australian Grand Prix,Max Verstappen,6,Red Bull,20,Finished,8,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,VER
+2026,1,Australian Grand Prix,Oliver Bearman,7,Haas,12,Lapped,6,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,BEA
+2026,1,Australian Grand Prix,Arvid Lindblad,8,Racing Bulls,9,Lapped,4,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,LIN
+2026,1,Australian Grand Prix,Gabriel Bortoleto,9,Audi,10,Lapped,2,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,BOR
+2026,1,Australian Grand Prix,Pierre Gasly,10,Alpine,14,Lapped,1,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,GAS
+2026,1,Australian Grand Prix,Esteban Ocon,11,Haas,13,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,OCO
+2026,1,Australian Grand Prix,Alex Albon,12,Williams,15,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,ALB
+2026,1,Australian Grand Prix,Liam Lawson,13,Racing Bulls,8,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,LAW
+2026,1,Australian Grand Prix,Franco Colapinto,14,Alpine,16,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,COL
+2026,1,Australian Grand Prix,Carlos Sainz,15,Williams,21,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,SAI
+2026,1,Australian Grand Prix,Sergio Pérez,16,Cadillac,18,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,PER
+2026,1,Australian Grand Prix,Lance Stroll,Retired,Aston Martin,22,Lapped,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,STR
+2026,1,Australian Grand Prix,Fernando Alonso,Retired,Aston Martin,17,Retired,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,ALO
+2026,1,Australian Grand Prix,Valtteri Bottas,Retired,Cadillac,19,Retired,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,BOT
+2026,1,Australian Grand Prix,Isack Hadjar,Retired,Red Bull,3,Retired,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,HAD
+2026,1,Australian Grand Prix,Oscar Piastri,Did not start,McLaren,5,Did not start,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,PIA
+2026,1,Australian Grand Prix,Nico Hülkenberg,Did not start,Audi,11,Did not start,0,0,0,,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,HUL
+2026,2,Chinese Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,4,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,ANT
+2026,2,Chinese Grand Prix,George Russell,2,Mercedes,2,Finished,18,8,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,RUS
+2026,2,Chinese Grand Prix,Lewis Hamilton,3,Ferrari,3,Finished,15,6,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,HAM
+2026,2,Chinese Grand Prix,Charles Leclerc,4,Ferrari,4,Finished,12,7,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,LEC
+2026,2,Chinese Grand Prix,Oliver Bearman,5,Haas,10,Finished,10,1,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,BEA
+2026,2,Chinese Grand Prix,Pierre Gasly,6,Alpine,7,Finished,8,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,GAS
+2026,2,Chinese Grand Prix,Liam Lawson,7,Racing Bulls,14,Finished,6,2,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,LAW
+2026,2,Chinese Grand Prix,Isack Hadjar,8,Red Bull,9,Finished,4,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,HAD
+2026,2,Chinese Grand Prix,Carlos Sainz,9,Williams,17,Lapped,2,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,SAI
+2026,2,Chinese Grand Prix,Franco Colapinto,10,Alpine,12,Lapped,1,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,COL
+2026,2,Chinese Grand Prix,Nico Hülkenberg,11,Audi,11,Lapped,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,HUL
+2026,2,Chinese Grand Prix,Arvid Lindblad,12,Racing Bulls,15,Lapped,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,LIN
+2026,2,Chinese Grand Prix,Valtteri Bottas,13,Cadillac,19,Lapped,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,BOT
+2026,2,Chinese Grand Prix,Esteban Ocon,14,Haas,13,Lapped,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,OCO
+2026,2,Chinese Grand Prix,Sergio Pérez,15,Cadillac,21,Lapped,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,PER
+2026,2,Chinese Grand Prix,Max Verstappen,Retired,Red Bull,8,Retired,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,VER
+2026,2,Chinese Grand Prix,Fernando Alonso,Retired,Aston Martin,18,Retired,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,ALO
+2026,2,Chinese Grand Prix,Lance Stroll,Retired,Aston Martin,20,Retired,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,STR
+2026,2,Chinese Grand Prix,Oscar Piastri,Did not start,McLaren,5,Did not start,0,3,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,PIA
+2026,2,Chinese Grand Prix,Lando Norris,Did not start,McLaren,6,Did not start,0,5,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,NOR
+2026,2,Chinese Grand Prix,Gabriel Bortoleto,Did not start,Audi,16,Did not start,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,BOR
+2026,2,Chinese Grand Prix,Alex Albon,Did not start,Williams,22,Did not start,0,0,0,,2026-03-15,Shanghai International Circuit,Shanghai,China,ALB
+2026,3,Japanese Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,ANT
+2026,3,Japanese Grand Prix,Oscar Piastri,2,McLaren,3,Finished,18,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,PIA
+2026,3,Japanese Grand Prix,Charles Leclerc,3,Ferrari,4,Finished,15,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,LEC
+2026,3,Japanese Grand Prix,George Russell,4,Mercedes,2,Finished,12,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,RUS
+2026,3,Japanese Grand Prix,Lando Norris,5,McLaren,5,Finished,10,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,NOR
+2026,3,Japanese Grand Prix,Lewis Hamilton,6,Ferrari,6,Finished,8,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,HAM
+2026,3,Japanese Grand Prix,Pierre Gasly,7,Alpine,7,Finished,6,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,GAS
+2026,3,Japanese Grand Prix,Max Verstappen,8,Red Bull,11,Finished,4,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,VER
+2026,3,Japanese Grand Prix,Liam Lawson,9,Racing Bulls,14,Finished,2,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,LAW
+2026,3,Japanese Grand Prix,Esteban Ocon,10,Haas,12,Finished,1,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,OCO
+2026,3,Japanese Grand Prix,Nico Hülkenberg,11,Audi,13,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,HUL
+2026,3,Japanese Grand Prix,Isack Hadjar,12,Red Bull,8,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,HAD
+2026,3,Japanese Grand Prix,Gabriel Bortoleto,13,Audi,9,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,BOR
+2026,3,Japanese Grand Prix,Arvid Lindblad,14,Racing Bulls,10,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,LIN
+2026,3,Japanese Grand Prix,Carlos Sainz,15,Williams,16,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,SAI
+2026,3,Japanese Grand Prix,Franco Colapinto,16,Alpine,15,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,COL
+2026,3,Japanese Grand Prix,Sergio Pérez,17,Cadillac,19,Finished,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,PER
+2026,3,Japanese Grand Prix,Fernando Alonso,18,Aston Martin,21,Lapped,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,ALO
+2026,3,Japanese Grand Prix,Valtteri Bottas,19,Cadillac,20,Lapped,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,BOT
+2026,3,Japanese Grand Prix,Alex Albon,20,Williams,17,Lapped,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,ALB
+2026,3,Japanese Grand Prix,Lance Stroll,Retired,Aston Martin,22,Retired,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,STR
+2026,3,Japanese Grand Prix,Oliver Bearman,Retired,Haas,18,Retired,0,0,0,,2026-03-29,Suzuka Circuit,Suzuka,Japan,BEA
+2026,4,Miami Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,3,0,,2026-05-03,Miami International Autodrome,Miami,USA,ANT
+2026,4,Miami Grand Prix,Lando Norris,2,McLaren,4,Finished,18,8,0,,2026-05-03,Miami International Autodrome,Miami,USA,NOR
+2026,4,Miami Grand Prix,Oscar Piastri,3,McLaren,7,Finished,15,7,0,,2026-05-03,Miami International Autodrome,Miami,USA,PIA
+2026,4,Miami Grand Prix,George Russell,4,Mercedes,5,Finished,12,5,0,,2026-05-03,Miami International Autodrome,Miami,USA,RUS
+2026,4,Miami Grand Prix,Max Verstappen,5,Red Bull,2,Finished,10,4,0,,2026-05-03,Miami International Autodrome,Miami,USA,VER
+2026,4,Miami Grand Prix,Lewis Hamilton,6,Ferrari,6,Finished,8,2,0,,2026-05-03,Miami International Autodrome,Miami,USA,HAM
+2026,4,Miami Grand Prix,Franco Colapinto,7,Alpine,8,Finished,6,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,COL
+2026,4,Miami Grand Prix,Charles Leclerc,8,Ferrari,3,Finished,4,6,0,,2026-05-03,Miami International Autodrome,Miami,USA,LEC
+2026,4,Miami Grand Prix,Carlos Sainz,9,Williams,13,Finished,2,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,SAI
+2026,4,Miami Grand Prix,Alex Albon,10,Williams,15,Finished,1,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,ALB
+2026,4,Miami Grand Prix,Oliver Bearman,11,Haas,12,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,BEA
+2026,4,Miami Grand Prix,Gabriel Bortoleto,12,Audi,21,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,BOR
+2026,4,Miami Grand Prix,Esteban Ocon,13,Haas,14,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,OCO
+2026,4,Miami Grand Prix,Arvid Lindblad,14,Racing Bulls,16,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,LIN
+2026,4,Miami Grand Prix,Fernando Alonso,15,Aston Martin,17,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,ALO
+2026,4,Miami Grand Prix,Sergio Pérez,16,Cadillac,20,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,PER
+2026,4,Miami Grand Prix,Lance Stroll,17,Aston Martin,18,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,STR
+2026,4,Miami Grand Prix,Valtteri Bottas,18,Cadillac,19,Lapped,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,BOT
+2026,4,Miami Grand Prix,Nico Hülkenberg,Retired,Audi,10,Retired,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,HUL
+2026,4,Miami Grand Prix,Liam Lawson,Retired,Racing Bulls,11,Retired,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,LAW
+2026,4,Miami Grand Prix,Pierre Gasly,Retired,Alpine,9,Retired,0,1,0,,2026-05-03,Miami International Autodrome,Miami,USA,GAS
+2026,4,Miami Grand Prix,Isack Hadjar,Retired,Red Bull,22,Retired,0,0,0,,2026-05-03,Miami International Autodrome,Miami,USA,HAD
+2026,5,Canadian Grand Prix,Kimi Antonelli,1,Mercedes,2,Finished,25,6,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,ANT
+2026,5,Canadian Grand Prix,Lewis Hamilton,2,Ferrari,5,Finished,18,3,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,HAM
+2026,5,Canadian Grand Prix,Max Verstappen,3,Red Bull,6,Finished,15,2,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,VER
+2026,5,Canadian Grand Prix,Charles Leclerc,4,Ferrari,8,Finished,12,4,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,LEC
+2026,5,Canadian Grand Prix,Isack Hadjar,5,Red Bull,7,Lapped,10,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,HAD
+2026,5,Canadian Grand Prix,Franco Colapinto,6,Alpine,10,Lapped,8,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,COL
+2026,5,Canadian Grand Prix,Liam Lawson,7,Racing Bulls,12,Lapped,6,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,LAW
+2026,5,Canadian Grand Prix,Pierre Gasly,8,Alpine,14,Lapped,4,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,GAS
+2026,5,Canadian Grand Prix,Carlos Sainz,9,Williams,15,Lapped,2,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,SAI
+2026,5,Canadian Grand Prix,Oliver Bearman,10,Haas,16,Lapped,1,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,BEA
+2026,5,Canadian Grand Prix,Oscar Piastri,11,McLaren,4,Lapped,0,5,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,PIA
+2026,5,Canadian Grand Prix,Nico Hülkenberg,12,Audi,11,Lapped,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,HUL
+2026,5,Canadian Grand Prix,Gabriel Bortoleto,13,Audi,13,Lapped,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,BOR
+2026,5,Canadian Grand Prix,Esteban Ocon,14,Haas,17,Lapped,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,OCO
+2026,5,Canadian Grand Prix,Lance Stroll,15,Aston Martin,22,Lapped,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,STR
+2026,5,Canadian Grand Prix,Valtteri Bottas,16,Cadillac,21,Lapped,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,BOT
+2026,5,Canadian Grand Prix,Sergio Pérez,Retired,Cadillac,20,Retired,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,PER
+2026,5,Canadian Grand Prix,Lando Norris,Retired,McLaren,3,Retired,0,7,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,NOR
+2026,5,Canadian Grand Prix,George Russell,Retired,Mercedes,1,Retired,0,8,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,RUS
+2026,5,Canadian Grand Prix,Fernando Alonso,Retired,Aston Martin,19,Retired,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,ALO
+2026,5,Canadian Grand Prix,Alex Albon,Retired,Williams,18,Retired,0,0,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,ALB
+2026,5,Canadian Grand Prix,Arvid Lindblad,Did not start,Racing Bulls,9,Did not start,0,1,0,,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,LIN
+2026,6,Monaco Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,ANT
+2026,6,Monaco Grand Prix,Lewis Hamilton,2,Ferrari,3,Finished,18,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,HAM
+2026,6,Monaco Grand Prix,Isack Hadjar,3,Red Bull,5,Finished,15,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,HAD
+2026,6,Monaco Grand Prix,Oscar Piastri,4,McLaren,7,Finished,12,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,PIA
+2026,6,Monaco Grand Prix,Liam Lawson,5,Racing Bulls,10,Finished,10,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,LAW
+2026,6,Monaco Grand Prix,Arvid Lindblad,6,Racing Bulls,15,Finished,8,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,LIN
+2026,6,Monaco Grand Prix,Pierre Gasly,7,Alpine,9,Finished,6,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,GAS
+2026,6,Monaco Grand Prix,Alex Albon,8,Williams,11,Finished,4,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,ALB
+2026,6,Monaco Grand Prix,Esteban Ocon,9,Haas,17,Finished,2,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,OCO
+2026,6,Monaco Grand Prix,Fernando Alonso,10,Aston Martin,21,Finished,1,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,ALO
+2026,6,Monaco Grand Prix,Gabriel Bortoleto,11,Audi,16,Finished,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,BOR
+2026,6,Monaco Grand Prix,George Russell,12,Mercedes,6,Finished,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,RUS
+2026,6,Monaco Grand Prix,Nico Hülkenberg,13,Audi,13,Finished,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,HUL
+2026,6,Monaco Grand Prix,Franco Colapinto,14,Alpine,14,Finished,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,COL
+2026,6,Monaco Grand Prix,Sergio Pérez,15,Cadillac,18,Finished,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,PER
+2026,6,Monaco Grand Prix,Carlos Sainz,16,Williams,12,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,SAI
+2026,6,Monaco Grand Prix,Charles Leclerc,Retired,Ferrari,4,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,LEC
+2026,6,Monaco Grand Prix,Lance Stroll,Retired,Aston Martin,22,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,STR
+2026,6,Monaco Grand Prix,Lando Norris,Retired,McLaren,8,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,NOR
+2026,6,Monaco Grand Prix,Oliver Bearman,Retired,Haas,19,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,BEA
+2026,6,Monaco Grand Prix,Valtteri Bottas,Retired,Cadillac,20,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,BOT
+2026,6,Monaco Grand Prix,Max Verstappen,Retired,Red Bull,2,Retired,0,0,0,,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,VER
+2026,7,Barcelona Grand Prix,Lewis Hamilton,1,Ferrari,2,Finished,25,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,HAM
+2026,7,Barcelona Grand Prix,George Russell,2,Mercedes,1,Finished,18,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,RUS
+2026,7,Barcelona Grand Prix,Lando Norris,3,McLaren,4,Finished,15,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,NOR
+2026,7,Barcelona Grand Prix,Max Verstappen,4,Red Bull,5,Finished,12,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,VER
+2026,7,Barcelona Grand Prix,Oscar Piastri,5,McLaren,7,Finished,10,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,PIA
+2026,7,Barcelona Grand Prix,Isack Hadjar,6,Red Bull,6,Finished,8,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,HAD
+2026,7,Barcelona Grand Prix,Pierre Gasly,7,Alpine,14,Finished,6,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,GAS
+2026,7,Barcelona Grand Prix,Liam Lawson,8,Racing Bulls,8,Finished,4,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,LAW
+2026,7,Barcelona Grand Prix,Arvid Lindblad,9,Racing Bulls,11,Finished,2,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,LIN
+2026,7,Barcelona Grand Prix,Franco Colapinto,10,Alpine,13,Finished,1,0,1,Penalty points (1 pts): Failing to slow for yellow flags [Not specified],2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,COL
+2026,7,Barcelona Grand Prix,Gabriel Bortoleto,11,Audi,12,Lapped,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,BOR
+2026,7,Barcelona Grand Prix,Carlos Sainz,12,Williams,16,Lapped,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,SAI
+2026,7,Barcelona Grand Prix,Esteban Ocon,13,Haas,17,Lapped,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,OCO
+2026,7,Barcelona Grand Prix,Sergio Pérez,14,Cadillac,19,Lapped,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,PER
+2026,7,Barcelona Grand Prix,Charles Leclerc,15,Ferrari,10,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,LEC
+2026,7,Barcelona Grand Prix,Kimi Antonelli,16,Mercedes,3,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,ANT
+2026,7,Barcelona Grand Prix,Oliver Bearman,17,Haas,15,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,BEA
+2026,7,Barcelona Grand Prix,Alex Albon,Retired,Williams,18,Lapped,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,ALB
+2026,7,Barcelona Grand Prix,Fernando Alonso,Retired,Aston Martin,22,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,ALO
+2026,7,Barcelona Grand Prix,Nico Hülkenberg,Retired,Audi,9,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,HUL
+2026,7,Barcelona Grand Prix,Valtteri Bottas,Retired,Cadillac,20,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,BOT
+2026,7,Barcelona Grand Prix,Lance Stroll,Retired,Aston Martin,21,Retired,0,0,0,,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,STR
+2026,8,Austrian Grand Prix,George Russell,1,Mercedes,1,Finished,25,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,RUS
+2026,8,Austrian Grand Prix,Max Verstappen,2,Red Bull,5,Finished,18,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,VER
+2026,8,Austrian Grand Prix,Kimi Antonelli,3,Mercedes,4,Finished,15,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,ANT
+2026,8,Austrian Grand Prix,Oscar Piastri,4,McLaren,7,Finished,12,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,PIA
+2026,8,Austrian Grand Prix,Lewis Hamilton,5,Ferrari,3,Finished,10,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,HAM
+2026,8,Austrian Grand Prix,Isack Hadjar,6,Red Bull,8,Finished,8,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,HAD
+2026,8,Austrian Grand Prix,Lando Norris,7,McLaren,6,Finished,6,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,NOR
+2026,8,Austrian Grand Prix,Charles Leclerc,8,Ferrari,2,Finished,4,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,LEC
+2026,8,Austrian Grand Prix,Liam Lawson,9,Racing Bulls,9,Lapped,2,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,LAW
+2026,8,Austrian Grand Prix,Arvid Lindblad,10,Racing Bulls,10,Lapped,1,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,LIN
+2026,8,Austrian Grand Prix,Gabriel Bortoleto,11,Audi,12,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,BOR
+2026,8,Austrian Grand Prix,Nico Hülkenberg,12,Audi,14,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,HUL
+2026,8,Austrian Grand Prix,Pierre Gasly,13,Alpine,11,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,GAS
+2026,8,Austrian Grand Prix,Oliver Bearman,14,Haas,13,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,BEA
+2026,8,Austrian Grand Prix,Franco Colapinto,15,Alpine,16,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,COL
+2026,8,Austrian Grand Prix,Esteban Ocon,16,Haas,15,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,OCO
+2026,8,Austrian Grand Prix,Alex Albon,17,Williams,18,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,ALB
+2026,8,Austrian Grand Prix,Fernando Alonso,18,Aston Martin,21,Lapped,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,ALO
+2026,8,Austrian Grand Prix,Lance Stroll,Retired,Aston Martin,22,Retired,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,STR
+2026,8,Austrian Grand Prix,Carlos Sainz,Retired,Williams,17,Retired,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,SAI
+2026,8,Austrian Grand Prix,Sergio Pérez,Retired,Cadillac,19,Retired,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,PER
+2026,8,Austrian Grand Prix,Valtteri Bottas,Retired,Cadillac,20,Retired,0,0,0,,2026-06-28,Red Bull Ring,Spielberg,Austria,BOT
+2026,9,British Grand Prix,Charles Leclerc,1,Ferrari,2,Finished,25,4,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,LEC
+2026,9,British Grand Prix,George Russell,2,Mercedes,4,Finished,18,5,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,RUS
+2026,9,British Grand Prix,Lewis Hamilton,3,Ferrari,3,Finished,15,7,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,HAM
+2026,9,British Grand Prix,Lando Norris,4,McLaren,6,Finished,12,6,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,NOR
+2026,9,British Grand Prix,Isack Hadjar,5,Red Bull,5,Finished,10,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,HAD
+2026,9,British Grand Prix,Liam Lawson,6,Racing Bulls,10,Finished,8,1,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,LAW
+2026,9,British Grand Prix,Arvid Lindblad,7,Racing Bulls,9,Finished,6,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,LIN
+2026,9,British Grand Prix,Gabriel Bortoleto,8,Audi,11,Finished,4,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,BOR
+2026,9,British Grand Prix,Franco Colapinto,9,Alpine,19,Finished,2,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,COL
+2026,9,British Grand Prix,Pierre Gasly,10,Alpine,15,Finished,1,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,GAS
+2026,9,British Grand Prix,Oscar Piastri,11,McLaren,8,Finished,0,2,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,PIA
+2026,9,British Grand Prix,Oliver Bearman,12,Haas,13,Finished,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,BEA
+2026,9,British Grand Prix,Esteban Ocon,13,Haas,17,Finished,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,OCO
+2026,9,British Grand Prix,Sergio Pérez,14,Cadillac,20,Finished,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,PER
+2026,9,British Grand Prix,Kimi Antonelli,15,Mercedes,1,Finished,0,8,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,ANT
+2026,9,British Grand Prix,Valtteri Bottas,16,Cadillac,18,Finished,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,BOT
+2026,9,British Grand Prix,Carlos Sainz,17,Williams,14,Lapped,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,SAI
+2026,9,British Grand Prix,Fernando Alonso,18,Aston Martin,21,Lapped,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,ALO
+2026,9,British Grand Prix,Lance Stroll,19,Aston Martin,22,Lapped,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,STR
+2026,9,British Grand Prix,Max Verstappen,20,Red Bull,7,Retired,0,3,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,VER
+2026,9,British Grand Prix,Alex Albon,Retired,Williams,16,Retired,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,ALB
+2026,9,British Grand Prix,Nico Hülkenberg,Retired,Audi,12,Retired,0,0,0,,2026-07-05,Silverstone Circuit,Silverstone,UK,HUL
+2026,10,Belgian Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,ANT
+2026,10,Belgian Grand Prix,Charles Leclerc,2,Ferrari,4,Finished,18,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,LEC
+2026,10,Belgian Grand Prix,Max Verstappen,3,Red Bull,2,Finished,15,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,VER
+2026,10,Belgian Grand Prix,Lewis Hamilton,4,Ferrari,5,Finished,12,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,HAM
+2026,10,Belgian Grand Prix,Oscar Piastri,5,McLaren,6,Finished,10,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,PIA
+2026,10,Belgian Grand Prix,Isack Hadjar,6,Red Bull,21,Finished,8,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,HAD
+2026,10,Belgian Grand Prix,Lando Norris,7,McLaren,13,Finished,6,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,NOR
+2026,10,Belgian Grand Prix,Gabriel Bortoleto,8,Audi,8,Finished,4,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,BOR
+2026,10,Belgian Grand Prix,Arvid Lindblad,9,Racing Bulls,7,Finished,2,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,LIN
+2026,10,Belgian Grand Prix,Franco Colapinto,10,Alpine,11,Finished,1,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,COL
+2026,10,Belgian Grand Prix,Pierre Gasly,11,Alpine,10,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,GAS
+2026,10,Belgian Grand Prix,Liam Lawson,12,Racing Bulls,9,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,LAW
+2026,10,Belgian Grand Prix,Nico Hülkenberg,13,Audi,12,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,HUL
+2026,10,Belgian Grand Prix,Oliver Bearman,14,Haas,14,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,BEA
+2026,10,Belgian Grand Prix,Alex Albon,15,Williams,15,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,ALB
+2026,10,Belgian Grand Prix,Carlos Sainz,16,Williams,19,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,SAI
+2026,10,Belgian Grand Prix,Esteban Ocon,17,Haas,16,Finished,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,OCO
+2026,10,Belgian Grand Prix,Valtteri Bottas,18,Cadillac,17,Lapped,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,BOT
+2026,10,Belgian Grand Prix,Fernando Alonso,19,Aston Martin,22,Lapped,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,ALO
+2026,10,Belgian Grand Prix,Lance Stroll,Retired,Aston Martin,20,Retired,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,STR
+2026,10,Belgian Grand Prix,Sergio Pérez,Retired,Cadillac,18,Retired,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,PER
+2026,10,Belgian Grand Prix,George Russell,Retired,Mercedes,3,Retired,0,0,0,,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,RUS
+2026,11,Hungarian Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,NOR
+2026,11,Hungarian Grand Prix,Max Verstappen,2,Red Bull,4,Finished,18,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,VER
+2026,11,Hungarian Grand Prix,Kimi Antonelli,3,Mercedes,7,Finished,15,0,1,Penalty points (1 pts): Yellow flag infringement [Qualifying],2026-07-26,Hungaroring,Budapest,Hungary,ANT
+2026,11,Hungarian Grand Prix,Charles Leclerc,4,Ferrari,2,Finished,12,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,LEC
+2026,11,Hungarian Grand Prix,Lewis Hamilton,5,Ferrari,5,Finished,10,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,HAM
+2026,11,Hungarian Grand Prix,Isack Hadjar,6,Red Bull,8,Finished,8,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,HAD
+2026,11,Hungarian Grand Prix,George Russell,7,Mercedes,6,Finished,6,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,RUS
+2026,11,Hungarian Grand Prix,Liam Lawson,8,Racing Bulls,11,Lapped,4,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,LAW
+2026,11,Hungarian Grand Prix,Nico Hülkenberg,9,Audi,10,Lapped,2,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,HUL
+2026,11,Hungarian Grand Prix,Arvid Lindblad,10,Racing Bulls,9,Lapped,1,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,LIN
+2026,11,Hungarian Grand Prix,Gabriel Bortoleto,11,Audi,14,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,BOR
+2026,11,Hungarian Grand Prix,Pierre Gasly,12,Alpine,12,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,GAS
+2026,11,Hungarian Grand Prix,Lance Stroll,13,Aston Martin,20,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,STR
+2026,11,Hungarian Grand Prix,Fernando Alonso,14,Aston Martin,16,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,ALO
+2026,11,Hungarian Grand Prix,Franco Colapinto,15,Alpine,13,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,COL
+2026,11,Hungarian Grand Prix,Esteban Ocon,16,Haas,15,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,OCO
+2026,11,Hungarian Grand Prix,Alex Albon,17,Williams,19,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,ALB
+2026,11,Hungarian Grand Prix,Carlos Sainz,18,Williams,18,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,SAI
+2026,11,Hungarian Grand Prix,Oliver Bearman,19,Haas,17,Lapped,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,BEA
+2026,11,Hungarian Grand Prix,Oscar Piastri,Retired,McLaren,3,Retired,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,PIA
+2026,11,Hungarian Grand Prix,Sergio Pérez,Retired,Cadillac,22,Retired,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,PER
+2026,11,Hungarian Grand Prix,Valtteri Bottas,Retired,Cadillac,21,Retired,0,0,0,,2026-07-26,Hungaroring,Budapest,Hungary,BOT
+2026,12,Dutch Grand Prix,Lando Norris,1,McLaren,1,Finished,25,6,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,NOR
+2026,12,Dutch Grand Prix,Kimi Antonelli,2,Mercedes,3,Finished,18,5,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,ANT
+2026,12,Dutch Grand Prix,George Russell,3,Mercedes,2,Finished,15,8,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,RUS
+2026,12,Dutch Grand Prix,Lewis Hamilton,4,Ferrari,5,Finished,12,2,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,HAM
+2026,12,Dutch Grand Prix,Charles Leclerc,5,Ferrari,6,Finished,10,7,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,LEC
+2026,12,Dutch Grand Prix,Oscar Piastri,6,McLaren,4,Finished,8,4,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,PIA
+2026,12,Dutch Grand Prix,Liam Lawson,7,Red Bull,8,Finished,6,0,1,Penalty points (1 pts): Not slowing under yellow flags [Not specified],2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,LAW
+2026,12,Dutch Grand Prix,Nico Hülkenberg,8,Audi,13,Lapped,4,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,HUL
+2026,12,Dutch Grand Prix,Fernando Alonso,9,Aston Martin,18,Lapped,2,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,ALO
+2026,12,Dutch Grand Prix,Pierre Gasly,10,Alpine,11,Lapped,1,1,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,GAS
+2026,12,Dutch Grand Prix,Yuki Tsunoda,11,Racing Bulls,12,Lapped,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,TSU
+2026,12,Dutch Grand Prix,Arvid Lindblad,12,Racing Bulls,10,Lapped,0,0,2,Penalty points (2 pts): Overtaking under yellow flags [Not specified],2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,LIN
+2026,12,Dutch Grand Prix,Gabriel Bortoleto,13,Audi,9,Lapped,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,BOR
+2026,12,Dutch Grand Prix,Franco Colapinto,14,Alpine,14,Lapped,0,0,3,Penalty points (2 pts): Overtaking under yellow flags [Not specified]; Penalty points (1 pts): Not slowing under yellow flags [Not specified],2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,COL
+2026,12,Dutch Grand Prix,Sergio Pérez,15,Cadillac,22,Lapped,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,PER
+2026,12,Dutch Grand Prix,Carlos Sainz,16,Williams,17,Lapped,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,SAI
+2026,12,Dutch Grand Prix,Alex Albon,17,Williams,16,Retired,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,ALB
+2026,12,Dutch Grand Prix,Valtteri Bottas,Retired,Cadillac,21,Retired,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,BOT
+2026,12,Dutch Grand Prix,Esteban Ocon,Retired,Haas,15,Retired,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,OCO
+2026,12,Dutch Grand Prix,Lance Stroll,Retired,Aston Martin,19,Retired,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,STR
+2026,12,Dutch Grand Prix,Oliver Bearman,Retired,Haas,20,Retired,0,0,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,BEA
+2026,12,Dutch Grand Prix,Max Verstappen,Retired,Red Bull,7,Retired,0,3,0,,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,VER
+2026,13,Italian Grand Prix,Kimi Antonelli,1,Mercedes,19,Finished,25,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,ANT
+2026,13,Italian Grand Prix,George Russell,2,Mercedes,2,Finished,18,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,RUS
+2026,13,Italian Grand Prix,Max Verstappen,3,Red Bull,5,Finished,15,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,VER
+2026,13,Italian Grand Prix,Lando Norris,4,McLaren,8,Finished,12,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,NOR
+2026,13,Italian Grand Prix,Oscar Piastri,5,McLaren,6,Finished,10,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,PIA
+2026,13,Italian Grand Prix,Lewis Hamilton,6,Ferrari,4,Finished,8,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,HAM
+2026,13,Italian Grand Prix,Pierre Gasly,7,Alpine,1,Finished,6,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,GAS
+2026,13,Italian Grand Prix,Arvid Lindblad,8,Racing Bulls,9,Finished,4,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,LIN
+2026,13,Italian Grand Prix,Franco Colapinto,9,Alpine,7,Finished,2,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,COL
+2026,13,Italian Grand Prix,Yuki Tsunoda,10,Racing Bulls,15,Finished,1,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,TSU
+2026,13,Italian Grand Prix,Gabriel Bortoleto,11,Audi,10,Finished,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,BOR
+2026,13,Italian Grand Prix,Nico Hülkenberg,12,Audi,12,Finished,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,HUL
+2026,13,Italian Grand Prix,Carlos Sainz,13,Williams,13,Finished,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,SAI
+2026,13,Italian Grand Prix,Liam Lawson,14,Red Bull,22,Finished,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,LAW
+2026,13,Italian Grand Prix,Oliver Bearman,15,Haas,11,Finished,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,BEA
+2026,13,Italian Grand Prix,Esteban Ocon,16,Haas,14,Lapped,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,OCO
+2026,13,Italian Grand Prix,Alex Albon,17,Williams,20,Lapped,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,ALB
+2026,13,Italian Grand Prix,Sergio Pérez,18,Cadillac,17,Lapped,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,PER
+2026,13,Italian Grand Prix,Valtteri Bottas,19,Cadillac,16,Lapped,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,BOT
+2026,13,Italian Grand Prix,Lance Stroll,Retired,Aston Martin,18,Retired,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,STR
+2026,13,Italian Grand Prix,Fernando Alonso,Retired,Aston Martin,21,Retired,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,ALO
+2026,13,Italian Grand Prix,Charles Leclerc,Retired,Ferrari,3,Retired,0,0,0,,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,LEC
+2026,14,Spanish Grand Prix,Kimi Antonelli,1,Mercedes,2,Finished,25,0,0,,2026-09-13,Madring,Madrid,Spain,ANT
+2026,14,Spanish Grand Prix,Max Verstappen,2,Red Bull,3,Finished,18,0,0,,2026-09-13,Madring,Madrid,Spain,VER
+2026,14,Spanish Grand Prix,Lando Norris,3,McLaren,1,Finished,15,0,0,,2026-09-13,Madring,Madrid,Spain,NOR
+2026,14,Spanish Grand Prix,Charles Leclerc,4,Ferrari,5,Finished,12,0,0,,2026-09-13,Madring,Madrid,Spain,LEC
+2026,14,Spanish Grand Prix,George Russell,5,Mercedes,6,Finished,10,0,0,,2026-09-13,Madring,Madrid,Spain,RUS
+2026,14,Spanish Grand Prix,Liam Lawson,6,Red Bull,8,Finished,8,0,0,,2026-09-13,Madring,Madrid,Spain,LAW
+2026,14,Spanish Grand Prix,Franco Colapinto,7,Alpine,9,Finished,6,0,0,,2026-09-13,Madring,Madrid,Spain,COL
+2026,14,Spanish Grand Prix,Oscar Piastri,8,McLaren,7,Finished,4,0,0,,2026-09-13,Madring,Madrid,Spain,PIA
+2026,14,Spanish Grand Prix,Arvid Lindblad,9,Racing Bulls,10,Lapped,2,0,0,,2026-09-13,Madring,Madrid,Spain,LIN
+2026,14,Spanish Grand Prix,Nico Hülkenberg,10,Audi,11,Lapped,1,0,0,,2026-09-13,Madring,Madrid,Spain,HUL
+2026,14,Spanish Grand Prix,Esteban Ocon,11,Haas,13,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,OCO
+2026,14,Spanish Grand Prix,Pierre Gasly,12,Alpine,14,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,GAS
+2026,14,Spanish Grand Prix,Gabriel Bortoleto,13,Audi,12,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,BOR
+2026,14,Spanish Grand Prix,Yuki Tsunoda,14,Racing Bulls,15,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,TSU
+2026,14,Spanish Grand Prix,Alex Albon,15,Williams,16,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,ALB
+2026,14,Spanish Grand Prix,Oliver Bearman,16,Haas,22,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,BEA
+2026,14,Spanish Grand Prix,Fernando Alonso,17,Aston Martin,17,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,ALO
+2026,14,Spanish Grand Prix,Valtteri Bottas,18,Cadillac,19,Lapped,0,0,0,,2026-09-13,Madring,Madrid,Spain,BOT
+2026,14,Spanish Grand Prix,Carlos Sainz,Retired,Williams,20,Retired,0,0,0,,2026-09-13,Madring,Madrid,Spain,SAI
+2026,14,Spanish Grand Prix,Sergio Pérez,Retired,Cadillac,18,Retired,0,0,0,,2026-09-13,Madring,Madrid,Spain,PER
+2026,14,Spanish Grand Prix,Lance Stroll,Retired,Aston Martin,21,Retired,0,0,0,,2026-09-13,Madring,Madrid,Spain,STR
+2026,14,Spanish Grand Prix,Lewis Hamilton,Retired,Ferrari,4,Retired,0,0,0,,2026-09-13,Madring,Madrid,Spain,HAM
+2026,15,Azerbaijan Grand Prix,George Russell,1,Mercedes,1,Finished,25,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,RUS
+2026,15,Azerbaijan Grand Prix,Max Verstappen,2,Red Bull,8,Finished,18,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,VER
+2026,15,Azerbaijan Grand Prix,Isack Hadjar,3,Red Bull,4,Finished,15,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,HAD
+2026,15,Azerbaijan Grand Prix,Charles Leclerc,4,Ferrari,2,Finished,12,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,LEC
+2026,15,Azerbaijan Grand Prix,Kimi Antonelli,5,Mercedes,16,Finished,10,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,ANT
+2026,15,Azerbaijan Grand Prix,Lewis Hamilton,6,Ferrari,6,Finished,8,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,HAM
+2026,15,Azerbaijan Grand Prix,Arvid Lindblad,7,Racing Bulls,15,Finished,6,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,LIN
+2026,15,Azerbaijan Grand Prix,Esteban Ocon,8,Haas,13,Finished,4,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,OCO
+2026,15,Azerbaijan Grand Prix,Oliver Bearman,9,Haas,10,Finished,2,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,BEA
+2026,15,Azerbaijan Grand Prix,Carlos Sainz,10,Williams,14,Finished,1,0,2,Penalty points (2 pts): Not slowing under yellow flags [Qualifying],2026-09-26,Baku City Circuit,Baku,Azerbaijan,SAI
+2026,15,Azerbaijan Grand Prix,Nico Hülkenberg,11,Audi,18,Finished,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,HUL
+2026,15,Azerbaijan Grand Prix,Liam Lawson,12,Racing Bulls,11,Finished,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,LAW
+2026,15,Azerbaijan Grand Prix,Oscar Piastri,13,McLaren,3,Finished,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,PIA
+2026,15,Azerbaijan Grand Prix,Sergio Pérez,14,Cadillac,20,Finished,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,PER
+2026,15,Azerbaijan Grand Prix,Gabriel Bortoleto,15,Audi,17,Finished,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,BOR
+2026,15,Azerbaijan Grand Prix,Valtteri Bottas,16,Cadillac,19,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,BOT
+2026,15,Azerbaijan Grand Prix,Franco Colapinto,Retired,Alpine,9,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,COL
+2026,15,Azerbaijan Grand Prix,Pierre Gasly,Retired,Alpine,7,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,GAS
+2026,15,Azerbaijan Grand Prix,Lando Norris,Retired,McLaren,5,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,NOR
+2026,15,Azerbaijan Grand Prix,Alex Albon,Retired,Williams,12,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,ALB
+2026,15,Azerbaijan Grand Prix,Fernando Alonso,Retired,Aston Martin,21,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,ALO
+2026,15,Azerbaijan Grand Prix,Lance Stroll,Retired,Aston Martin,22,Retired,0,0,0,,2026-09-26,Baku City Circuit,Baku,Azerbaijan,STR
+2026,16,Bahrain Grand Prix in Malaysia,Max Verstappen,1,Red Bull,1,Finished,25,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,VER
+2026,16,Bahrain Grand Prix in Malaysia,Kimi Antonelli,2,Mercedes,3,Finished,18,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,ANT
+2026,16,Bahrain Grand Prix in Malaysia,Lewis Hamilton,3,Ferrari,2,Finished,15,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,HAM
+2026,16,Bahrain Grand Prix in Malaysia,Charles Leclerc,4,Ferrari,4,Finished,12,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,LEC
+2026,16,Bahrain Grand Prix in Malaysia,Isack Hadjar,5,Red Bull,8,Finished,10,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,HAD
+2026,16,Bahrain Grand Prix in Malaysia,Oscar Piastri,6,McLaren,6,Finished,8,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,PIA
+2026,16,Bahrain Grand Prix in Malaysia,Liam Lawson,7,Racing Bulls,11,Finished,6,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,LAW
+2026,16,Bahrain Grand Prix in Malaysia,Fernando Alonso,8,Aston Martin,12,Finished,4,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,ALO
+2026,16,Bahrain Grand Prix in Malaysia,Lando Norris,9,McLaren,5,Finished,2,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,NOR
+2026,16,Bahrain Grand Prix in Malaysia,Arvid Lindblad,10,Racing Bulls,22,Finished,1,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,LIN
+2026,16,Bahrain Grand Prix in Malaysia,Nico Hülkenberg,11,Audi,15,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,HUL
+2026,16,Bahrain Grand Prix in Malaysia,Lance Stroll,12,Aston Martin,14,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,STR
+2026,16,Bahrain Grand Prix in Malaysia,Franco Colapinto,13,Alpine,21,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,COL
+2026,16,Bahrain Grand Prix in Malaysia,Oliver Bearman,14,Haas,16,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,BEA
+2026,16,Bahrain Grand Prix in Malaysia,Esteban Ocon,15,Haas,17,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,OCO
+2026,16,Bahrain Grand Prix in Malaysia,Pierre Gasly,16,Alpine,9,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,GAS
+2026,16,Bahrain Grand Prix in Malaysia,Carlos Sainz,17,Williams,13,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,SAI
+2026,16,Bahrain Grand Prix in Malaysia,Gabriel Bortoleto,18,Audi,10,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,BOR
+2026,16,Bahrain Grand Prix in Malaysia,Sergio Pérez,19,Cadillac,20,Finished,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,PER
+2026,16,Bahrain Grand Prix in Malaysia,George Russell,20,Mercedes,7,Retired,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,RUS
+2026,16,Bahrain Grand Prix in Malaysia,Alex Albon,Retired,Williams,18,Retired,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,ALB
+2026,16,Bahrain Grand Prix in Malaysia,Valtteri Bottas,Retired,Cadillac,19,Retired,0,0,0,,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,BOT
+2026,17,Singapore Grand Prix,Max Verstappen,1,Red Bull,1,Finished,25,8,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,VER
+2026,17,Singapore Grand Prix,Charles Leclerc,2,Ferrari,2,Finished,18,6,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,LEC
+2026,17,Singapore Grand Prix,Kimi Antonelli,3,Mercedes,4,Finished,15,5,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,ANT
+2026,17,Singapore Grand Prix,Lando Norris,4,McLaren,5,Finished,12,1,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,NOR
+2026,17,Singapore Grand Prix,Oscar Piastri,5,McLaren,6,Finished,10,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,PIA
+2026,17,Singapore Grand Prix,Lewis Hamilton,6,Ferrari,3,Finished,8,7,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,HAM
+2026,17,Singapore Grand Prix,Liam Lawson,7,Racing Bulls,8,Finished,6,4,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,LAW
+2026,17,Singapore Grand Prix,Nico Hülkenberg,8,Audi,10,Finished,4,2,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,HUL
+2026,17,Singapore Grand Prix,George Russell,9,Mercedes,19,Finished,2,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,RUS
+2026,17,Singapore Grand Prix,Isack Hadjar,10,Red Bull,22,Finished,1,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,HAD
+2026,17,Singapore Grand Prix,Pierre Gasly,11,Alpine,7,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,GAS
+2026,17,Singapore Grand Prix,Oliver Bearman,12,Haas,11,Lapped,0,3,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,BEA
+2026,17,Singapore Grand Prix,Esteban Ocon,13,Haas,12,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,OCO
+2026,17,Singapore Grand Prix,Carlos Sainz,14,Williams,13,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,SAI
+2026,17,Singapore Grand Prix,Arvid Lindblad,15,Racing Bulls,9,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,LIN
+2026,17,Singapore Grand Prix,Fernando Alonso,16,Aston Martin,20,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,ALO
+2026,17,Singapore Grand Prix,Sergio Pérez,17,Cadillac,17,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,PER
+2026,17,Singapore Grand Prix,Alex Albon,18,Williams,16,Retired,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,ALB
+2026,17,Singapore Grand Prix,Valtteri Bottas,19,Cadillac,18,Lapped,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,BOT
+2026,17,Singapore Grand Prix,Lance Stroll,Retired,Aston Martin,21,Retired,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,STR
+2026,17,Singapore Grand Prix,Franco Colapinto,Retired,Alpine,15,Retired,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,COL
+2026,17,Singapore Grand Prix,Gabriel Bortoleto,Retired,Audi,14,Retired,0,0,0,,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,BOR
+2026,18,United States Grand Prix,Kimi Antonelli,1,Mercedes,1,Finished,25,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,ANT
+2026,18,United States Grand Prix,Charles Leclerc,2,Ferrari,4,Finished,18,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,LEC
+2026,18,United States Grand Prix,Max Verstappen,3,Red Bull,2,Finished,15,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,VER
+2026,18,United States Grand Prix,Lewis Hamilton,4,Ferrari,5,Finished,12,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,HAM
+2026,18,United States Grand Prix,Lando Norris,5,McLaren,8,Finished,10,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,NOR
+2026,18,United States Grand Prix,Isack Hadjar,6,Red Bull,3,Finished,8,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,HAD
+2026,18,United States Grand Prix,Oscar Piastri,7,McLaren,7,Finished,6,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,PIA
+2026,18,United States Grand Prix,George Russell,8,Mercedes,6,Finished,4,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,RUS
+2026,18,United States Grand Prix,Liam Lawson,9,Racing Bulls,9,Finished,2,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,LAW
+2026,18,United States Grand Prix,Pierre Gasly,10,Alpine,10,Finished,1,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,GAS
+2026,18,United States Grand Prix,Nico Hülkenberg,11,Audi,11,Finished,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,HUL
+2026,18,United States Grand Prix,Arvid Lindblad,12,Racing Bulls,14,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,LIN
+2026,18,United States Grand Prix,Gabriel Bortoleto,13,Audi,21,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,BOR
+2026,18,United States Grand Prix,Esteban Ocon,14,Haas,15,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,OCO
+2026,18,United States Grand Prix,Lance Stroll,15,Aston Martin,22,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,STR
+2026,18,United States Grand Prix,Fernando Alonso,16,Aston Martin,12,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,ALO
+2026,18,United States Grand Prix,Alex Albon,17,Williams,17,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,ALB
+2026,18,United States Grand Prix,Carlos Sainz,18,Williams,16,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,SAI
+2026,18,United States Grand Prix,Sergio Pérez,19,Cadillac,18,Lapped,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,PER
+2026,18,United States Grand Prix,Valtteri Bottas,Retired,Cadillac,19,Retired,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,BOT
+2026,18,United States Grand Prix,Franco Colapinto,Retired,Alpine,20,Retired,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,COL
+2026,18,United States Grand Prix,Oliver Bearman,Retired,Haas,13,Retired,0,0,0,,2026-10-25,Circuit of the Americas,Austin,USA,BEA
+2026,19,Mexico City Grand Prix,Max Verstappen,1,Red Bull,5,Finished,25,0,1,Penalty points (1 pts): Unacceptable driving in an incident with Liam Lawson [Practice],2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,VER
+2026,19,Mexico City Grand Prix,Lewis Hamilton,2,Ferrari,1,Finished,18,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HAM
+2026,19,Mexico City Grand Prix,Kimi Antonelli,3,Mercedes,4,Finished,15,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ANT
+2026,19,Mexico City Grand Prix,Charles Leclerc,4,Ferrari,3,Finished,12,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,LEC
+2026,19,Mexico City Grand Prix,Lando Norris,5,McLaren,6,Finished,10,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,NOR
+2026,19,Mexico City Grand Prix,George Russell,6,Mercedes,2,Finished,8,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,RUS
+2026,19,Mexico City Grand Prix,Liam Lawson,7,Racing Bulls,22,Finished,6,0,1,Penalty points (1 pts): Unacceptable driving in an incident with Max Verstappen [Practice],2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,LAW
+2026,19,Mexico City Grand Prix,Gabriel Bortoleto,8,Audi,13,Finished,4,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,BOR
+2026,19,Mexico City Grand Prix,Isack Hadjar,9,Red Bull,7,Finished,2,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HAD
+2026,19,Mexico City Grand Prix,Ryo Hirakawa,10,Haas,18,Finished,1,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HIR
+2026,19,Mexico City Grand Prix,Alex Albon,11,Williams,16,Finished,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ALB
+2026,19,Mexico City Grand Prix,Carlos Sainz,12,Williams,15,Finished,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,SAI
+2026,19,Mexico City Grand Prix,Oscar Piastri,13,McLaren,12,Finished,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,PIA
+2026,19,Mexico City Grand Prix,Nico Hülkenberg,14,Audi,10,Finished,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,HUL
+2026,19,Mexico City Grand Prix,Franco Colapinto,15,Alpine,11,Finished,0,0,1,Penalty points (1 pts): Failing to slow under double waved yellow flags [Not specified],2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,COL
+2026,19,Mexico City Grand Prix,Sergio Pérez,16,Cadillac,20,Finished,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,PER
+2026,19,Mexico City Grand Prix,Pierre Gasly,17,Alpine,9,Finished,0,0,2,Penalty points (2 pts): Failing to slow under double waved yellow flags [Not specified],2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,GAS
+2026,19,Mexico City Grand Prix,Arvid Lindblad,Retired,Racing Bulls,8,Retired,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,LIN
+2026,19,Mexico City Grand Prix,Oliver Bearman,Retired,Haas,14,Retired,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,BEA
+2026,19,Mexico City Grand Prix,Valtteri Bottas,Retired,Cadillac,21,Retired,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,BOT
+2026,19,Mexico City Grand Prix,Lance Stroll,Retired,Aston Martin,19,Retired,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,STR
+2026,19,Mexico City Grand Prix,Fernando Alonso,Retired,Aston Martin,17,Retired,0,0,0,,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,ALO
+2026,20,Brazilian Grand Prix,Lando Norris,1,McLaren,1,Finished,25,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,NOR
+2026,20,Brazilian Grand Prix,Max Verstappen,2,Red Bull,21,Finished,18,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,VER
+2026,20,Brazilian Grand Prix,Isack Hadjar,3,Red Bull,5,Finished,15,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,HAD
+2026,20,Brazilian Grand Prix,George Russell,4,Mercedes,7,Finished,12,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,RUS
+2026,20,Brazilian Grand Prix,Kimi Antonelli,5,Mercedes,2,Finished,10,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,ANT
+2026,20,Brazilian Grand Prix,Oscar Piastri,6,McLaren,10,Finished,8,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,PIA
+2026,20,Brazilian Grand Prix,Liam Lawson,7,Racing Bulls,3,Finished,6,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,LAW
+2026,20,Brazilian Grand Prix,Charles Leclerc,8,Ferrari,14,Finished,4,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,LEC
+2026,20,Brazilian Grand Prix,Lewis Hamilton,9,Ferrari,20,Lapped,2,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,HAM
+2026,20,Brazilian Grand Prix,Nico Hülkenberg,10,Audi,4,Lapped,1,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,HUL
+2026,20,Brazilian Grand Prix,Arvid Lindblad,11,Racing Bulls,18,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,LIN
+2026,20,Brazilian Grand Prix,Fernando Alonso,12,Aston Martin,8,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,ALO
+2026,20,Brazilian Grand Prix,Franco Colapinto,13,Alpine,13,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,COL
+2026,20,Brazilian Grand Prix,Pierre Gasly,14,Alpine,15,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,GAS
+2026,20,Brazilian Grand Prix,Alex Albon,15,Williams,9,Lapped,0,0,2,Penalty points (2 pts): Rejoining the track in an unsafe manner [Not specified],2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,ALB
+2026,20,Brazilian Grand Prix,Gabriel Bortoleto,16,Audi,19,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,BOR
+2026,20,Brazilian Grand Prix,Oliver Bearman,17,Haas,6,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,BEA
+2026,20,Brazilian Grand Prix,Sergio Pérez,18,Cadillac,22,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,PER
+2026,20,Brazilian Grand Prix,Carlos Sainz,19,Williams,12,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,SAI
+2026,20,Brazilian Grand Prix,Rafael Câmara,20,Haas,11,Lapped,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,CAM
+2026,20,Brazilian Grand Prix,Lance Stroll,Retired,Aston Martin,16,Retired,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,STR
+2026,20,Brazilian Grand Prix,Valtteri Bottas,Did not start,Cadillac,17,Did not start,0,0,0,,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,BOT

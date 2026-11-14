@@ -1,0 +1,48 @@
+Season,Round,Race,Race day,Circuit,City,Country,Sprint,Status,Winner,Winning team,Penalties on record
+2025,1,Australian Grand Prix,2025-03-16,Albert Park Grand Prix Circuit,Melbourne,Australia,No,Completed,Lando Norris,McLaren,0
+2025,2,Chinese Grand Prix,2025-03-23,Shanghai International Circuit,Shanghai,China,Yes,Completed,Oscar Piastri,McLaren,5
+2025,3,Japanese Grand Prix,2025-04-06,Suzuka Circuit,Suzuka,Japan,No,Completed,Max Verstappen,Red Bull,0
+2025,4,Bahrain Grand Prix,2025-04-13,Bahrain International Circuit,Sakhir,Bahrain,No,Completed,Oscar Piastri,McLaren,4
+2025,5,Saudi Arabian Grand Prix,2025-04-20,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,No,Completed,Oscar Piastri,McLaren,0
+2025,6,Miami Grand Prix,2025-05-04,Miami International Autodrome,Miami,USA,Yes,Completed,Oscar Piastri,McLaren,1
+2025,7,Emilia Romagna Grand Prix,2025-05-18,Autodromo Enzo e Dino Ferrari,Imola,Italy,No,Completed,Max Verstappen,Red Bull,0
+2025,8,Monaco Grand Prix,2025-05-25,Circuit de Monaco,Monte Carlo,Monaco,No,Completed,Lando Norris,McLaren,2
+2025,9,Spanish Grand Prix,2025-06-01,Circuit de Barcelona-Catalunya,Barcelona,Spain,No,Completed,Oscar Piastri,McLaren,1
+2025,10,Canadian Grand Prix,2025-06-15,Circuit Gilles Villeneuve,Montreal,Canada,No,Completed,George Russell,Mercedes,2
+2025,11,Austrian Grand Prix,2025-06-29,Red Bull Ring,Spielberg,Austria,No,Completed,Lando Norris,McLaren,3
+2025,12,British Grand Prix,2025-07-06,Silverstone Circuit,Silverstone,UK,No,Completed,Lando Norris,McLaren,3
+2025,13,Belgian Grand Prix,2025-07-27,Circuit de Spa-Francorchamps,Spa,Belgium,Yes,Completed,Oscar Piastri,McLaren,0
+2025,14,Hungarian Grand Prix,2025-08-03,Hungaroring,Budapest,Hungary,No,Completed,Lando Norris,McLaren,2
+2025,15,Dutch Grand Prix,2025-08-31,Circuit Park Zandvoort,Zandvoort,Netherlands,No,Completed,Oscar Piastri,McLaren,2
+2025,16,Italian Grand Prix,2025-09-07,Autodromo Nazionale di Monza,Monza,Italy,No,Completed,Max Verstappen,Red Bull,3
+2025,17,Azerbaijan Grand Prix,2025-09-21,Baku City Circuit,Baku,Azerbaijan,No,Completed,Max Verstappen,Red Bull,1
+2025,18,Singapore Grand Prix,2025-10-05,Marina Bay Street Circuit,Marina Bay,Singapore,No,Completed,George Russell,Mercedes,0
+2025,19,United States Grand Prix,2025-10-19,Circuit of the Americas,Austin,USA,Yes,Completed,Max Verstappen,Red Bull,2
+2025,20,Mexico City Grand Prix,2025-10-26,Autódromo Hermanos Rodríguez,Mexico City,Mexico,No,Completed,Lando Norris,McLaren,0
+2025,21,São Paulo Grand Prix,2025-11-09,Autódromo José Carlos Pace,São Paulo,Brazil,Yes,Completed,Lando Norris,McLaren,5
+2025,22,Las Vegas Grand Prix,2025-11-23,Las Vegas Strip Street Circuit,Las Vegas,USA,No,Completed,Max Verstappen,Red Bull,4
+2025,23,Qatar Grand Prix,2025-11-30,Lusail International Circuit,Lusail,Qatar,Yes,Completed,Max Verstappen,Red Bull,0
+2025,24,Abu Dhabi Grand Prix,2025-12-07,Yas Marina Circuit,Abu Dhabi,UAE,No,Completed,Max Verstappen,Red Bull,4
+2026,1,Australian Grand Prix,2026-03-08,Albert Park Grand Prix Circuit,Melbourne,Australia,No,Completed,George Russell,Mercedes,0
+2026,2,Chinese Grand Prix,2026-03-15,Shanghai International Circuit,Shanghai,China,Yes,Completed,Kimi Antonelli,Mercedes,0
+2026,3,Japanese Grand Prix,2026-03-29,Suzuka Circuit,Suzuka,Japan,No,Completed,Kimi Antonelli,Mercedes,0
+2026,4,Miami Grand Prix,2026-05-03,Miami International Autodrome,Miami,USA,Yes,Completed,Kimi Antonelli,Mercedes,0
+2026,5,Canadian Grand Prix,2026-05-24,Circuit Gilles Villeneuve,Montreal,Canada,Yes,Completed,Kimi Antonelli,Mercedes,0
+2026,6,Monaco Grand Prix,2026-06-07,Circuit de Monaco,Monte Carlo,Monaco,No,Completed,Kimi Antonelli,Mercedes,0
+2026,7,Barcelona Grand Prix,2026-06-14,Circuit de Barcelona-Catalunya,Barcelona,Spain,No,Completed,Lewis Hamilton,Ferrari,1
+2026,8,Austrian Grand Prix,2026-06-28,Red Bull Ring,Spielberg,Austria,No,Completed,George Russell,Mercedes,0
+2026,9,British Grand Prix,2026-07-05,Silverstone Circuit,Silverstone,UK,Yes,Completed,Charles Leclerc,Ferrari,0
+2026,10,Belgian Grand Prix,2026-07-19,Circuit de Spa-Francorchamps,Spa,Belgium,No,Completed,Kimi Antonelli,Mercedes,0
+2026,11,Hungarian Grand Prix,2026-07-26,Hungaroring,Budapest,Hungary,No,Completed,Lando Norris,McLaren,1
+2026,12,Dutch Grand Prix,2026-08-23,Circuit Park Zandvoort,Zandvoort,Netherlands,Yes,Completed,Lando Norris,McLaren,4
+2026,13,Italian Grand Prix,2026-09-06,Autodromo Nazionale di Monza,Monza,Italy,No,Completed,Kimi Antonelli,Mercedes,0
+2026,14,Spanish Grand Prix,2026-09-13,Madring,Madrid,Spain,No,Completed,Kimi Antonelli,Mercedes,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,Baku City Circuit,Baku,Azerbaijan,No,Completed,George Russell,Mercedes,1
+2026,16,Bahrain Grand Prix in Malaysia,2026-10-04,Sepang International Circuit,Kuala Lumpur,Malaysia,No,Completed,Max Verstappen,Red Bull,0
+2026,17,Singapore Grand Prix,2026-10-11,Marina Bay Street Circuit,Marina Bay,Singapore,Yes,Completed,Max Verstappen,Red Bull,0
+2026,18,United States Grand Prix,2026-10-25,Circuit of the Americas,Austin,USA,No,Completed,Kimi Antonelli,Mercedes,0
+2026,19,Mexico City Grand Prix,2026-11-01,Autódromo Hermanos Rodríguez,Mexico City,Mexico,No,Completed,Max Verstappen,Red Bull,4
+2026,20,Brazilian Grand Prix,2026-11-08,Autódromo José Carlos Pace,São Paulo,Brazil,No,Completed,Lando Norris,McLaren,1
+2026,21,Las Vegas Grand Prix,2026-11-22,Las Vegas Strip Street Circuit,Las Vegas,USA,No,Upcoming,,,0
+2026,22,Qatar Grand Prix,2026-11-29,Lusail International Circuit,Lusail,Qatar,No,Upcoming,,,0
+2026,23,Abu Dhabi Grand Prix,2026-12-06,Yas Marina Circuit,Abu Dhabi,UAE,No,Upcoming,,,0

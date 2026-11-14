@@ -1,0 +1,33 @@
+{
+  "name": "cse340-f1-josephson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesjo-cloud-project/CSE340-F1-Josephson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/milesjo-cloud-project/CSE340-F1-Josephson/issues"
+  },
+  "homepage": "https://github.com/milesjo-cloud-project/CSE340-F1-Josephson#readme",
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.10",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
