@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
-    <link rel="stylesheet" href="/css/f1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/f1.css">
 </head>
 <body>
+
+    <header class="site-header dark">
+        <div class="container header-inner">
+            <a href="/" class="logo"><span class="logo-mark">F1</span><span class="logo-text">Formula 1</span></a>
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul class="menu">
+                    <li class="menu-item"><a href="/drivers">Drivers</a></li>
+                    <li class="menu-item"><a href="/teams">Teams</a></li>
+                    <li class="menu-item"><a href="/races">Races</a></li>
+                </ul>
+            </nav>  
+            <a href="#ask" class="btn btn-red btn-sm">Ask a question</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero dark">
+            <div class="container hero-inner">
+                <h1 class="hero-title">Welcome to the Formula 1 Information Portal</h1>
+                <p class="hero-subtitle">Your ultimate source for all things Formula 1. Explore drivers, teams, and races.</p>
+                <a href="/drivers" class="btn btn-primary">Explore Drivers</a>
+                <a href="/teams" class="btn btn-secondary">Explore Teams</a>
+                <a href="/races" class="btn btn-secondary">Explore Races</a>
+            </div>
+
+        </section>
+        <section class="content">
+            <div class="container content-inner">
+                <h2 class="section-title">Latest News</h2>
+                <p class="section-subtitle">Stay updated with the latest news and updates from the world of Formula 1.</p>
+                <div class="news-grid">
+                    <% news.forEach(function(article) { %>
+                        <article class="news-article">
+                            <h3 class="news-title"><%= article.title %></h3>
+                            <p class="news-summary"><%= article.summary %></p>
+                            <a href="<%= article.url %>" class="btn btn-link">Read More</a>
+                        </article>
+                    <% }); %>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container content-inner">
+                <h2 class="section-title">Upcoming Races</h2>
+                <p class="section-subtitle">Check out the schedule for upcoming Formula 1 races.</p>
+                <div class="races-grid">
+                    <% races.forEach(function(race) { %>
+                        <article class="race-article">
+                            <h3 class="race-title"><%= race.name %></h3>
+                            <p class="race-date"><%= race.date %></p>
+                            <a href="<%= race.url %>" class="btn btn-link">View Details</a>
+                        </article>
+                    <% }); %>
+                </div>
+            </div>
+        </section>
+        
+        <section class ="ask dark" id="ask">
+            <div class="chat-header">
+                <h2 class="section-title">Ask F1</h2>
+                <p class="section-subtitle">Have a question about Formula 1? Ask our experts!</p>
+                <form>
+                    <div class="form-group">
+                        <label for="question">Your Question:</label>
+                        <textarea id="question" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Question</button>
+                </form>
+            </div>
+
+            <div class="chat-card">
+                <h3 class="chat-title">Chat with our AI Assistant</h3>
+                <div class="chat-messages" id="chat-messages"></div>
+                <form id="chat-form">
+                    <input type="text" id="chat-input" placeholder="Type your message..." required>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+
+            <section class="cta">
+                <div class="container cta-inner"
+                <div>
+                    <h2>Your next question is a good one.</h2>
+                    <p>Follow your curiosity and ask anything about Formula 1. Our AI assistant is here to help you with accurate and up-to-date information.</p>
+                </div>
+                <a href="#ask" class="btn btn-primary">Ask a question<span aria-hidden="true">&rarr;</span></a>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>

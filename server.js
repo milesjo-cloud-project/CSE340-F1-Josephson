@@ -14,8 +14,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.render('home', { title: 'Guide to F1 for Beginners' });
+  const news = [
+    { title: 'Season preview', summary: 'Everything you need to know before lights out.', url: '#' },
+    { title: 'New rules explained', summary: 'What changes for the cars this year.', url: '#' },
+  ];
+
+  const races = [
+    { name: 'Australian Grand Prix', date: 'March 15', url: '/races/australia' },
+    { name: 'Chinese Grand Prix', date: 'March 22', url: '/races/china' },
+  ];
+
+  res.render('home', { title: 'Guide to F1 for Beginners', news, races });
 });
+
 
 
 app.use((req, res, next) => {
