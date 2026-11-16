@@ -1,0 +1,9 @@
+<h1><%= title %></h1>
+<ol>
+  <% drivers.forEach(driver => { %>
+    <li>
+    <a href="/seasons/<%= season %>/drivers/<%= driver.slug %>"><%= driver.name %></a>
+    - <%= driver.team %>, <%= driver.points %> points
+    </li>
+  <% }); %>
+</ol>

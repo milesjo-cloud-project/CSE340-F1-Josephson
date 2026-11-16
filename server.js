@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
+import { getDriversBySeason, getDriverBySlug, getDriverSeasons } from './src/models/drivers.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -27,7 +28,36 @@ app.get('/', (req, res) => {
   res.render('home', { title: 'Guide to F1 for Beginners', news, races });
 });
 
+app.get('/seasons/:season/drivers', (req, res) => {
+  const { season } = req.params;
+  
+  res.render('season-drivers', { title: `Drivers for ${season}`, season, drivers: getDriversBySeason(season) });
+});
 
+app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
+  const { season, slug } = req.params;
+
+  const seasons = getDriverSeasons(slug);
+
+  if (seasons.length === 0) {
+    const err = new Error('Driver not found');
+    err.status = 404;
+    return next(err);
+  }
+
+  const stats = getDriverBySlug(season, slug);
+
+  if (!stats) {
+    return res.redirect(`/seasons/${seasons[0]}/drivers/${slug}`);
+  }
+
+  res.render('driver-stats', {
+    title: `${stats.name} - ${season}`,
+    season: Number(season),
+    seasons,
+    stats,
+  });
+});
 
 app.use((req, res, next) => {
   const err = new Error('Page not found');
@@ -43,5 +73,6 @@ app.use((err, req, res, next) => {
     message: status === 404 ? err.message : 'Something went wrong.',  // don't leak details
   });
 });
+
 
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));

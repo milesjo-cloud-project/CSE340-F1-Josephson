@@ -1,0 +1,23 @@
+<h1><%= stats.name %></h1>
+<p><%= stats.team %> . <%= season %> season</p>
+<nav>
+  <% seasons.forEach(year => { %>
+    <a href="/seasons/<%= ___ %>/drivers/<%= ___ %>"><%= ___ %></a>
+  <% }); %>
+</nav>
+
+
+<h2>Season stats</h2>
+<table>
+    <tr><th>Championship position</th><td><%= stats.position %></td></tr>
+  <tr><th>Points</th><td><%= stats.points %></td></tr>
+  <tr><th>Starts</th><td><%= stats.starts %></td></tr>
+  <tr><th>Wins</th><td><%= stats.wins %></td></tr>
+  <tr><th>Podiums</th><td><%= stats.podiums %></td></tr>
+  <tr><th>Retirements</th><td><%= stats.retirements %></td></tr>
+  <tr><th>Penalties</th><td><%= stats.penalties %></td></tr>
+  <tr><th>Licence points</th><td><%= stats.licensePoints %></td></tr>
+  <tr><th>Disqualifications</th><td><%= stats.disqualifications %></td></tr>
+</table>
+
+<p><a href="/seasons/<%= season %>/drivers">← Back to <%= season %> drivers</a></p>
