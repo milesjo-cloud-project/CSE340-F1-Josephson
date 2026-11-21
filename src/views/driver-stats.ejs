@@ -1,30 +1,53 @@
 <%- include('partials/head') %>
 <%- include('partials/header')%>
-<main class="container">
+<main>
 
-<h1><%= stats.name %></h1>
-<p><%= stats.team %> . <%= season %> season</p>
-<nav>
-  <% seasons.forEach(year => { %>
-    <a href="/seasons/<%= year %>/drivers/<%= stats.slug %>"><%= year %></a>
-  <% }); %>
-</nav>
+  <section class="driver-hero dark">
+    <div class="container">
+      <p class="driver-pos">P<%= stats.position %> . <%= season %> season </p>
+      <h1 class="hero-title"><%= stats.name %></h1>
+      <p class="driver-team"><%= stats.team %></p>
 
+      <nav class="season-pills" aria-label="Seasons">
+      <% seasons.forEach(year => { %>
+      <a href="/seasons/<%- year %>/drivers/<%= stats.slug %>" 
+        class="pill <%= year === season ? 'active' : '' %>"><%= year %></a>
+        <% }); %>
+      </nav>
+    </div>
+  </section>
+<div class="container">
+  <section class="content">
+    <h2 class="section-title">Season stats</h2>
+    <div class="stat-grid">
+      <div class="stat-tile">
+      <span class="stat-label">Position</span>
+      <span class="stat-value">P<%= stats.position %></span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-label">Points</span>
+      <span class="stat-value"><%= stats.points %></span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-label">Wins</span>
+      <span class="stat-value"><%= stats.wins %></span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-label">Podiums</span>
+      <span class="stat-value"><%= stats.podiums %></span>
+</div>
 
-<h2>Season stats</h2>
-<table>
-    <tr><th>Championship position</th><td><%= stats.position %></td></tr>
-  <tr><th>Points</th><td><%= stats.points %></td></tr>
+<table class="stat-table">
   <tr><th>Starts</th><td><%= stats.starts %></td></tr>
-  <tr><th>Wins</th><td><%= stats.wins %></td></tr>
-  <tr><th>Podiums</th><td><%= stats.podiums %></td></tr>
   <tr><th>Retirements</th><td><%= stats.retirements %></td></tr>
   <tr><th>Penalties</th><td><%= stats.penalties %></td></tr>
   <tr><th>Licence points</th><td><%= stats.licensePoints %></td></tr>
   <tr><th>Disqualifications</th><td><%= stats.disqualifications %></td></tr>
 </table>
 
-<p><a href="/seasons/<%= season %>/drivers">← Back to <%= season %> drivers</a></p>
+<p class="back-link"><a href= <%= season %>/drivers">
 
+</section>
+</div>
 </main>
 <%- include('partials/footer') %>

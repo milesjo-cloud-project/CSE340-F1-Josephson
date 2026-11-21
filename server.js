@@ -2,11 +2,14 @@ import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
-import { getDriversBySeason, getDriverBySlug, getDriverSeasons } from './src/models/drivers.js';
+import { getDriversBySeason, getDriverBySlug, getDriverSeasons} from'./src/models/drivers.js';
+import { getDriverResults } from './src/models/results.js';
+
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PORT || 3000;
+
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'src/views'));
@@ -28,8 +31,8 @@ app.get('/', (req, res) => {
   res.render('home', { title: 'Guide to F1 for Beginners', news, races });
 });
 
-app.get('/seasons/:season/drivers', (req, res) => {
-  const { season } = req.params;
+app.get('/seasons/:season/drivers', (req, res, next) => {
+  const { season, slug } = req.params;
   
   res.render('season-drivers', { title: `Drivers for ${season}`, season, drivers: getDriversBySeason(season) });
 });
@@ -51,11 +54,14 @@ app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
     return res.redirect(`/seasons/${seasons[0]}/drivers/${slug}`);
   }
 
+  const results = getDriverResults(season, slug);
+
   res.render('driver-stats', {
     title: `${stats.name} - ${season}`,
     season: Number(season),
     seasons,
     stats,
+    results,
   });
 });
 

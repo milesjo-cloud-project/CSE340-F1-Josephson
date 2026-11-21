@@ -1,14 +1,19 @@
 <%- include('partials/head') %>
 <%- include('partials/header')%>
 <main class="container">
-  <h1><%=title %></h1>
-<ol>
+<section class="content">
+  <h1 class="section-title"><%=title %></h1>
+
+ <div class="driver-grid">
   <% drivers.forEach(driver => { %>
-    <li>
-    <a href="/seasons/<%= season %>/drivers/<%= driver.slug %>"><%= driver.name %></a>
-    - <%= driver.team %>, <%= driver.points %> points
-    </li>
+  <a class="driver-card "href="/seasons/<%= season %>/drivers/<%= driver.slug %>">
+  <span class="driver-pos">P<%= driver.position %></span>
+  <h2 class="driver-name"><%= driver.name %></h2>
+  <p class="driver-team"><%= driver.team %></p>
+  <p class="driver-points"><%= driver.points %> pts</p>
+  </a>
   <% }); %>
-</ol>
+ </div>
+ </section>
 </main>
 <%- include('partials/footer') %>
