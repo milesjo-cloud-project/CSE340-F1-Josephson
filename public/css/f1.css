@@ -395,6 +395,13 @@ body {
 
 .back-link {margin-top: 24px;}
 .back-link a { color: var(--red); font-weight: 600;}
+
+.results-table {margin-bottom: 32px;}
+.results-table thead th {font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em;}
+.results-table td {text-align: left; font-variant-numeric: tabular-nums; }
+.results-table tbody tr:hover { background: var(--card-muted);}
+
+.table-scroll { overflow-x: auto; }
 @media (max-width: 800px) {
   :root { --gutter: 16px; }
 

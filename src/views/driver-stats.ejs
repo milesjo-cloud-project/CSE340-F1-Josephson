@@ -36,7 +36,7 @@
       <span class="stat-label">Podiums</span>
       <span class="stat-value"><%= stats.podiums %></span>
 </div>
-
+</div>
 <table class="stat-table">
   <tr><th>Starts</th><td><%= stats.starts %></td></tr>
   <tr><th>Retirements</th><td><%= stats.retirements %></td></tr>
@@ -45,7 +45,29 @@
   <tr><th>Disqualifications</th><td><%= stats.disqualifications %></td></tr>
 </table>
 
-<p class="back-link"><a href= <%= season %>/drivers">
+<h2 class="section-title">Race by race</h2>
+<div class="table-scroll">
+  <table class="result-table">
+    <thead>
+      <tr>
+        <th>Rd</th><th>Race</th><th>Grid</th><th>Finish</th><th>Status</th><th>Pts</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% results.forEach(r => { %>
+      <tr>
+        <td><%= r.round %></td>
+        <td><%= r.race %></td>
+        <td><%= r.grid %></td>
+        <td><%= r.finish %></td>
+        <td><%= r.status %></td>
+        <td><%= r.racePoints + r.sprintPoints %></td>
+      </tr>
+    <% }); %>
+    </tbody>
+  </table>
+</div>
+<a href="/seasons/<%= season %>/drivers">Back to Drivers</a>
 
 </section>
 </div>

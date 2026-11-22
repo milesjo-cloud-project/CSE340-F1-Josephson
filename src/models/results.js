@@ -17,7 +17,7 @@ const results = rawRows.map((row) => ({
     finish: row['Finish'],
     status: row['Status'],
     racePoints: Number(row['Race points']),
-    sprintPoints: Number(row['Sprint Points']),
+    sprintPoints: Number(row['Sprint points']),
 }));
 
 export function getDriverResults(season, slug) {
