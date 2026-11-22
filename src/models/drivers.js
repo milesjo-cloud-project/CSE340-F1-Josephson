@@ -50,6 +50,20 @@ export function getDriversBySeason(season, team) {
     .sort((a, b) => a.position - b.position);
 }
 
+export function getTeamStandings(season) {
+    const teams = {};
+
+    getDriversBySeason(season).forEach((driver) => {
+        if (!teams[driver.team]) {
+            teams[driver.team] = {name: driver.team, points: 0, drivers: [] };
+        }
+        teams[driver.team].points += driver.points;
+        teams[driver.team].drivers.push(driver);
+    });
+
+    return Object.values(teams).sort((a, b) => b.points - a.points);
+}
+
 export function getDriverBySlug(season, slug) {
     return drivers.find((driver) => driver.season === (Number(season)) && driver.slug === slug);
 }

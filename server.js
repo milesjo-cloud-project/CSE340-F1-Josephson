@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
-import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason } from'./src/models/drivers.js';
+import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason , getTeamStandings, getSeasons } from'./src/models/drivers.js';
 import { getDriverResults } from './src/models/results.js';
 
 
@@ -72,6 +72,26 @@ app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
     results,
   });
 });
+
+app.get('/teams', (req, res) => {
+  const latest = getSeasons() [0];
+  res.redirect(`/seasons/${latest}/teams`);
+});
+
+app.get('/seasons/:season/teams', (req, res, next) => {
+  const { season } = req.params;
+  const teams = getTeamStandings(season);
+
+  if (teams.length === 0) {
+    const err = new Error('Season not found');
+    err.status = 404;
+    return next(err);
+  }
+
+  res.render('season-teams', { title: `Teams for ${season}` , season, teams} );
+});
+
+
 
 app.use((req, res, next) => {
   const err = new Error('Page not found');

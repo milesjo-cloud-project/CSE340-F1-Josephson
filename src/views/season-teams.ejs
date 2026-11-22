@@ -1,0 +1,22 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+<main class="container">
+    <section class="content">
+        <h1 class="section-title"><%= title %></h1>
+        <div class="driver-grid">
+            <% teams.forEach((t, i) => { %>
+            <div class="driver-card">
+                <span class="driver-pos">P<%= i + 1 %></span>
+                <h2 class="driver-name"><%= t.name %></h2>
+                <p class="driver-points"><%= t.points %> pts</p>
+
+                <ul>
+                    <% t.drivers.forEach(d => { %>
+                    <li><a href="/seasons/<%= season %>/drivers/<%= d.slug %>"><%= d.name %></a></li>
+                <% }); %>
+                </ul>
+            </div>
+        <% }); %>
+    </section>
+</main>
+<%- include('partials/footer') %>
