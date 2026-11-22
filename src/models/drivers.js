@@ -38,9 +38,15 @@ export function getSeasons() {
     return [...new Set(seasons)].sort((a, b) => b - a);
 }
 
-export function getDriversBySeason(season) {
+export function getTeamsBySeason(season) {
+    const teams = getDriversBySeason(season).map((driver) => driver.team);
+    return [...new Set(teams)].sort();
+}
+
+export function getDriversBySeason(season, team) {
     return drivers
     .filter((driver) => driver.season === (Number(season)))
+    .filter((driver) => !team || driver.team === team)
     .sort((a, b) => a.position - b.position);
 }
 

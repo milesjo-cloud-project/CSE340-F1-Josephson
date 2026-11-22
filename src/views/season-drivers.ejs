@@ -3,7 +3,16 @@
 <main class="container">
 <section class="content">
   <h1 class="section-title"><%=title %></h1>
-
+  <form class="team-filter" method="get" action="/seasons/<%= season %>/drivers">
+    <label for="team">Team</label>
+      <select name="team" id="team">
+        <option value="">All teams</option>
+        <% teams.forEach(t => { %> 
+        <option value="<%= t %>" <%= t === team ? 'selected' : '' %>><%= t %></option>
+        <% }); %>
+      </select>
+      <button type="submit">Filter</button>
+  </form>
  <div class="driver-grid">
   <% drivers.forEach(driver => { %>
   <a class="driver-card "href="/seasons/<%= season %>/drivers/<%= driver.slug %>">

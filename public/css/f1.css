@@ -396,10 +396,46 @@ body {
 .back-link {margin-top: 24px;}
 .back-link a { color: var(--red); font-weight: 600;}
 
-.results-table {margin-bottom: 32px;}
+.result-table {margin-bottom: 32px;}
 .results-table thead th {font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em;}
-.results-table td {text-align: left; font-variant-numeric: tabular-nums; }
+.results-table td {text-align: left; font-variant-numeric: tabular-nums;}
 .results-table tbody tr:hover { background: var(--card-muted);}
+
+.team-filter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.team-filter label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+}
+
+.team-filter select {
+    font: inherit;
+    font-weight: 600;
+    padding: 8px 20px;
+    background: var(--red);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.team-filter button:hover,
+.team-filter button:focus-visible { background: var(--dark-red);}
+
+.team-filter select:focus-visible,
+.team-filter button:focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: 2px;
+}
 
 .table-scroll { overflow-x: auto; }
 @media (max-width: 800px) {

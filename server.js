@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
-import { getDriversBySeason, getDriverBySlug, getDriverSeasons} from'./src/models/drivers.js';
+import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason } from'./src/models/drivers.js';
 import { getDriverResults } from './src/models/results.js';
 
 
@@ -32,10 +32,18 @@ app.get('/', (req, res) => {
 });
 
 app.get('/seasons/:season/drivers', (req, res, next) => {
-  const { season, slug } = req.params;
+  const { season } = req.params;
+  const team = req.query.team || '';
   
-  res.render('season-drivers', { title: `Drivers for ${season}`, season, drivers: getDriversBySeason(season) });
-});
+  res.render('season-drivers', { 
+    title: `Drivers for ${season}`, 
+    season,
+    team,
+    teams: getTeamsBySeason(season), 
+    drivers: getDriversBySeason(season, team) 
+    });
+  });
+
 
 app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
   const { season, slug } = req.params;
