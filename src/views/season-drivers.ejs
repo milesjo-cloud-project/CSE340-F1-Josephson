@@ -13,7 +13,10 @@
       </select>
       <button type="submit">Filter</button>
   </form>
- <div class="driver-grid">
+ <% if (drivers.length === 0) {%>
+<p> No drivers found for <%= team %>.</p>
+<% } else { %>
+  <div class="driver-grid">
   <% drivers.forEach(driver => { %>
   <a class="driver-card "href="/seasons/<%= season %>/drivers/<%= driver.slug %>">
   <span class="driver-pos">P<%= driver.position %></span>
@@ -23,6 +26,7 @@
   </a>
   <% }); %>
  </div>
+ <% } %>
  </section>
 </main>
 <%- include('partials/footer') %>

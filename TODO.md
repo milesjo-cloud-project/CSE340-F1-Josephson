@@ -6,12 +6,13 @@
 - [x] Explore races: `races.js` model, `/races` redirect, `/seasons/:season/races` list page, bad season gives a 404
 - [x] Race results page: `getRaceResults()`, `/seasons/:season/races/:round` with full finishing order,
       "hasn't happened yet" message for upcoming races, bad round gives a 404, driver names link to driver pages
+- [x] Races list: race names link to their results page, upcoming races show `TBD`
+- [x] `season-teams.ejs`: closed the `driver-grid` div
+- [x] `driver-stats.ejs`: table uses `results-table`, back link wrapped in `<p class="back-link">`
 
 ## Next up
-- [ ] `season-races.ejs`: make each race name a link to `/seasons/<season>/races/<round>` (right now the results page is only reachable by typing the URL)
-- [ ] `season-races.ejs`: show `TBD` in the Winner column for upcoming races (hint: `r.winner || 'TBD'`)
-- [ ] CSS polish for the races list and race results pages
-- [ ] `season-teams.ejs`: close the `<div class="driver-grid">` (missing `</div>` after the teams loop)
+- [x] CSS polish for the races list and race results pages
+- [x] Stretch: muted/italic `.tbd` class on the Winner cell for upcoming races
 
 ### ✅ Explore teams (`/teams`), done (starter code kept for reference)
 The header nav already links to `/teams` and `/races`, but both 404 right now.
@@ -121,7 +122,7 @@ Columns: Rd, Date, Race, Circuit, Winner.
 - [ ] Update the nav links if you want them to stay on the current season
 
 ## Small fixes
-- [ ] `src/views/driver-stats.ejs`: the results table uses `class="result-table"` but `f1.css` styles `.results-table`. Make the names match.
-- [ ] `src/views/driver-stats.ejs`: wrap the back link in `<p class="back-link">` again so it picks up its styling.
-- [ ] `season-drivers.ejs`: show a "No drivers found" message when the team filter matches nothing.
-- [ ] Delete the stray `seasons/` folder in the project root (created by accident, don't commit it).
+- [x] `src/views/driver-stats.ejs`: the results table uses `class="result-table"` but `f1.css` styles `.results-table`. Make the names match.
+- [x] `src/views/driver-stats.ejs`: wrap the back link in `<p class="back-link">` again so it picks up its styling.
+- [x] `season-drivers.ejs`: show a "No drivers found" message when the team filter matches nothing.
+- [x] Delete the stray `seasons/` folder in the project root (created by accident, don't commit it).

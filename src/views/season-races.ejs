@@ -15,9 +15,9 @@
                     <tr>
                         <td><%= r.round %></td>
                         <td><%= r.date %></td>
-                        <td><%= r.race %></td>
+                        <td><a href="/seasons/<%= season %>/races/<%= r.round %>"><%= r.race %></a></td>
                         <td><%= r.circuit %></td>
-                        <td><%= r.winner %></td>
+                        <td class="<%= r.winner ? '' : 'tbd' %>"><%= r.winner || 'TBD' %></td>
                     </tr>
                 <% }); %>
             </tbody>
