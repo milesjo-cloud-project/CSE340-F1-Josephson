@@ -11,6 +11,7 @@ const results = rawRows.map((row) => ({
     season: Number(row['Season']),
     round: Number(row['Round']),
     race: row['Race'],
+    driver: row['Driver'],
     slug: slugify(row['Driver']),
     team: row['Team'],
     grid: Number(row['Grid']),
@@ -26,5 +27,12 @@ export function getDriverResults(season, slug) {
         .filter((r) => r.season === Number(season) && r.slug === slug)
         .sort((a, b) => a.round - b.round);
 }
+
+export function getRaceResults(season, round) {
+   return results
+    .filter((r) => r.season === Number(season) && r.round === Number(round)); 
+}
+
+
 
 

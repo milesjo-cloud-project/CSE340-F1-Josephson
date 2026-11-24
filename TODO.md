@@ -2,10 +2,18 @@
 
 ## Done
 - [x] Filter feature: drivers list filtered by team (`?team=`)
+- [x] Explore teams: `/teams` redirect, `/seasons/:season/teams` standings page, bad season gives a 404
+- [x] Explore races: `races.js` model, `/races` redirect, `/seasons/:season/races` list page, bad season gives a 404
+- [x] Race results page: `getRaceResults()`, `/seasons/:season/races/:round` with full finishing order,
+      "hasn't happened yet" message for upcoming races, bad round gives a 404, driver names link to driver pages
 
 ## Next up
+- [ ] `season-races.ejs`: make each race name a link to `/seasons/<season>/races/<round>` (right now the results page is only reachable by typing the URL)
+- [ ] `season-races.ejs`: show `TBD` in the Winner column for upcoming races (hint: `r.winner || 'TBD'`)
+- [ ] CSS polish for the races list and race results pages
+- [ ] `season-teams.ejs`: close the `<div class="driver-grid">` (missing `</div>` after the teams loop)
 
-### Explore teams (`/teams`)
+### ✅ Explore teams (`/teams`), done (starter code kept for reference)
 The header nav already links to `/teams` and `/races`, but both 404 right now.
 
 Goal: `/seasons/:season/teams` lists every team for a season with its drivers and total points.
@@ -65,7 +73,7 @@ app.get('/seasons/:season/teams', (req, res, next) => {
 **Stretch:** link each team card to `/seasons/:season/drivers?team=<name>` so it reuses the filter you built.
 (Use `encodeURIComponent(t.name)` in the link so names with spaces work.)
 
-### Explore races (`/races`)
+### ✅ Explore races (`/races`), done (starter code kept for reference)
 Goal: `/seasons/:season/races` lists every round (date, race, circuit, winner).
 `/races` redirects to the latest season.
 
@@ -105,8 +113,11 @@ Columns: Rd, Date, Race, Circuit, Winner.
 `results.js` already has the data, and it needs a `getRaceResults(season, round)`.
 
 ### Check before moving on
-- [ ] `/teams` and `/races` in the nav go somewhere (no 404)
-- [ ] A bad season like `/seasons/1999/teams` doesn't crash
+- [x] `/teams` in the nav goes somewhere (no 404)
+- [x] `/races` in the nav goes somewhere (no 404)
+- [x] A bad season like `/seasons/1999/teams` doesn't crash
+- [x] A bad season like `/seasons/1999/races` doesn't crash
+- [x] A bad round like `/seasons/2025/races/99` doesn't crash
 - [ ] Update the nav links if you want them to stay on the current season
 
 ## Small fixes

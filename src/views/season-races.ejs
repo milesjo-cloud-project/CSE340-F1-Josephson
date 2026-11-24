@@ -1,0 +1,28 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+<main class="container">
+    <section class="content">
+        <h1 class="section-title"><%= title %></h1>
+        <div class="table-scroll">
+            <table class="results-table">
+            <thead>
+                <tr>
+                    <th>Rd</th><th>Date</th><th>Race</th><th>Circuit</th><th>Winner</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <% races.forEach(r => { %> 
+                    <tr>
+                        <td><%= r.round %></td>
+                        <td><%= r.date %></td>
+                        <td><%= r.race %></td>
+                        <td><%= r.circuit %></td>
+                        <td><%= r.winner %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+     </div>
+    </section>
+</main>
+<%- include('partials/footer') %>

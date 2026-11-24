@@ -3,7 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
 import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason , getTeamStandings, getSeasons } from'./src/models/drivers.js';
-import { getDriverResults } from './src/models/results.js';
+import { getDriverResults, getRaceResults } from './src/models/results.js';
+import { getRacesBySeason } from './src/models/races.js'; 
 
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -78,6 +79,11 @@ app.get('/teams', (req, res) => {
   res.redirect(`/seasons/${latest}/teams`);
 });
 
+app.get('/races', (req, res) => {
+  const latest = getSeasons() [0];
+  res.redirect(`/seasons/${latest}/races`);
+});
+
 app.get('/seasons/:season/teams', (req, res, next) => {
   const { season } = req.params;
   const teams = getTeamStandings(season);
@@ -88,9 +94,41 @@ app.get('/seasons/:season/teams', (req, res, next) => {
     return next(err);
   }
 
-  res.render('season-teams', { title: `Teams for ${season}` , season, teams} );
+  res.render('season-teams', { title: `Teams for ${season}` , season, teams});
 });
 
+app.get('/seasons/:season/races', (req, res, next) => {
+  const { season } = req.params;
+  const races = getRacesBySeason(season);
+
+  if (races.length === 0) {
+    const err= new Error('Season not found');
+    err.status = 404;
+    return next(err);
+  }
+
+  res.render('season-races', { title: `Races for ${season}`, season, races });
+});
+
+app.get('/seasons/:season/races/:round', (req, res, next) => {
+  const { season, round } = req.params;
+  const race = getRacesBySeason(season).find((r) => r.round === Number(round));
+
+  if (!race) {
+    const err = new Error('Race not found');
+    err.status = 404;
+    return next(err);
+  }
+
+  const results = getRaceResults(season, round);
+
+  res.render('race-results', {
+    title: `${race.race} - ${season}`,
+    season,
+    race,
+    results, 
+  });
+});
 
 
 app.use((req, res, next) => {
