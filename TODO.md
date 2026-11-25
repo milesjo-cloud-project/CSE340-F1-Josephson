@@ -44,101 +44,12 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 
 ---
 
-## Phase 1: PostgreSQL database (~5-7 hrs)
-- [x] Postgres is running locally and `DATABASE_URL` in `.env` points to `f1_dev` (checked 2026-11-23, empty, no tables yet)
-- [x] `src/models/db.js`: create a `pg` `Pool` from `process.env.DATABASE_URL` and export it
-
-**Starter: `src/models/db.js`**
-```js
-import pg from 'pg';
-import 'dotenv/config';
-
-const isProduction = process.env.NODE_ENV === 'production';
-
-const pool = new pg.Pool({
-    connectionString: process.env.DATABASE_URL,
-    // Render's Postgres needs SSL; your local one doesn't
-    ssl: isProduction ? { rejectUnauthorized: false } : false,
-});
-
-export default pool;
-```
-Why a pool: it keeps a few connections open and lends them out, instead of opening a new one per request.
-
-- [x] `db/schema.sql`: create the tables (drop them first so you can re-run it)
-
-**Starter: `db/schema.sql`** (first 4 tables done, you write the rest)
-```sql
--- Drop in reverse order (children before parents) so this file can be re-run
-DROP TABLE IF EXISTS question_history, questions, comments, articles, users,
-                     penalties, race_results, season_entries, races, circuits, drivers, teams CASCADE;
-
-CREATE TABLE teams (
-    id   SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL UNIQUE
-);
-
-CREATE TABLE drivers (
-    id   SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    slug VARCHAR(100) NOT NULL UNIQUE,   -- from your slugify() function
-    code CHAR(3)                          -- 'NOR', 'VER'...
-);
-
-CREATE TABLE circuits (
-    id      SERIAL PRIMARY KEY,
-    name    VARCHAR(150) NOT NULL UNIQUE,
-    city    VARCHAR(100),
-    country VARCHAR(100)
-);
-
-CREATE TABLE races (
-    id         SERIAL PRIMARY KEY,
-    season     SMALLINT NOT NULL,
-    round      SMALLINT NOT NULL,
-    name       VARCHAR(150) NOT NULL,
-    race_day   DATE,
-    circuit_id INTEGER REFERENCES circuits(id) ON DELETE SET NULL,
-    sprint     BOOLEAN NOT NULL DEFAULT false,
-    status     VARCHAR(20) NOT NULL DEFAULT 'Scheduled',
-    UNIQUE (season, round)               -- only one Round 3 per season
-);
-
--- TODO: season_entries, race_results, penalties
--- TODO: users, articles, comments, questions, question_history
-```
-
-**CASCADE vs SET NULL** (the grader looks for this):
-- `ON DELETE CASCADE`: children only make sense with their parent, so delete them too (deleting a race deletes its results and comments)
-- `ON DELETE SET NULL`: the child should survive (a deleted editor's articles stay up with `author_id = NULL`); the column must allow NULL
-- Decide before writing: `race_results.race_id`, `comments.user_id`, `articles.author_id`, `question_history.changed_by`
-
-**Hints:** points can be halves, use `NUMERIC(5,1)` · `role VARCHAR(10) NOT NULL CHECK (role IN ('admin','editor','fan'))` · `created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()`
-
-**Test:** `psql f1_dev -f db/schema.sql` then `psql f1_dev -c '\dt'` should list 12 tables
-
-Tables to write:
-  - [x] `teams` (id, name UNIQUE)
-  - [x] `drivers` (id, name, slug UNIQUE, code)
-  - [x] `circuits` (id, name, city, country)
-  - [x] `races` (id, season, round, name, race_day DATE, circuit_id FK, sprint BOOLEAN, status), UNIQUE (season, round)
-  - [x] `season_entries` (driver_id FK, team_id FK, season, position, points, starts, wins, podiums, ...): who drove for which team in a season
-  - [x] `race_results` (race_id FK ON DELETE CASCADE, driver_id FK, team_id FK, finish, grid, status, race_points, sprint_points)
-  - [x] `penalties` (race_id FK, driver_id FK, penalty, licence_points, reason, session)
-  - [x] `users` (id, name, email UNIQUE, password_hash, role CHECK IN ('admin','editor','fan'), created_at)
-  - [x] `articles` (id, title, slug UNIQUE, body, author_id FK → users ON DELETE SET NULL, published_at)
-  - [x] `comments` (id, race_id FK ON DELETE CASCADE, user_id FK ON DELETE CASCADE, body, created_at, updated_at)
-  - [x] `questions` (id, user_id FK ON DELETE CASCADE, subject, body, status, created_at)
-  - [x] `question_history` (id, question_id FK ON DELETE CASCADE, status, note, changed_by FK → users ON DELETE SET NULL, changed_at)
-- [x] `db/seed.js`: run `schema.sql`, then read each CSV (reuse your `csv-parse` code) and INSERT the rows
-  - Insert in order: teams, drivers, circuits → races → season_entries, race_results, penalties
-  - Seed users: moved to Phase 3 (needs bcrypt)
-- [x] `npm run seed` works (checked 2026-11-24: 14 teams, 26 drivers, 26 circuits, 47 races, 46 season entries, 919 results, 56 penalties; every driver's season points match the sum of their race results)
-  - [ ] Optional: open the tables in pgAdmin to see the data there too
+## Phase 1: PostgreSQL database (models left, ~2-3 hrs)
 - [ ] Rewrite `drivers.js`, `races.js`, `results.js` to use `pool.query()` with `$1` parameters instead of the CSVs
   - Keep the same function names so `server.js` barely changes
   - The functions become `async`, so routes need `await`
 - [ ] Every existing page still works: drivers, driver stats, teams, races, race results, bad season/round 404s
+- [ ] Optional: open the tables in pgAdmin to see the data there too
 
 ## Phase 2: MVC structure (~2-3 hrs)
 - [ ] Move routes out of `server.js` into `src/routes/` (e.g. `seasons.js`, `index.js`) using `express.Router()`
@@ -189,9 +100,7 @@ Tables to write:
 - [ ] Each role gets a genuinely different experience (check by logging in as each test user)
 
 ## Phase 8: Deploy to Render (~2-3 hrs)
-- [x] Render Web Service + PostgreSQL connected to the GitHub repo (user confirmed 2026-11-23; every push to `main` redeploys)
 - [ ] Environment variables on Render: `DATABASE_URL`, `SESSION_SECRET`, `NODE_ENV=production`
-- [ ] Use SSL for the Postgres connection in production
 - [ ] `app.set('trust proxy', 1)` so secure cookies work behind Render's proxy
 - [ ] Run the seed against the Render database
 - [ ] No dev-only code in production (nodemon, test routes, `console.log` debugging)
@@ -214,6 +123,17 @@ Tables to write:
 ---
 
 ## Done
+### Database (Phase 1)
+- [x] Postgres running locally, `DATABASE_URL` in `.env` points to `f1_dev`
+- [x] `src/models/db.js`: `pg` Pool, SSL only in production
+- [x] `db/schema.sql`: 12 tables, re-runnable (drops first)
+- [x] `db/seed.js` + `npm run seed` (checked 2026-11-24: 14 teams, 26 drivers, 26 circuits, 47 races, 46 season entries, 919 results, 56 penalties; every driver's season points match the sum of their race results)
+- CASCADE vs SET NULL (for the README): CASCADE when the child is meaningless without its parent (results, comments, questions, history → their race/user/question); SET NULL when it should survive (`articles.author_id`, `question_history.changed_by`, `races.circuit_id`, `team_id`)
+
+### Deploy (Phase 8)
+- [x] Render Web Service + PostgreSQL connected to the GitHub repo (every push to `main` redeploys)
+- [x] SSL for the Postgres connection in production (`db.js`, checked with `NODE_ENV=production`)
+
 ### Drivers
 - [x] Drivers list filtered by team (`?team=`), with a "No drivers found" message when nothing matches
 - [x] Driver page: race-by-race results table using `results-table`, styled back link
