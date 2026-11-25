@@ -8,7 +8,7 @@ Commit after each phase (aim for 15+ substantial commits; 13 so far).
 | # | Requirement | Status |
 |---|---|---|
 | Stack | Express, EJS, ESM | ✅ done |
-| 1 | PostgreSQL database with related tables | ❌ Phase 1 |
+| 1 | PostgreSQL database with related tables | 🟡 Phase 1 (schema + seed done, models next) |
 | 2 | Sessions, bcrypt, 3 roles, protected routes | ❌ Phase 3 |
 | 3 | SSR, dynamic routes, partials, query params | ✅ done (layouts optional) |
 | 4 | MVC folders, middleware, global error handler | 🟡 Phase 2 (error handler done) |
@@ -46,7 +46,7 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 
 ## Phase 1: PostgreSQL database (~5-7 hrs)
 - [x] Postgres is running locally and `DATABASE_URL` in `.env` points to `f1_dev` (checked 2026-11-23, empty, no tables yet)
-- [ ] `src/models/db.js`: create a `pg` `Pool` from `process.env.DATABASE_URL` and export it
+- [x] `src/models/db.js`: create a `pg` `Pool` from `process.env.DATABASE_URL` and export it
 
 **Starter: `src/models/db.js`**
 ```js
@@ -65,7 +65,7 @@ export default pool;
 ```
 Why a pool: it keeps a few connections open and lends them out, instead of opening a new one per request.
 
-- [ ] `db/schema.sql`: create the tables (drop them first so you can re-run it)
+- [x] `db/schema.sql`: create the tables (drop them first so you can re-run it)
 
 **Starter: `db/schema.sql`** (first 4 tables done, you write the rest)
 ```sql
@@ -118,22 +118,23 @@ CREATE TABLE races (
 **Test:** `psql f1_dev -f db/schema.sql` then `psql f1_dev -c '\dt'` should list 12 tables
 
 Tables to write:
-  - [ ] `teams` (id, name UNIQUE)
-  - [ ] `drivers` (id, name, slug UNIQUE, code)
-  - [ ] `circuits` (id, name, city, country)
-  - [ ] `races` (id, season, round, name, race_day DATE, circuit_id FK, sprint BOOLEAN, status), UNIQUE (season, round)
-  - [ ] `season_entries` (driver_id FK, team_id FK, season, position, points, starts, wins, podiums, ...): who drove for which team in a season
-  - [ ] `race_results` (race_id FK ON DELETE CASCADE, driver_id FK, team_id FK, finish, grid, status, race_points, sprint_points)
-  - [ ] `penalties` (race_id FK, driver_id FK, penalty, licence_points, reason, session)
-  - [ ] `users` (id, name, email UNIQUE, password_hash, role CHECK IN ('admin','editor','fan'), created_at)
-  - [ ] `articles` (id, title, slug UNIQUE, body, author_id FK → users ON DELETE SET NULL, published_at)
-  - [ ] `comments` (id, race_id FK ON DELETE CASCADE, user_id FK ON DELETE CASCADE, body, created_at, updated_at)
-  - [ ] `questions` (id, user_id FK ON DELETE CASCADE, subject, body, status, created_at)
-  - [ ] `question_history` (id, question_id FK ON DELETE CASCADE, status, note, changed_by FK → users ON DELETE SET NULL, changed_at)
-- [ ] `db/seed.js`: run `schema.sql`, then read each CSV (reuse your `csv-parse` code) and INSERT the rows
+  - [x] `teams` (id, name UNIQUE)
+  - [x] `drivers` (id, name, slug UNIQUE, code)
+  - [x] `circuits` (id, name, city, country)
+  - [x] `races` (id, season, round, name, race_day DATE, circuit_id FK, sprint BOOLEAN, status), UNIQUE (season, round)
+  - [x] `season_entries` (driver_id FK, team_id FK, season, position, points, starts, wins, podiums, ...): who drove for which team in a season
+  - [x] `race_results` (race_id FK ON DELETE CASCADE, driver_id FK, team_id FK, finish, grid, status, race_points, sprint_points)
+  - [x] `penalties` (race_id FK, driver_id FK, penalty, licence_points, reason, session)
+  - [x] `users` (id, name, email UNIQUE, password_hash, role CHECK IN ('admin','editor','fan'), created_at)
+  - [x] `articles` (id, title, slug UNIQUE, body, author_id FK → users ON DELETE SET NULL, published_at)
+  - [x] `comments` (id, race_id FK ON DELETE CASCADE, user_id FK ON DELETE CASCADE, body, created_at, updated_at)
+  - [x] `questions` (id, user_id FK ON DELETE CASCADE, subject, body, status, created_at)
+  - [x] `question_history` (id, question_id FK ON DELETE CASCADE, status, note, changed_by FK → users ON DELETE SET NULL, changed_at)
+- [x] `db/seed.js`: run `schema.sql`, then read each CSV (reuse your `csv-parse` code) and INSERT the rows
   - Insert in order: teams, drivers, circuits → races → season_entries, race_results, penalties
-  - Seed one user per role with password `P@$$w0rd!` (hashed with bcrypt, installed in Phase 3)
-- [ ] `npm run seed` works and you can see the data in pgAdmin
+  - Seed users: moved to Phase 3 (needs bcrypt)
+- [x] `npm run seed` works (checked 2026-11-24: 14 teams, 26 drivers, 26 circuits, 47 races, 46 season entries, 919 results, 56 penalties; every driver's season points match the sum of their race results)
+  - [ ] Optional: open the tables in pgAdmin to see the data there too
 - [ ] Rewrite `drivers.js`, `races.js`, `results.js` to use `pool.query()` with `$1` parameters instead of the CSVs
   - Keep the same function names so `server.js` barely changes
   - The functions become `async`, so routes need `await`
@@ -150,6 +151,7 @@ Tables to write:
 - [ ] `npm install express-session connect-pg-simple bcrypt express-validator`
 - [ ] Session setup: secret from `.env` (`SESSION_SECRET`), store sessions in Postgres, cookie `httpOnly`, `sameSite: 'lax'`, `secure` in production
 - [ ] `src/models/users.js`: `createUser`, `getUserByEmail`, `getUserById`
+- [ ] `db/seed.js`: seed one user per role (admin, editor, fan) with password `P@$$w0rd!`, hashed with bcrypt
 - [ ] Register page + POST: validate name/email/password, hash with bcrypt, new users are `fan`
 - [ ] Login page + POST: compare with bcrypt, store user id/name/role in `req.session.user`
 - [ ] Logout: destroy the session
@@ -187,7 +189,7 @@ Tables to write:
 - [ ] Each role gets a genuinely different experience (check by logging in as each test user)
 
 ## Phase 8: Deploy to Render (~2-3 hrs)
-- [ ] Create a Render PostgreSQL database and a Web Service connected to the GitHub repo
+- [x] Render Web Service + PostgreSQL connected to the GitHub repo (user confirmed 2026-11-23; every push to `main` redeploys)
 - [ ] Environment variables on Render: `DATABASE_URL`, `SESSION_SECRET`, `NODE_ENV=production`
 - [ ] Use SSL for the Postgres connection in production
 - [ ] `app.set('trust proxy', 1)` so secure cookies work behind Render's proxy
@@ -200,7 +202,7 @@ Tables to write:
 - [ ] ERD image exported from pgAdmin
 - [ ] User roles and what each can do
 - [ ] Test account emails for admin, editor and fan (do NOT put the password in the README; all use `P@$$w0rd!`)
-- [ ] Known limitations
+- [ ] Known limitations (e.g. drivers who switched teams mid-season show a combined team like `Red Bull / Racing Bulls`; race status comes from the CSV, so it can be out of date)
 - [ ] Submit the GitHub URL and the live Render URL
 
 ## Small leftovers (anytime)
