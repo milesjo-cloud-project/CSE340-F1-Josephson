@@ -9,6 +9,7 @@ import session from 'express-session';
 import connectPgSimple from 'connect-pg-simple';
 import pool from './src/models/db.js';
 import authRouter from './src/routes/auth.js'
+import newsRouter from './src/routes/news.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -35,13 +36,20 @@ app.use(session({
     }
 }));
 
+app.use((req, res, next) => {
+    res.locals.user = req.session.user || null;
+    next();
+});
+
 app.use('/', indexRouter);
 app.use('/seasons', seasonsRouter);
+app.use('/news', newsRouter);
 
 app.use('/', authRouter);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
+
 
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));
 

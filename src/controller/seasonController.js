@@ -1,12 +1,7 @@
 import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason, getTeamStandings, } from '../models/drivers.js';
 import { getDriverResults, getRaceResults } from '../models/results.js';
 import { getRacesBySeason } from '../models/races.js';
-
-function notFound(message) {
-    const err = new Error(message);
-    err.status = 404;
-    return err;
-}
+import { notFound } from '../middleware/errors.js';
 
 export async function showDrivers(req, res) {
     const { season } = req.params;

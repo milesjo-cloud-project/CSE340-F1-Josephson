@@ -6,16 +6,14 @@ Commit after each phase (aim for 15+ substantial commits; 23 so far).
 Due ~Mon Dec 7.
 
 ## Requirements still open
-Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 3 (SSR, dynamic routes, partials, query params), 4 (MVC, middleware, error handler).
+Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 2 (sessions, bcrypt, 3 roles, protected routes), 3 (SSR, dynamic routes, partials, query params), 4 (MVC, middleware, error handler), 5 (admin/editor manage news articles in the DB).
 
 | # | Requirement | Status |
 |---|---|---|
-| 2 | Sessions, bcrypt, 3 roles, protected routes | 🟡 Phase 3 (sessions, users, register done) |
-| 5 | Admin manages content stored in the DB | ❌ Phase 4 |
 | 6 | Users submit/edit/delete their own content | ❌ Phase 5 |
 | 7 | Multi-stage workflow with status history | ❌ Phase 6 |
 | 8 | Admin dashboard | ❌ Phase 7 |
-| 9 | Parameterized queries, validation, sanitization | 🟡 queries + register validation done; more in Phases 5, 6 |
+| 9 | Parameterized queries, validation, sanitization | 🟡 queries + register, login and article validation done; more in Phases 5, 6 |
 | 10 | Deployed on Render with Postgres | 🟡 Phase 8 (service + DB connected) |
 | Docs | README.md with ERD, roles, test accounts | ❌ Phase 9 |
 
@@ -25,20 +23,6 @@ Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 3 (SSR, dynamic routes,
 - **User content:** fans comment on races, and can edit/delete their own comments
 - **Workflow:** "Ask a question" fan questions: `submitted → in review → answered → closed`, with a history of every status change
 - **Output escaping:** all user text is printed with `<%= %>` (no `.escape()` on input, to avoid double-escaping)
-
-## Phase 3: Authentication and roles (~2-3 hrs left)
-- [ ] Login page + POST: compare with bcrypt, same "Wrong email or password" message either way, `req.session.regenerate()`, store user id/name/role in `req.session.user`
-- [ ] Logout: `POST /logout`, destroy the session, clear the cookie
-- [ ] `src/middleware/auth.js`: `requireLogin` and `requireRole('admin', 'editor')` (test with a temporary route, then delete it)
-- [ ] Make `user` available to every view (`res.locals.user`) and show Login/Register or Name/Logout in the header
-- [ ] Log in as each of the 3 test users and check the header changes and logout works
-
-## Phase 4: Articles (admin-managed content) (~3-4 hrs)
-- [ ] `src/models/articles.js`: list, get by slug, create, update, delete
-- [ ] `/news` list page and `/news/:slug` article page
-- [ ] Home page shows the latest articles from the DB instead of the hardcoded array
-- [ ] Admin/editor: create, edit, delete articles (protected with `requireRole`)
-- [ ] Validate: title and body required, trimmed
 
 ## Phase 5: Fan comments on races (~3-4 hrs)
 - [ ] `src/models/comments.js`: list by race, create, update, delete
@@ -76,7 +60,7 @@ Render Web Service + Postgres are already connected (every push to `main` redepl
 - [ ] User roles and what each can do
 - [ ] Test account emails: `admin@f1fans.test`, `editor@f1fans.test`, `fan@f1fans.test` (do NOT put the password in the README; all use `P@$$w0rd!`)
 - [ ] CASCADE vs SET NULL: CASCADE when the child is meaningless without its parent (results, comments, questions, history → their race/user/question); SET NULL when it should survive (`articles.author_id`, `question_history.changed_by`, `races.circuit_id`, `team_id`)
-- [ ] Known limitations (e.g. drivers who switched teams mid-season show a combined team like `Red Bull / Racing Bulls`; race status comes from the CSV, so it can be out of date)
+- [ ] Known limitations (e.g. drivers who switched teams mid-season show a combined team like `Red Bull / Racing Bulls`; race status comes from the CSV, so it can be out of date; editing an article's title changes its slug, so old links to it return 404)
 - [ ] Submit the GitHub URL and the live Render URL
 
 ## Small leftovers (anytime, optional)

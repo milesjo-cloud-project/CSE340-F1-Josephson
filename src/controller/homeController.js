@@ -1,11 +1,13 @@
 import { getSeasons } from '../models/drivers.js';
 import { getRacesBySeason } from '../models/races.js';
+import { getArticles } from '../models/articles.js';
 
 export async function showHome(req, res) {
-    const news = [
-        { title: 'Season preview', summary: 'Everything you need to know before lights out.', url: '#' },
-        { title: 'New rules explained', summary: 'What changes for the cars this year.', url: '#' },
-    ];
+    const news = (await getArticles(3)).map((a) => ({
+        title: a.title,
+        summary: a.body.length > 140 ? a.body.slice(0, 140) + '…' : a.body,
+        url: `/news/${a.slug}`,
+    }));
 
     const season = (await getSeasons())[0];
     const seasonRaces = await getRacesBySeason(season);

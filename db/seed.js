@@ -4,7 +4,8 @@ import { parse } from 'csv-parse/sync';
 import pool from '../src/models/db.js';
 import { slugify } from '../src/models/drivers.js';
 import bcrypt from 'bcrypt';
-import { createUser } from '../src/models/users.js';    
+import { createUser } from '../src/models/users.js'; 
+import { createArticle } from '../src/models/articles.js';   
 
 function readCsv(fileName) {
     const text = fs.readFileSync(path.join(process.cwd(), 'data', fileName), 'utf8');
@@ -136,11 +137,31 @@ const testUsers = [
     { name: 'Fan User',    email: 'fan@f1fans.test',    role: 'fan' },
 ];
 
+const userIds = {};
 for (const user of testUsers) {
     const passwordHash = await bcrypt.hash('P@$$w0rd!', 10);
-    await createUser(user.name, user.email, passwordHash, user.role);
+    const created = await createUser(user.name, user.email, passwordHash, user.role);
+    userIds[user.role] = created.id;
 }
 console.log(`Users: ${testUsers.length}`);
+
+const articles = [
+    {
+        title: 'Season preview',
+        slug: 'season-preview',
+        body: 'Everything you need to know before lights out.\n\nThis is a second paragraph to check that paragraphs display correctly.',
+    },
+    {
+        title: 'New rules explained',
+        slug: 'new-rules-explained',
+        body: 'What changes for the cars this year.\n\nA second paragraph about the new rules.',
+    },
+];
+
+for (const a of articles) {
+    await createArticle(a.title, a.slug, a.body, userIds.editor);
+}
+console.log(`Articles: ${articles.length}`);
 
 for (const row of penalties) {
     await pool.query(

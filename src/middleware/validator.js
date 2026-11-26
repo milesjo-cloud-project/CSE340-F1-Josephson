@@ -14,3 +14,23 @@ export const registerRules = [
         .matches(/\d/).withMessage('Password must contain a number.')
         .matches(/[^A-Za-z0-9]/).withMessage('Password must contain a symbol.')
 ];
+
+export const loginRules = [
+    body('email')
+        .trim()
+        .isEmail().withMessage('Enter a valid email address.')
+        .normalizeEmail({ gmail_remove_dots: false}),
+    body('password')
+        .notEmpty().withMessage('Password is required')
+];
+
+export const articleRules = [
+    body('title')
+        .trim()
+        .notEmpty().withMessage('Title is required.')
+        .isLength({ max: 200 }).withMessage('Title must be 200 characters or less.'),
+        body('body')
+        .trim()
+        .notEmpty().withMessage('Body is required. ')
+        .isLength({ max: 20000 }).withMessage('Body must be 20,000 characters or less.'),
+];

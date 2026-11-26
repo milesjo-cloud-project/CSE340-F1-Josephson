@@ -38,3 +38,47 @@ export function showRegister(req, res) {
 
 }
 
+export function showLogin(req, res) {
+    res.render('login', { title: 'Log in', errors: [], values: {} })
+}
+
+export async function handleLogin(req, res, next) {
+    const { email, password } = req.body;
+    const values = { email };
+
+    const result = validationResult(req);
+    if (!result.isEmpty()) {
+        const errors = result.array().map((e) => e.msg);
+        return res.status(400).render('login', {title: 'Log in', errors, values });
+
+    }
+
+    try {
+        const user = await getUserByEmail(email);
+        const ok = user && await bcrypt.compare(password, user.password_hash);
+
+        if (!ok) {
+            return res.status(401).render('login', {
+                title: 'Log In',
+                errors: ['Wrong email or password. '],
+                values
+            });
+        }
+
+        req.session.regenerate((err) => {
+            if (err) return next(err);
+            req.session.user = { id: user.id, name: user.name, role: user.role };
+            res.redirect('/');
+    });
+    } catch (err) {
+        next(err);
+    }
+}
+
+export function handleLogout(req, res, next) {
+    req.session.destroy((err) => {
+        if (err) return next(err);
+        res.clearCookie('connect.sid');
+        res.redirect('/');
+    });
+}
