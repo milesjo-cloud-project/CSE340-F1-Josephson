@@ -1,11 +1,12 @@
 import { getSeasons } from '../models/drivers.js';
 import { getRacesBySeason } from '../models/races.js';
 import { getArticles } from '../models/articles.js';
+import { summarize } from '../utils/helpers.js';
 
 export async function showHome(req, res) {
     const news = (await getArticles(3)).map((a) => ({
         title: a.title,
-        summary: a.body.length > 140 ? a.body.slice(0, 140) + '…' : a.body,
+        summary: summarize(a.body),
         url: `/news/${a.slug}`,
     }));
 

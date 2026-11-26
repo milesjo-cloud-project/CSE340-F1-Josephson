@@ -1,15 +1,11 @@
 import { validationResult } from 'express-validator';
-import { slugify } from '../models/drivers.js';
-import { notFound } from '../middleware/errors.js';
 import { getArticles, getArticleBySlug, getArticleById, createArticle, updateArticle, deleteArticle } from '../models/articles.js';
-
-function parseId(value) {
-    return /^\d+$/.test(value) ? Number(value) : null;
-}
+import { notFound } from '../middleware/errors.js';
+import { slugify, parseId, summarize } from '../utils/helpers.js';
 
 export async function showNews(req, res, next) {
     try {
-        const articles = await getArticles();
+        const articles = (await getArticles()).map((a) => ({ ...a, summary: summarize(a.body) }));
         res.render('news', { title: 'News', articles });
     } catch (err) {
         next(err);

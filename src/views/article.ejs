@@ -15,7 +15,7 @@
                 <% }) %>
             </div>
 
-            <% if (user && (user.role === 'admin' || user.role === 'editor')) { %>
+            <% if (isStaff) { %>
                 <div class="article-actions">
                     <a href="/news/<%= article.id %>/edit" class="btn btn-secondary btn-sm">Edit</a>
                     <form action="/news/<%= article.id %>/delete" method="post"

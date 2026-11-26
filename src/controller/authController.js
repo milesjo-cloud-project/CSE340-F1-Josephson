@@ -34,12 +34,11 @@ export async function handleRegister(req, res, next) {
     }
 }
 export function showRegister(req, res) {
-    res.render('register', {title: 'Register', errors: [], values: {} });
-
+    res.render('register', { title: 'Register', errors: [], values: {} });
 }
 
 export function showLogin(req, res) {
-    res.render('login', { title: 'Log in', errors: [], values: {} })
+    res.render('login', { title: 'Log In', errors: [], values: {} });
 }
 
 export async function handleLogin(req, res, next) {
@@ -49,8 +48,7 @@ export async function handleLogin(req, res, next) {
     const result = validationResult(req);
     if (!result.isEmpty()) {
         const errors = result.array().map((e) => e.msg);
-        return res.status(400).render('login', {title: 'Log in', errors, values });
-
+        return res.status(400).render('login', { title: 'Log In', errors, values });
     }
 
     try {
@@ -60,7 +58,7 @@ export async function handleLogin(req, res, next) {
         if (!ok) {
             return res.status(401).render('login', {
                 title: 'Log In',
-                errors: ['Wrong email or password. '],
+                errors: ['Wrong email or password.'],
                 values
             });
         }
@@ -69,7 +67,7 @@ export async function handleLogin(req, res, next) {
             if (err) return next(err);
             req.session.user = { id: user.id, name: user.name, role: user.role };
             res.redirect('/');
-    });
+        });
     } catch (err) {
         next(err);
     }

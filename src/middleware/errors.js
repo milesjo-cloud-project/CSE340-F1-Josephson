@@ -14,7 +14,7 @@ export function errorHandler(err, req, res, next) {
     const status = err.status || 500;
     console.error(err);
     res.status(status).render('error', {
-        title: status === 404 ? 'Not Found' : status === 403 ?  'Forbidden' : 'Server Error',
+        title: status === 404 ? 'Not Found' : status === 403 ? 'Forbidden' : 'Server Error',
         message: status < 500 ? err.message : 'Something went wrong.',
     });
 }

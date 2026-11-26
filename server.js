@@ -1,15 +1,15 @@
+import 'dotenv/config';
 import express from 'express';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import 'dotenv/config';
-import indexRouter from './src/routes/index.js';
-import seasonsRouter from './src/routes/seasons.js';
-import { notFoundHandler, errorHandler } from './src/middleware/errors.js';
 import session from 'express-session';
 import connectPgSimple from 'connect-pg-simple';
 import pool from './src/models/db.js';
-import authRouter from './src/routes/auth.js'
+import indexRouter from './src/routes/index.js';
+import seasonsRouter from './src/routes/seasons.js';
 import newsRouter from './src/routes/news.js';
+import authRouter from './src/routes/auth.js';
+import { notFoundHandler, errorHandler } from './src/middleware/errors.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -37,7 +37,9 @@ app.use(session({
 }));
 
 app.use((req, res, next) => {
-    res.locals.user = req.session.user || null;
+    const user = req.session.user || null;
+    res.locals.user = user;
+    res.locals.isStaff = Boolean(user && (user.role === 'admin' || user.role === 'editor'));
     next();
 });
 
@@ -49,7 +51,6 @@ app.use('/', authRouter);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
-
 
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));
 

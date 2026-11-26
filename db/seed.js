@@ -2,10 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'csv-parse/sync';
 import pool from '../src/models/db.js';
-import { slugify } from '../src/models/drivers.js';
+import { slugify } from '../src/utils/helpers.js';
 import bcrypt from 'bcrypt';
-import { createUser } from '../src/models/users.js'; 
-import { createArticle } from '../src/models/articles.js';   
+import { createUser } from '../src/models/users.js';
+import { createArticle } from '../src/models/articles.js';
 
 function readCsv(fileName) {
     const text = fs.readFileSync(path.join(process.cwd(), 'data', fileName), 'utf8');

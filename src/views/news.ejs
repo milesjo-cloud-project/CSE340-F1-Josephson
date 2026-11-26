@@ -5,9 +5,9 @@
         <div class="container content-inner">
             <h1 class="section-title">News</h1>
 
-            <% if (user && (user.role === 'admin' || user.role === 'editor')) { %>
-    <p><a href="/news/new" class="btn btn-red btn-sm">New article</a></p>
-<% } %>
+            <% if (isStaff) { %>
+                <p><a href="/news/new" class="btn btn-red btn-sm">New article</a></p>
+            <% } %>
 
             <% if (articles.length === 0) { %>
                 <p>No articles yet.</p>
@@ -16,9 +16,7 @@
                     <% articles.forEach((article) => { %>
                         <article class="news-article">
                             <h2 class="news-title"><%= article.title %></h2>
-                            <p class="news-summary">
-                                <%= article.body.length > 140 ? article.body.slice(0, 140) + '…' : article.body %>
-                            </p>
+                            <p class="news-summary"><%= article.summary %></p>
                             <a href="/news/<%= article.slug %>" class="btn btn-link">Read More</a>
                         </article>
                     <% }) %>

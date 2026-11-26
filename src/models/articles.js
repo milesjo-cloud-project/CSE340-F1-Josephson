@@ -10,21 +10,20 @@ export async function getArticles(limit = null) {
 
     const { rows } = await pool.query(sql, [limit]);
     return rows;
-    
 }
 
 export async function getArticleBySlug(slug) {
     const sql = `
     SELECT a.id, a.title, a.slug, a.body, a.published_at, u.name AS author
-    FROM articles a 
+    FROM articles a
     LEFT JOIN users u ON u.id = a.author_id
     WHERE a.slug = $1`;
 
     const { rows } = await pool.query(sql, [slug]);
     return rows[0];
 }
-export async function getArticleById(id) {
 
+export async function getArticleById(id) {
     const sql = `
     SELECT id, title, slug, body, author_id
     FROM articles
@@ -58,6 +57,4 @@ export async function updateArticle(id, title, slug, body) {
 export async function deleteArticle(id) {
     const { rowCount } = await pool.query('DELETE FROM articles WHERE id = $1', [id]);
     return rowCount > 0;
-    
 }
-

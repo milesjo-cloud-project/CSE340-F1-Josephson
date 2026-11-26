@@ -1,15 +1,5 @@
 import pool from './db.js';
 
-export function slugify(name) {
-    return name
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .trim()
-    .replace(/[\s-]+/g, '-');
-}
-
 const driverColumns = `
     se.season, se.position, d.name, d.slug, t.name AS team,
     se.points::float AS points, se.starts, se.wins, se.podiums,

@@ -11,10 +11,5 @@ Four CSVs (data through the 2026 Brazilian GP, round 20; last 3 rounds of 2026 n
 
 Join keys: `Season` + `Round` (races, results, penalties); `Season` + `Driver` (driver_totals).
 
-## VS Code
-```
-pip install pandas
-python load_data.py        # prints row counts and builds f1_2025_2026.db
-```
-Then in code: `from load_data import load; races, results, penalties, totals = load()`.
-Open `f1_2025_2026.db` with the "SQLite Viewer" or "SQLite" extension to query it directly.
+## Loading into Postgres
+`npm run seed` (see `db/seed.js`) drops and recreates every table from `db/schema.sql`, then loads these CSVs plus the test users and starter articles.
