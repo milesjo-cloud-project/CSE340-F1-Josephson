@@ -1,38 +1,32 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { parse } from 'csv-parse/sync';
-import { slugify } from './drivers.js';
+import pool from './db.js';
 
-const csvPath = path.join(process.cwd(), 'data', 'f1_2025-2026_race_results.csv');
-const text = fs.readFileSync(csvPath, 'utf8');
-const rawRows = parse(text, { columns: true, skip_empty_lines: true, trim: true });
- 
-const results = rawRows.map((row) => ({
-    season: Number(row['Season']),
-    round: Number(row['Round']),
-    race: row['Race'],
-    driver: row['Driver'],
-    slug: slugify(row['Driver']),
-    team: row['Team'],
-    grid: Number(row['Grid']),
-    finish: row['Finish'],
-    status: row['Status'],
-    racePoints: Number(row['Race points']),
-    sprintPoints: Number(row['Sprint points']),
-}));
+const resultColumns = `
+    r.season, r.round, r.name AS race,
+    d.name AS driver, d.slug, t.name AS team,
+    rr.grid, COALESCE(rr.finish::text, rr.status) AS finish, rr.status,
+    rr.race_points::float AS "racePoints",
+    rr.sprint_points::float AS "sprintPoints"`;
 
-export function getDriverResults(season, slug) {
-    return results
-
-        .filter((r) => r.season === Number(season) && r.slug === slug)
-        .sort((a, b) => a.round - b.round);
+export async function getDriverResults(season, slug) {
+    const { rows } = await pool.query(`
+        SELECT ${resultColumns}
+        FROM race_results rr
+        JOIN races r   ON r.id = rr.race_id
+        JOIN drivers d ON d.id = rr.driver_id
+        LEFT JOIN teams t ON t.id = rr.team_id
+        WHERE r.season = $1 AND d.slug = $2
+        ORDER BY r.round`, [season, slug]);
+    return rows;
 }
 
-export function getRaceResults(season, round) {
-   return results
-    .filter((r) => r.season === Number(season) && r.round === Number(round)); 
+export async function getRaceResults(season, round) {
+    const { rows } = await pool.query(`
+        SELECT ${resultColumns}
+        FROM race_results rr
+        JOIN races r   ON r.id = rr.race_id
+        JOIN drivers d ON d.id = rr.driver_id
+        LEFT JOIN teams t ON t.id = rr.team_id
+        WHERE r.season = $1 AND r.round = $2
+        ORDER BY rr.finish NULLS LAST`, [season, round]);
+    return rows;
 }
-
-
-
-

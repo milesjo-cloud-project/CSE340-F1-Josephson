@@ -1,12 +1,4 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { parse } from 'csv-parse/sync';
-
-const csvPath = path.join(process.cwd(), 'data', 'f1_2025-2026_driver_totals.csv');
-
-const text = fs.readFileSync(csvPath, 'utf8');
-
-const rawRows = parse(text, { columns: true, skip_empty_lines: true, trim: true });
+import pool from './db.js';
 
 export function slugify(name) {
     return name
@@ -17,44 +9,44 @@ export function slugify(name) {
     .replace(/\s+/g, '-') 
 }
 
-const drivers = rawRows.map((row) => ({
-    season: Number(row['Season']),
-    position: Number(row['Position']),
-    name: row['Driver'],
-    slug: slugify(row['Driver']),
-    points: Number(row['Points']),
-    team: row['Team'],
-    starts: Number(row['Starts']),
-    wins: Number(row['Wins']),
-    podiums: Number(row['Podiums']),
-    retirements: Number(row['Retirements']),
-    penalties: Number(row['Penalties']),
-    licensePoints: Number(row['Licence points']),
-    disqualifications: Number(row['Disqualifications']),
-}));
+const driverColumns = `
+    se.season, se.position, d.name, d.slug, t.name AS team,
+    se.points::float AS points, se.starts, se.wins, se.podiums,
+    se.retirements, se.penalties,
+    se.licence_points AS "licensePoints", se.disqualifications`;
 
-export function getSeasons() {
-    const seasons = drivers.map((driver) => driver.season);
-    return [...new Set(seasons)].sort((a, b) => b - a);
+    const fromEntries = `
+    FROM season_entries se
+    JOIN drivers d ON d.id = se.driver_id
+    LEFT JOIN teams t ON t.id = se.team_id`;
+
+export async function getSeasons() {
+    const { rows } = await pool.query(
+        'SELECT DISTINCT season FROM season_entries ORDER BY season DESC');
+    return rows.map((r) => r.season);
 }
 
-export function getTeamsBySeason(season) {
-    const teams = getDriversBySeason(season).map((driver) => driver.team);
-    return [...new Set(teams)].sort();
+export async function getDriversBySeason(season, team) {
+    const { rows } = await pool.query(`
+        SELECT ${driverColumns} ${fromEntries}
+        WHERE se.season = $1 AND ($2 = '' OR t.name = $2)
+        ORDER BY se.position`, [season, team || '']);
+    return rows
 }
 
-export function getDriversBySeason(season, team) {
-    return drivers
-    .filter((driver) => driver.season === (Number(season)))
-    .filter((driver) => !team || driver.team === team)
-    .sort((a, b) => a.position - b.position);
+export async function getTeamsBySeason(season){
+    const { rows } = await pool.query(`
+        SELECT DISTINCT t.name ${fromEntries}
+        WHERE se.season = $1
+        ORDER BY t.name`, [season]);
+    return rows.map((r) => r.name);
 }
 
-export function getTeamStandings(season) {
+export async function getTeamStandings(season) {
     const teams = {};
 
-    getDriversBySeason(season).forEach((driver) => {
-        if (!teams[driver.team]) {
+    (await getDriversBySeason(season)).forEach((driver) => {
+           if (!teams[driver.team]) {
             teams[driver.team] = {name: driver.team, points: 0, drivers: [] };
         }
         teams[driver.team].points += driver.points;
@@ -64,15 +56,19 @@ export function getTeamStandings(season) {
     return Object.values(teams).sort((a, b) => b.points - a.points);
 }
 
-export function getDriverBySlug(season, slug) {
-    return drivers.find((driver) => driver.season === (Number(season)) && driver.slug === slug);
+export async function getDriverBySlug(season, slug) {
+    const { rows } = await pool.query(`
+        SELECT ${driverColumns} ${fromEntries}
+        WHERE se.season = $1 AND d.slug = $2`, [season, slug]);
+    return rows[0];
 }
 
-export function getDriverSeasons(slug) {
-    return drivers
-    .filter((driver) => driver.slug === slug)
-    .map((driver) => driver.season)
-    .sort((a, b) => b - a);
+export async function getDriverSeasons(slug) {
+    const { rows } = await pool.query(`
+        SELECT se.season ${fromEntries}
+        WHERE d.slug = $1
+        ORDER BY se.season DESC`, [slug]);
+    return rows.map((r) => r.season); 
 }
 
 

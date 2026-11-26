@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   res.render('home', { title: 'Guide to F1 for Beginners', news, races });
 });
 
-app.get('/seasons/:season/drivers', (req, res, next) => {
+app.get('/seasons/:season/drivers', async( req, res, next) => {
   const { season } = req.params;
   const team = req.query.team || '';
   
@@ -40,16 +40,15 @@ app.get('/seasons/:season/drivers', (req, res, next) => {
     title: `Drivers for ${season}`, 
     season,
     team,
-    teams: getTeamsBySeason(season), 
-    drivers: getDriversBySeason(season, team) 
+    teams: await getTeamsBySeason(season), 
+    drivers: await getDriversBySeason(season, team) 
     });
   });
 
-
-app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
+app.get('/seasons/:season/drivers/:slug', async (req, res, next) => {
   const { season, slug } = req.params;
 
-  const seasons = getDriverSeasons(slug);
+  const seasons = await getDriverSeasons(slug);
 
   if (seasons.length === 0) {
     const err = new Error('Driver not found');
@@ -57,13 +56,13 @@ app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
     return next(err);
   }
 
-  const stats = getDriverBySlug(season, slug);
+  const stats = await getDriverBySlug(season, slug);
 
   if (!stats) {
     return res.redirect(`/seasons/${seasons[0]}/drivers/${slug}`);
   }
 
-  const results = getDriverResults(season, slug);
+  const results = await getDriverResults(season, slug);
 
   res.render('driver-stats', {
     title: `${stats.name} - ${season}`,
@@ -74,19 +73,19 @@ app.get('/seasons/:season/drivers/:slug', (req, res, next) => {
   });
 });
 
-app.get('/teams', (req, res) => {
-  const latest = getSeasons() [0];
+app.get('/teams', async (req, res) => { 
+  const latest = (await getSeasons()) [0];
   res.redirect(`/seasons/${latest}/teams`);
 });
 
-app.get('/races', (req, res) => {
-  const latest = getSeasons() [0];
+app.get('/races', async (req, res) => {
+  const latest = (await getSeasons()) [0];
   res.redirect(`/seasons/${latest}/races`);
 });
 
-app.get('/seasons/:season/teams', (req, res, next) => {
+app.get('/seasons/:season/teams', async (req, res, next) => {
   const { season } = req.params;
-  const teams = getTeamStandings(season);
+  const teams = await getTeamStandings(season);
 
   if (teams.length === 0) {
     const err = new Error('Season not found');
@@ -97,9 +96,9 @@ app.get('/seasons/:season/teams', (req, res, next) => {
   res.render('season-teams', { title: `Teams for ${season}` , season, teams});
 });
 
-app.get('/seasons/:season/races', (req, res, next) => {
+app.get('/seasons/:season/races', async (req, res, next) => {
   const { season } = req.params;
-  const races = getRacesBySeason(season);
+  const races = await getRacesBySeason(season);
 
   if (races.length === 0) {
     const err= new Error('Season not found');
@@ -110,17 +109,17 @@ app.get('/seasons/:season/races', (req, res, next) => {
   res.render('season-races', { title: `Races for ${season}`, season, races });
 });
 
-app.get('/seasons/:season/races/:round', (req, res, next) => {
+app.get('/seasons/:season/races/:round', async (req, res, next) => {
   const { season, round } = req.params;
-  const race = getRacesBySeason(season).find((r) => r.round === Number(round));
-
+  const race = (await getRacesBySeason(season)).find((r) => r.round === Number(round));
+  
   if (!race) {
     const err = new Error('Race not found');
     err.status = 404;
     return next(err);
   }
 
-  const results = getRaceResults(season, round);
+  const results = await getRaceResults(season, round);
 
   res.render('race-results', {
     title: `${race.race} - ${season}`,
