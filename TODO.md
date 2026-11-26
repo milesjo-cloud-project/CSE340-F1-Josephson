@@ -2,14 +2,14 @@
 
 Goal: meet every requirement in the CSE 340 Final Project Requirements.
 Missing a core concept or a working login system is a failing grade, so phases 1-8 come first.
-Commit after each phase (aim for 15+ substantial commits; 20 so far).
+Commit after each phase (aim for 15+ substantial commits; 22 so far).
 
 ## Requirement status
 | # | Requirement | Status |
 |---|---|---|
 | Stack | Express, EJS, ESM | ✅ done |
 | 1 | PostgreSQL database with related tables | ✅ done (Phase 1) |
-| 2 | Sessions, bcrypt, 3 roles, protected routes | ❌ Phase 3 |
+| 2 | Sessions, bcrypt, 3 roles, protected routes | 🟡 Phase 3 (sessions, users model, test users done) |
 | 3 | SSR, dynamic routes, partials, query params | ✅ done (layouts optional) |
 | 4 | MVC folders, middleware, global error handler | ✅ done (Phase 2) |
 | 5 | Admin manages content stored in the DB | ❌ Phase 4 |
@@ -26,29 +26,8 @@ Commit after each phase (aim for 15+ substantial commits; 20 so far).
 - **User content:** fans comment on races, and can edit/delete their own comments
 - **Workflow:** "Ask a question" fan questions: `submitted → in review → answered → closed`, with a history of every status change
 
-## Schedule (due ~Mon Dec 7, aim to finish by Fri Dec 4)
-Total: about 30-40 hours, so roughly 2.5-3 hours a day.
-
-| Days | Phase |
-|---|---|
-| Nov 23-25 | 1: Database + seed + models on Postgres |
-| Nov 26 | 2: Routes/controllers |
-| Nov 27-28 | 3: Login, sessions, roles |
-| Nov 29 | 4: Articles |
-| Nov 30 | 5: Comments |
-| Dec 1-2 | 6: Fan questions workflow |
-| Dec 2-3 | 7: Dashboards |
-| Dec 4 | 8: Deploy to Render (deploy early, even half-done, to catch problems) |
-| Dec 5 | 9: README, ERD, final testing |
-| Dec 6-7 | Buffer |
-
----
 
 ## Phase 3: Authentication and roles (~5-6 hrs)
-- [ ] `npm install express-session connect-pg-simple bcrypt express-validator`
-- [ ] Session setup: secret from `.env` (`SESSION_SECRET`), store sessions in Postgres, cookie `httpOnly`, `sameSite: 'lax'`, `secure` in production
-- [ ] `src/models/users.js`: `createUser`, `getUserByEmail`, `getUserById`
-- [ ] `db/seed.js`: seed one user per role (admin, editor, fan) with password `P@$$w0rd!`, hashed with bcrypt
 - [ ] Register page + POST: validate name/email/password, hash with bcrypt, new users are `fan`
 - [ ] Login page + POST: compare with bcrypt, store user id/name/role in `req.session.user`
 - [ ] Logout: destroy the session

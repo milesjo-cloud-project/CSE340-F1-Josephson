@@ -8,6 +8,7 @@ import { notFoundHandler, errorHandler } from './src/middleware/errors.js';
 import session from 'express-session';
 import connectPgSimple from 'connect-pg-simple';
 import pool from './src/models/db.js';
+import authRouter from './src/routes/auth.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -36,6 +37,8 @@ app.use(session({
 
 app.use('/', indexRouter);
 app.use('/seasons', seasonsRouter);
+
+app.use('/', authRouter);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
