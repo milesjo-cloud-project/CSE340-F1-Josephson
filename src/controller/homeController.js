@@ -1,17 +1,24 @@
-import { getSeasons } from "../models/drivers.js";
+import { getSeasons } from '../models/drivers.js';
+import { getRacesBySeason } from '../models/races.js';
 
-export function showHome(req, res) {
+export async function showHome(req, res) {
     const news = [
-        { title: 'Season preview', summary: 'Everything you need to know beofre lights out', url: '#' },
-        { title: 'New rules explained', summary: 'What changes for the cars this year', url:'#' },
+        { title: 'Season preview', summary: 'Everything you need to know before lights out.', url: '#' },
+        { title: 'New rules explained', summary: 'What changes for the cars this year.', url: '#' },
     ];
 
-    const races = [
-        { name: 'Australian Grand Prix', date: 'March 15', url: '/races/australia'},
-        { name: 'Chinese Grand Prix', date: 'March 22', url: '/races/china'},
-    ];
+    const season = (await getSeasons())[0];
+    const seasonRaces = await getRacesBySeason(season);
+    const upcoming = seasonRaces.filter((r) => !r.winner);
+    const shown = upcoming.length > 0 ? upcoming.slice(0, 3) : seasonRaces.slice(-3);
 
-    res.render('home', { title: 'Guide to f1 for Beginners', news, races });
+    const races = shown.map((r) => ({
+        name: r.race,
+        date: r.date,
+        url: `/seasons/${season}/races/${r.round}`,
+    }));
+
+    res.render('home', { title: 'Guide to F1 for Beginners', news, races });
 }
 
 export function latestSeasonRedirect(page) {

@@ -7,6 +7,6 @@ router.get('/:season/drivers', showDrivers);
 router.get('/:season/drivers/:slug', showDriver);
 router.get('/:season/teams', showTeams);
 router.get('/:season/races', showRaces);
-router.get('/:season/races/:round', showRace)
+router.get('/:season/races/:round', showRace);
 
 export default router;

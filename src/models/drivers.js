@@ -15,7 +15,7 @@ const driverColumns = `
     se.retirements, se.penalties,
     se.licence_points AS "licensePoints", se.disqualifications`;
 
-    const fromEntries = `
+const fromEntries = `
     FROM season_entries se
     JOIN drivers d ON d.id = se.driver_id
     LEFT JOIN teams t ON t.id = se.team_id`;

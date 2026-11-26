@@ -2,7 +2,7 @@
 
 Goal: meet every requirement in the CSE 340 Final Project Requirements.
 Missing a core concept or a working login system is a failing grade, so phases 1-8 come first.
-Commit after each phase (aim for 15+ substantial commits; 19 so far).
+Commit after each phase (aim for 15+ substantial commits; 20 so far).
 
 ## Requirement status
 | # | Requirement | Status |
@@ -11,7 +11,7 @@ Commit after each phase (aim for 15+ substantial commits; 19 so far).
 | 1 | PostgreSQL database with related tables | ✅ done (Phase 1) |
 | 2 | Sessions, bcrypt, 3 roles, protected routes | ❌ Phase 3 |
 | 3 | SSR, dynamic routes, partials, query params | ✅ done (layouts optional) |
-| 4 | MVC folders, middleware, global error handler | 🟡 Phase 2 (error handler done) |
+| 4 | MVC folders, middleware, global error handler | ✅ done (Phase 2) |
 | 5 | Admin manages content stored in the DB | ❌ Phase 4 |
 | 6 | Users submit/edit/delete their own content | ❌ Phase 5 |
 | 7 | Multi-stage workflow with status history | ❌ Phase 6 |
@@ -43,13 +43,6 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 | Dec 6-7 | Buffer |
 
 ---
-
-## Phase 2: MVC structure (~2-3 hrs)
-- [ ] Move routes out of `server.js` into `src/routes/` (e.g. `seasons.js`, `index.js`) using `express.Router()`
-- [ ] Move route logic into `src/controller/` (e.g. `seasonsController.js`)
-- [ ] `server.js` only sets up the app, middleware, routers, and the error handler
-- [ ] Remove leftovers: `src/views/f1.html`, `driver.ejs` if unused, the hardcoded `/races/australia` links on the home page
-- [ ] Optional: a layout in `src/views/layouts/`
 
 ## Phase 3: Authentication and roles (~5-6 hrs)
 - [ ] `npm install express-session connect-pg-simple bcrypt express-validator`
@@ -108,14 +101,10 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 - [ ] Submit the GitHub URL and the live Render URL
 
 ## Small leftovers (anytime)
-- [ ] `server.js` import: `from'./src/models/drivers.js'` needs a space after `from`
-- [ ] `drivers.js`: remove the indent before `const fromEntries`
-- [ ] Home page: replace the hardcoded `races` array with the next upcoming races from the DB
 - [ ] Optional: open the tables in pgAdmin to see the data there too
+- [ ] Optional: a shared layout in `src/views/layouts/` (partials already cover the requirement)
 - [ ] Nav links: keep `/teams` and `/races` on the season you're currently viewing
 - [ ] Stretch: link each team card on `season-teams.ejs` to `/seasons/<season>/drivers?team=<name>`
-- [ ] `season-drivers.ejs`: `class="driver-card "href=` should be `class="driver-card" href=`
-- [ ] The Drivers nav link is hardcoded to `/seasons/2026/drivers`; add a `/drivers` redirect like `/teams` and `/races`
 
 ---
 
@@ -131,6 +120,16 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
   - Race winner comes from a `LEFT JOIN race_results ... finish = 1`; DNFs show their status via `COALESCE(finish::text, status)`
 - [x] All routes `async`/`await`; every page checked 2026-11-25: drivers, `?team=` filter, driver stats, teams, races, race results, bad season/round/driver 404s
 - CASCADE vs SET NULL (for the README): CASCADE when the child is meaningless without its parent (results, comments, questions, history → their race/user/question); SET NULL when it should survive (`articles.author_id`, `question_history.changed_by`, `races.circuit_id`, `team_id`)
+
+### MVC structure (Phase 2)
+- [x] `server.js` only sets up the app, static files, body parsing, routers and error middleware (25 lines)
+- [x] `src/routes/index.js` (`/`, `/drivers`, `/teams`, `/races`) and `src/routes/seasons.js` (mounted at `/seasons`) using `express.Router()`
+- [x] `src/controller/homeController.js` (`showHome`, `latestSeasonRedirect(page)`) and `seasonController.js` (`showDrivers`, `showDriver`, `showTeams`, `showRaces`, `showRace`, `notFound()` helper)
+- [x] `src/middleware/errors.js`: `notFoundHandler` + `errorHandler` (4 params so Express treats it as an error handler)
+- [x] New `/drivers` redirect; nav and home links use `/drivers` instead of hardcoded `/seasons/2026/drivers`
+- [x] Home page shows the next 3 races of the latest season from the DB (falls back to the last 3 when the season is over), linking to their results pages
+- [x] Deleted `src/views/f1.html` and `driver.ejs` (nothing rendered them); fixed the `driver-card` class typo
+- [x] Every page checked 2026-11-25 after the split
 
 ### Deploy (Phase 8)
 - [x] Render Web Service + PostgreSQL connected to the GitHub repo (every push to `main` redeploys)
