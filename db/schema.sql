@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS question_history, questions, comments, articles, users,
+DROP TABLE IF EXISTS session, question_history, questions, comments, articles, users,
                     penalties, race_results, season_entries, races, circuits, drivers, teams CASCADE;
 
 CREATE TABLE teams (
@@ -122,3 +122,10 @@ CREATE TABLE question_history (
     changed_by INTEGER REFERENCES users(id) ON DELETE SET NULL,
     changed_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+CREATE TABLE session (
+    sid VARCHAR NOT NULL PRIMARY KEY,
+    sess JSON NOT NULL,
+    expire TIMESTAMP(6) NOT NULL
+);
+CREATE INDEX idx_session_expire ON session (expire);

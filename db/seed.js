@@ -3,6 +3,8 @@ import path from 'node:path';
 import { parse } from 'csv-parse/sync';
 import pool from '../src/models/db.js';
 import { slugify } from '../src/models/drivers.js';
+import bcrypt from 'bcrypt';
+import { createUser } from '../src/models/users.js';    
 
 function readCsv(fileName) {
     const text = fs.readFileSync(path.join(process.cwd(), 'data', fileName), 'utf8');
@@ -127,6 +129,18 @@ for (const row of results) {
     );
 }
 console.log(`Race results: ${results.length}`);
+
+const testUsers = [
+    { name: 'Admin User',  email: 'admin@f1fans.test',  role: 'admin' },
+    { name: 'Editor User', email: 'editor@f1fans.test', role: 'editor' },
+    { name: 'Fan User',    email: 'fan@f1fans.test',    role: 'fan' },
+];
+
+for (const user of testUsers) {
+    const passwordHash = await bcrypt.hash('P@$$w0rd!', 10);
+    await createUser(user.name, user.email, passwordHash, user.role);
+}
+console.log(`Users: ${testUsers.length}`);
 
 for (const row of penalties) {
     await pool.query(
