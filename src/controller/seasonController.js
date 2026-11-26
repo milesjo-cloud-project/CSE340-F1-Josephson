@@ -2,6 +2,7 @@ import { getDriversBySeason, getDriverBySlug, getDriverSeasons, getTeamsBySeason
 import { getDriverResults, getRaceResults } from '../models/results.js';
 import { getRacesBySeason } from '../models/races.js';
 import { notFound } from '../middleware/errors.js';
+import { getCommentsByRace } from '../models/comments.js';
 
 export async function showDrivers(req, res) {
     const { season } = req.params;
@@ -63,18 +64,31 @@ export async function showRaces(req, res, next) {
     res.render('season-races', { title: `Races for ${season}`, season, races });
 }
 
-export async function showRace(req, res, next) {
-    const { season, round } = req.params;
-    const race = (await getRacesBySeason(season)).find((r) => r.round === Number(round));
+export async function findRace(season, round) {
+    return (await getRacesBySeason(season)).find((r) => r.round === Number(round));
+}
 
-    if(!race) {
+export async function renderRace(req, res, next, form = {}) {
+    const { season, round } = req.params;
+    const race = await findRace(season, round);
+
+    if (!race) {
         return next(notFound('Race not found'));
     }
 
-    res.render('race-results', {
+    const commentErrors = form.errors || [];
+
+    res.status(commentErrors.length > 0 ? 400 : 200).render('race-results', {
         title: `${race.race} - ${season}`,
         season,
         race,
         results: await getRaceResults(season, round),
+        comments: await getCommentsByRace(race.id),
+        commentErrors,
+        commentBody: form.body || '',
     });
+}
+
+export function showRace(req, res, next) {
+    return renderRace(req, res, next);
 }

@@ -2,7 +2,7 @@ import pool from './db.js';
 
 export async function getRacesBySeason(season) {
     const sql = `
-    SELECT r.season, r.round, r.name AS race,
+    SELECT r.id, r.season, r.round, r.name AS race,
         to_char(r.race_day, 'Mon DD, YYYY') AS date,
         c.name AS circuit, c.city, c.country,
         r.status, r.sprint,

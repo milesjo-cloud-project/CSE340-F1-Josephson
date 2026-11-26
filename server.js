@@ -10,9 +10,11 @@ import seasonsRouter from './src/routes/seasons.js';
 import newsRouter from './src/routes/news.js';
 import authRouter from './src/routes/auth.js';
 import { notFoundHandler, errorHandler } from './src/middleware/errors.js';
+import commentsRouter from './src/routes/comments.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
@@ -46,6 +48,7 @@ app.use((req, res, next) => {
 app.use('/', indexRouter);
 app.use('/seasons', seasonsRouter);
 app.use('/news', newsRouter);
+app.use('/comments', commentsRouter);
 
 app.use('/', authRouter);
 

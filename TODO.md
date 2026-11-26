@@ -10,10 +10,10 @@ Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 2 (sessions, bcrypt, 3 
 
 | # | Requirement | Status |
 |---|---|---|
-| 6 | Users submit/edit/delete their own content | ❌ Phase 5 |
+| 6 | Users submit/edit/delete their own content | ✅ Phase 5 (race comments) |
 | 7 | Multi-stage workflow with status history | ❌ Phase 6 |
 | 8 | Admin dashboard | ❌ Phase 7 |
-| 9 | Parameterized queries, validation, sanitization | 🟡 queries + register, login and article validation done; more in Phases 5, 6 |
+| 9 | Parameterized queries, validation, sanitization | 🟡 queries + register, login, article and comment validation done; more in Phase 6 |
 | 10 | Deployed on Render with Postgres | 🟡 Phase 8 (service + DB connected) |
 | Docs | README.md with ERD, roles, test accounts | ❌ Phase 9 |
 
@@ -25,11 +25,11 @@ Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 2 (sessions, bcrypt, 3 
 - **Output escaping:** all user text is printed with `<%= %>` (no `.escape()` on input, to avoid double-escaping)
 
 ## Phase 5: Fan comments on races (~3-4 hrs)
-- [ ] `src/models/comments.js`: list by race, create, update, delete
-- [ ] Comment list and form on the race results page (form only when logged in)
-- [ ] Fans can edit/delete **their own** comments (check `comment.user_id === req.session.user.id` on the server, not just by hiding buttons)
-- [ ] Editors/admins can delete any comment (moderation)
-- [ ] Validation: no empty comments, max length
+- [x] `src/models/comments.js`: list by race, create, update, delete
+- [x] Comment list and form on the race results page (form only when logged in)
+- [x] Fans can edit/delete **their own** comments (check `comment.user_id === req.session.user.id` on the server, not just by hiding buttons)
+- [x] Editors/admins can delete any comment (moderation)
+- [x] Validation: no empty comments, max length
 
 ## Phase 6: Fan questions workflow (~4-6 hrs)
 - [ ] `src/models/questions.js`: create, list by user, list all, get by id with history, update status (insert a `question_history` row each time)
@@ -49,7 +49,7 @@ Already done: Stack (Express, EJS, ESM), 1 (PostgreSQL), 2 (sessions, bcrypt, 3 
 ## Phase 8: Deploy to Render (~2-3 hrs)
 Render Web Service + Postgres are already connected (every push to `main` redeploys), and SSL for the DB works. Deploy as soon as auth works to catch cookie problems early.
 - [ ] Environment variables on Render: `DATABASE_URL`, `SESSION_SECRET`, `NODE_ENV=production`
-- [ ] `app.set('trust proxy', 1)` so secure cookies work behind Render's proxy
+- [x] `app.set('trust proxy', 1)` so secure cookies work behind Render's proxy
 - [ ] Run the seed against the Render database
 - [ ] No dev-only code in production (nodemon, test routes, `console.log` debugging)
 - [ ] Log in as each test user on the live site and check everything works

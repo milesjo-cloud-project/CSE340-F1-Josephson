@@ -1,0 +1,22 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+<main class="container">
+    <h1><%= title %></h1>
+
+    <% if (errors.length > 0) { %>
+        <ul class="form-errors">
+            <% errors.forEach((error) => { %>
+                <li><%= error %></li>
+            <% }) %>
+        </ul>
+    <% } %>
+
+    <form action="/comments/<%= comment.id %>/edit" method="post" class="auth-form comment-form">
+        <label for="body">Comment</label>
+        <textarea id="body" name="body" rows="6" required maxlength="1000"><%= body %></textarea>
+        <button type="submit" class="btn btn-red">Save</button>
+    </form>
+
+    <p><a href="<%= cancelUrl %>">Cancel</a></p>
+</main>
+<%- include('partials/footer') %>

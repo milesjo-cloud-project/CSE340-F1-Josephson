@@ -34,3 +34,11 @@ export const articleRules = [
         .notEmpty().withMessage('Body is required.')
         .isLength({ max: 20000 }).withMessage('Body must be 20,000 characters or less.'),
 ];
+
+export const commentRules = [
+    body('body')
+    .trim()
+    .notEmpty().withMessage('Comment cannot be empty.')
+    .isLength({max: 1000 }).withMessage('Comment must be 1,000 characters or less.'),
+
+];

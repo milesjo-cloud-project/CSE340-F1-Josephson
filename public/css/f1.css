@@ -544,3 +544,20 @@ body {
     margin: 24px 0;
 }
 .article-actions form { margin: 0; }
+
+.comments { max-width: 720px; margin-top: 48px; }
+.comment {
+    padding: 16px;
+    margin-bottom: 12px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+}
+.comment-meta { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 6px; }
+.comment-meta strong { color: var(--text); }
+.comment-body { margin: 0; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; }
+
+.comment-form { max-width: 100%; }
+
+.comment-actions { display: flex; gap: 10px; margin-top: 12px; }
+.comment-actions form { margin: 0; }
