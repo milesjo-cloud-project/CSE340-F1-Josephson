@@ -2,13 +2,13 @@
 
 Goal: meet every requirement in the CSE 340 Final Project Requirements.
 Missing a core concept or a working login system is a failing grade, so phases 1-8 come first.
-Commit after each phase (aim for 15+ substantial commits; 13 so far).
+Commit after each phase (aim for 15+ substantial commits; 19 so far).
 
 ## Requirement status
 | # | Requirement | Status |
 |---|---|---|
 | Stack | Express, EJS, ESM | ✅ done |
-| 1 | PostgreSQL database with related tables | 🟡 Phase 1 (schema + seed done, models next) |
+| 1 | PostgreSQL database with related tables | ✅ done (Phase 1) |
 | 2 | Sessions, bcrypt, 3 roles, protected routes | ❌ Phase 3 |
 | 3 | SSR, dynamic routes, partials, query params | ✅ done (layouts optional) |
 | 4 | MVC folders, middleware, global error handler | 🟡 Phase 2 (error handler done) |
@@ -16,7 +16,7 @@ Commit after each phase (aim for 15+ substantial commits; 13 so far).
 | 6 | Users submit/edit/delete their own content | ❌ Phase 5 |
 | 7 | Multi-stage workflow with status history | ❌ Phase 6 |
 | 8 | Admin dashboard | ❌ Phase 7 |
-| 9 | Parameterized queries, validation, sanitization | ❌ Phases 1, 3, 5, 6 |
+| 9 | Parameterized queries, validation, sanitization | 🟡 parameterized queries done; validation in Phases 3, 5, 6 |
 | 10 | Deployed on Render with Postgres | ❌ Phase 8 |
 | Docs | README.md with ERD, roles, test accounts | ❌ Phase 9 |
 
@@ -43,13 +43,6 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 | Dec 6-7 | Buffer |
 
 ---
-
-## Phase 1: PostgreSQL database (models left, ~2-3 hrs)
-- [ ] Rewrite `drivers.js`, `races.js`, `results.js` to use `pool.query()` with `$1` parameters instead of the CSVs
-  - Keep the same function names so `server.js` barely changes
-  - The functions become `async`, so routes need `await`
-- [ ] Every existing page still works: drivers, driver stats, teams, races, race results, bad season/round 404s
-- [ ] Optional: open the tables in pgAdmin to see the data there too
 
 ## Phase 2: MVC structure (~2-3 hrs)
 - [ ] Move routes out of `server.js` into `src/routes/` (e.g. `seasons.js`, `index.js`) using `express.Router()`
@@ -115,6 +108,10 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 - [ ] Submit the GitHub URL and the live Render URL
 
 ## Small leftovers (anytime)
+- [ ] `server.js` import: `from'./src/models/drivers.js'` needs a space after `from`
+- [ ] `drivers.js`: remove the indent before `const fromEntries`
+- [ ] Home page: replace the hardcoded `races` array with the next upcoming races from the DB
+- [ ] Optional: open the tables in pgAdmin to see the data there too
 - [ ] Nav links: keep `/teams` and `/races` on the season you're currently viewing
 - [ ] Stretch: link each team card on `season-teams.ejs` to `/seasons/<season>/drivers?team=<name>`
 - [ ] `season-drivers.ejs`: `class="driver-card "href=` should be `class="driver-card" href=`
@@ -128,6 +125,11 @@ Total: about 30-40 hours, so roughly 2.5-3 hours a day.
 - [x] `src/models/db.js`: `pg` Pool, SSL only in production
 - [x] `db/schema.sql`: 12 tables, re-runnable (drops first)
 - [x] `db/seed.js` + `npm run seed` (checked 2026-11-24: 14 teams, 26 drivers, 26 circuits, 47 races, 46 season entries, 919 results, 56 penalties; every driver's season points match the sum of their race results)
+- [x] Models on Postgres: `drivers.js`, `races.js`, `results.js` use `pool.query()` with `$1` parameters, no CSV reads (`csv-parse` stays, `seed.js` uses it)
+  - Column aliases (`AS "racePoints"`, `AS "licensePoints"`, `AS race`) keep the old property names, so no view changed
+  - `::float` on NUMERIC points (pg returns NUMERIC as strings); `to_char` for race dates
+  - Race winner comes from a `LEFT JOIN race_results ... finish = 1`; DNFs show their status via `COALESCE(finish::text, status)`
+- [x] All routes `async`/`await`; every page checked 2026-11-25: drivers, `?team=` filter, driver stats, teams, races, race results, bad season/round/driver 404s
 - CASCADE vs SET NULL (for the README): CASCADE when the child is meaningless without its parent (results, comments, questions, history → their race/user/question); SET NULL when it should survive (`articles.author_id`, `question_history.changed_by`, `races.circuit_id`, `team_id`)
 
 ### Deploy (Phase 8)
